@@ -145,7 +145,7 @@ hash = "b9fa0743cdac6b5ccec30335eb1482ac8131ab2c8a436bc17c407122bf2f2407"
 
 [[files]]
 file = "config/fancymenu/customization/starwright_title_screen.txt"
-hash = "37e020c92aeb030e867af767e51de6b7bdddc019bdf49d2f0b5406d56acf3c24"
+hash = "6a7dbc4fea5e171aef4c05fbb07976d04739c3a73b9453e30ca671d9179f0243"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -1029,7 +1029,7 @@ hash = "adfd0543c1c305412c5840266b8672ae1aead11797e577215bb522abb7400dd3"
 
 [[files]]
 file = "kubejs/server_scripts/starwright_stability.js"
-hash = "d4580990fadf5487227471bdadd48f1b05ebd92a2e578c1727718758ca55a1a9"
+hash = "4fb6194954fd6d6e7b736cc419e4c4b8e111f4758c6f36b71c86e7c2346ec8ca"
 
 [[files]]
 file = "kubejs/server_scripts/starwright_welcome.js"

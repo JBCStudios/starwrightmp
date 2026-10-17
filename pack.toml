@@ -1,12 +1,12 @@
 name = "Starwright"
 author = "Starwright crew"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ea440f75ef5486f74d3f09d76021489837c5241286093d60b4ce8b41f86dc73f"
+hash = "55df70a1870be9badb2a425e22e0afba795f0b328664e5bcd1c36814446883fb"
 
 [versions]
 minecraft = "1.21.1"
