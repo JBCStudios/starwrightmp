@@ -1,0 +1,705 @@
+{
+	autofocus_id: "2ED2715936DBA720"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "electro_chemistry"
+	group: "00E1186A159B6C1D"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "754F008A5C761A30"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/electro_chemistry.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/electro_chemistry.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Osmium Ingot", "&7The metal every Mekanism machine starts from"]
+			image: "mekanism:textures/item/ingot_osmium.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.75d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Infused Alloy", "&7Copper, infused with redstone"]
+			image: "mekanism:textures/item/alloy_infused.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.75d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Basic Control Circuit", "&7A rock, tricked into thinking"]
+			image: "mekanism:textures/item/basic_control_circuit.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.75d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Yellow Cake Uranium", "&7Look, don't eat"]
+			image: "mekanism:textures/item/yellow_cake_uranium.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -2.75d
+			y: 3.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["56DBBBA399A21A84"]
+			icon: {
+				id: "mekanism:ingot_osmium"
+			}
+			id: "2ED2715936DBA720"
+			rewards: [
+				{
+					id: "3F55A3A70CE9C0CB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "572670BE5E981D73"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0A10B4AB15AE4F55"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:materials"
+					criterion: ""
+					id: "2B4145A406C2AD4C"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ED2715936DBA720"]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "716BA67E547A7054"
+			rewards: [
+				{
+					id: "33B61C3BB2ABD496"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6F0D6F396A1F8FBE"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:metallurgic_infuser"
+					criterion: ""
+					id: "2E7564B1940D2683"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["716BA67E547A7054"]
+			icon: {
+				id: "mekanism:alloy_infused"
+			}
+			id: "5A54B33C9241EA5D"
+			rewards: [
+				{
+					id: "6450899691E5D151"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "1FF558D6C2F8E564"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:infused_alloy"
+					criterion: ""
+					id: "0A97C22E8C38389D"
+					type: "advancement"
+				}
+			]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A54B33C9241EA5D"]
+			icon: {
+				id: "mekanism:steel_casing"
+			}
+			id: "0A83231FB2A877F2"
+			rewards: [
+				{
+					id: "7BB6ED8A0E578C2B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "44BC9CCF76F80B17"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:steel_casing"
+					criterion: ""
+					id: "76CE64E45BA246A8"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5A54B33C9241EA5D"]
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
+			id: "45A23B73D5F9D348"
+			rewards: [
+				{
+					id: "2AF880CA834C62A5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "4918001736AAD51F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:basic_control_circuit"
+					criterion: ""
+					id: "77E52FAD365A2D8A"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0A83231FB2A877F2"]
+			icon: {
+				id: "mekanismgenerators:heat_generator"
+			}
+			id: "1E03E0C081BB0675"
+			rewards: [
+				{
+					id: "7585C7065C466802"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "3A65F19E832C96EA"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanismgenerators:heat_generator"
+					criterion: ""
+					id: "5113CFDE8EFD89AE"
+					type: "advancement"
+				}
+				{
+					id: "194667801E722C1B"
+					item: {
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A83231FB2A877F2", "45A23B73D5F9D348"]
+			icon: {
+				id: "mekanism:enrichment_chamber"
+			}
+			id: "2361A61E6E64BA21"
+			rewards: [
+				{
+					id: "794194EE805C52B9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "5AE759A546BD46E9"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:enricher"
+					criterion: ""
+					id: "740075909253458E"
+					type: "advancement"
+				}
+			]
+			x: 9.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E03E0C081BB0675"]
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "1A0CC986F03607AB"
+			rewards: [
+				{
+					id: "3FEBC8458F18DF29"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "545A45E9BD947575"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "323ED1AE1A78D6E0"
+					item: {
+						count: 1
+						id: "mekanism:electrolytic_separator"
+					}
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E03E0C081BB0675"]
+			icon: {
+				id: "hostilenetworks:sim_chamber"
+			}
+			id: "424BDA7957FE98A4"
+			rewards: [
+				{
+					id: "13E4BAF4159C3490"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "363D9C9EF7210A98"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1955C32383D3CA9E"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "42A3B92905B956D5"
+					item: {
+						count: 1
+						id: "hostilenetworks:deep_learner"
+					}
+					type: "item"
+				}
+				{
+					id: "32A8094CB31A132C"
+					item: {
+						count: 1
+						id: "hostilenetworks:sim_chamber"
+					}
+					type: "item"
+				}
+				{
+					id: "3A0EDA341A6C4C53"
+					item: {
+						count: 1
+						id: "hostilenetworks:loot_fabricator"
+					}
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2361A61E6E64BA21", "1A0CC986F03607AB"]
+			icon: {
+				id: "mekanism:purification_chamber"
+			}
+			id: "331AD9EA11520B2E"
+			rewards: [
+				{
+					id: "7B467F2137B654F4"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "6A14339274EF35FE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "356A64F0F23B1C43"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:purification_chamber"
+					criterion: ""
+					id: "5893D6048AECE887"
+					type: "advancement"
+				}
+			]
+			x: 11.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["331AD9EA11520B2E"]
+			icon: {
+				id: "mekanism:chemical_injection_chamber"
+			}
+			id: "27828259E5172036"
+			rewards: [
+				{
+					id: "32D011AE2DD28D25"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "7AE869F8DF18E707"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:injection_chamber"
+					criterion: ""
+					id: "64573E72CDF9ED5B"
+					type: "advancement"
+				}
+			]
+			x: 14.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27828259E5172036"]
+			icon: {
+				id: "mekanism:chemical_crystallizer"
+			}
+			id: "635E63E9B6A3CCDE"
+			rewards: [
+				{
+					id: "27D033DBDBE0E1A5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "2E6B8690FE32BEE3"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:chemical_crystallizer"
+					criterion: ""
+					id: "6C5712C2118190CC"
+					type: "advancement"
+				}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["331AD9EA11520B2E"]
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "39E91131D114120C"
+			rewards: [
+				{
+					id: "044DBACC44630462"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "1049A1E44387DF1A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:digital_miner"
+					criterion: ""
+					id: "133AF893263C5FBA"
+					type: "advancement"
+				}
+			]
+			x: 17.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["635E63E9B6A3CCDE"]
+			icon: {
+				id: "mekanism:yellow_cake_uranium"
+			}
+			id: "056EDD1A63482DC5"
+			rewards: [
+				{
+					id: "0B798472BC768A14"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "67EF374B1B54FA41"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "mekanism:yellow_cake"
+					criterion: ""
+					id: "3CFA659F99F2F71F"
+					type: "advancement"
+				}
+			]
+			x: 18.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["056EDD1A63482DC5"]
+			icon: {
+				id: "mekanismgenerators:rotational_complex"
+			}
+			id: "4DC9E95A37FC226B"
+			rewards: [
+				{
+					id: "42FE4FD42DDD77A9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "6125C75FFC155031"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "79CA4CF5094360B5"
+					item: {
+						count: 1
+						id: "mekanismgenerators:rotational_complex"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0043B59BB3B3ADB5"
+					item: {
+						count: 1
+						id: "mekanismgenerators:electromagnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6F5BCC1AE5283192"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_vent"
+					}
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DC9E95A37FC226B", "39E91131D114120C"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_logic_adapter"
+			}
+			id: "5721DCBFFA4087DD"
+			rewards: [
+				{
+					id: "148EA59A03201B4A"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "27322F0B0D2F9FB0"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "6C1BEBD550A88584"
+					table_id: 3387740377463622033L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "48DCCD09682EF8BA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "2037818830AE1D71"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_reactor_logic_adapter"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "72C6E54F1735E3E6"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_fuel_assembly"
+					}
+					type: "item"
+				}
+				{
+					advancement: "mekanism:plutonium"
+					criterion: ""
+					id: "68E704CF05CF351F"
+					type: "advancement"
+				}
+			]
+			x: 23.75d
+			y: 0.0d
+		}
+	]
+}

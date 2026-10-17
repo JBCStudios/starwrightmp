@@ -1,0 +1,99 @@
+{
+	icon: {
+		id: "minecraft:bricks"
+	}
+	id: "0D07EEA0F7CB249A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 64
+			id: "71942682DACF69F0"
+			item: {
+				count: 1
+				id: "minecraft:bricks"
+			}
+		}
+		{
+			count: 64
+			id: "110414CF5DA81035"
+			item: {
+				count: 1
+				id: "minecraft:stone_bricks"
+			}
+		}
+		{
+			count: 64
+			id: "75722B1AC38774B5"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+		}
+		{
+			count: 16
+			id: "4BE06AEBBD2BE234"
+			item: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+		}
+		{
+			count: 16
+			id: "3E70599352F2F906"
+			item: {
+				count: 1
+				id: "copycats:copycat_block"
+			}
+		}
+		{
+			count: 16
+			id: "00E749662B6D64C6"
+			item: {
+				count: 1
+				id: "createdeco:iron_catwalk"
+			}
+		}
+		{
+			count: 64
+			id: "6CD43FEB5D4CB5F4"
+			item: {
+				count: 1
+				id: "minecraft:polished_andesite"
+			}
+		}
+		{
+			count: 64
+			id: "086D35E11E58D209"
+			item: {
+				count: 1
+				id: "minecraft:smooth_stone"
+			}
+		}
+		{
+			count: 64
+			id: "6CBBC0DCAF84E2CE"
+			item: {
+				count: 1
+				id: "minecraft:terracotta"
+			}
+		}
+		{
+			count: 64
+			id: "12592343A7636736"
+			item: {
+				count: 1
+				id: "minecraft:white_concrete"
+			}
+		}
+		{
+			count: 64
+			id: "2D66858F1B4F82EB"
+			item: {
+				count: 1
+				id: "minecraft:oak_planks"
+			}
+		}
+	]
+	use_title: true
+}

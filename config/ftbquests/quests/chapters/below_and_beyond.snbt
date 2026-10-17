@@ -1,0 +1,684 @@
+{
+	autofocus_id: "3CC7D60810C89559"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "below_and_beyond"
+	group: "25ED7DB1465E6A02"
+	icon: {
+		id: "deeperdarker:heart_of_the_deep"
+	}
+	id: "6650FD6AAAB14DF2"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/below_and_beyond.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 4.5d
+			y: -2.75d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/below_and_beyond.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 4.5d
+		}
+		{
+			height: 0.8d
+			hover: ["Catalyst", "&7Opens the Undergarden"]
+			image: "undergarden:textures/item/catalyst.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.75d
+			y: 7.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Orb of Prophecy", "&7Opens the Starlight Portal"]
+			image: "eternal_starlight:textures/item/orb_of_prophecy.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.75d
+			y: 7.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Heart of the Deep", "&7Opens the Otherside"]
+			image: "deeperdarker:textures/item/heart_of_the_deep.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.75d
+			y: 7.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Eye of Ender", "&7Opens the End, once your team reaches Summit"]
+			image: "minecraft:textures/item/ender_eye.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -2.75d
+			y: 7.25d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["636C980435E2309B"]
+			icon: {
+				id: "minecraft:nether_bricks"
+			}
+			id: "3CC7D60810C89559"
+			rewards: [
+				{
+					id: "61294BB7786A8A5B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2FFD8B21C55CF108"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "22BEE625C1D36B10"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "0355DDBFE9CADD4C"
+					structure: "betterfortresses:fortress"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CC7D60810C89559"]
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
+			id: "252AA32A5CC59CC3"
+			rewards: [
+				{
+					id: "16A35D1354C8B407"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "1CCEF42118224F39"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7D7E3853C4696219"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "minecraft:nether/obtain_ancient_debris"
+					criterion: ""
+					id: "4B42B868503B1DFE"
+					type: "advancement"
+				}
+				{
+					id: "78D97A25525116F1"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CC7D60810C89559"]
+			icon: {
+				id: "undergarden:catalyst"
+			}
+			id: "4474A9C47944BA89"
+			rewards: [
+				{
+					id: "186D7F752BB5EE1E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3626A0302822422E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "undergarden:undergarden/catalyst"
+					criterion: ""
+					id: "29E3F3A771DB88B0"
+					type: "advancement"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					id: "2F31285F75C38CE6"
+					type: "dimension"
+				}
+			]
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["4474A9C47944BA89"]
+			icon: {
+				id: "undergarden:utherium_crystal"
+			}
+			id: "6CA5D2DEAC499E96"
+			rewards: [
+				{
+					id: "220E29D6AB9C5B6F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "426E0E071BA1FB5E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					count: 8L
+					id: "0212BE58B412A63E"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5C399388900003AB"
+					item: {
+						count: 1
+						id: "undergarden:froststeel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "50F2B0359D4E60CA"
+					item: {
+						count: 1
+						id: "undergarden:utherium_crystal"
+					}
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6CA5D2DEAC499E96"]
+			icon: {
+				id: "undergarden:depthrock_bricks"
+			}
+			id: "578B54D68940504E"
+			rewards: [
+				{
+					id: "416FAFB5033BBF37"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4D54EB13DB8E2C66"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "undergarden:undergarden/catacombs"
+					criterion: ""
+					id: "7F2C86D4D65E4706"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["578B54D68940504E"]
+			icon: {
+				id: "undergarden:forgotten_ingot"
+			}
+			id: "722892B2A5CC37E7"
+			rewards: [
+				{
+					id: "0345F64CDDBCDB42"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "4BEB7571D2668D11"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "512334D4C2576801"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "undergarden:forgotten_guardian"
+					id: "28AF46775A5C3335"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3CC7D60810C89559", "707D13F65486E543"]
+			icon: {
+				id: "eternal_starlight:glistering_sword"
+			}
+			id: "7F9C3A90D09AFC75"
+			rewards: [
+				{
+					id: "4935B80589D0E037"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "61326FAA954028F9"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "eternal_starlight:challenge_gatekeeper"
+					criterion: ""
+					id: "62A9A22E62DBD453"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F9C3A90D09AFC75"]
+			icon: {
+				id: "eternal_starlight:orb_of_prophecy"
+			}
+			id: "0DFC7FE67EB48BB0"
+			rewards: [
+				{
+					id: "2ECDBE99B24922D1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4A625AB188BFE793"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					dimension: "eternal_starlight:starlight"
+					id: "09587F4FDBFE1701"
+					type: "dimension"
+				}
+			]
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DFC7FE67EB48BB0"]
+			icon: {
+				id: "eternal_starlight:frozen_tube"
+			}
+			id: "6F26193D1FD50CB1"
+			optional: true
+			rewards: [
+				{
+					id: "26A059D9EA1D079F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "306C0043AC8B9C0D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "eternal_starlight:starlight_golem"
+					id: "123B9C9094524BA4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F26193D1FD50CB1"]
+			icon: {
+				id: "eternal_starlight:moonring_bow"
+			}
+			id: "24F5372D0F836191"
+			optional: true
+			rewards: [
+				{
+					id: "2987F1B295C39AA6"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "5DDC121CF67F987E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "eternal_starlight:lunar_monstrosity"
+					id: "6EED19F948CBEA81"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 9.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3CC7D60810C89559", "3CAD5FEE8C2E015E"]
+			icon: {
+				id: "minecraft:sculk_shrieker"
+			}
+			id: "17D61E13C3150BBC"
+			rewards: [
+				{
+					id: "7100F88CC837CECD"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "1B74CFC25BFA3B4C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "deeperdarker:main/find_ancient_city"
+					criterion: ""
+					id: "08BAAA8E022712AF"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["17D61E13C3150BBC"]
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "79E1CF64468A68EE"
+			rewards: [
+				{
+					id: "7AEDAC8483B804B0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "4BEAE8BCBFFA984D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "deeperdarker:main/kill_warden"
+					criterion: ""
+					id: "3069AFBF5D542ACD"
+					type: "advancement"
+				}
+			]
+			x: 5.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["79E1CF64468A68EE"]
+			icon: {
+				id: "minecraft:reinforced_deepslate"
+			}
+			id: "5AAF6A676CE94794"
+			rewards: [
+				{
+					id: "3266A23ED7849817"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "6FCC4B20D90F2B35"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0388280FBD5A3FE0"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "1184AC5C95974126"
+					type: "dimension"
+				}
+			]
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["5AAF6A676CE94794", "7B0DE722C00AC9B3"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "7EDECCD0E26C2744"
+			rewards: [
+				{
+					id: "19144A0D7A19FE4D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "33E0F0AC9E18BFAE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6C40BA3EB272C073"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "7A8868023057FC6A"
+					type: "dimension"
+				}
+			]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EDECCD0E26C2744"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "3EE1A6E706C272CD"
+			rewards: [
+				{
+					id: "53DDF55142773D55"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "53FEA8796CA67D97"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "613600906C014C9C"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7EDECCD0E26C2744"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "054DF2C40282112C"
+			rewards: [
+				{
+					id: "21C68D1D7097E9F6"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "7ADE80ABD6FDC4BF"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "206E26E0345280FB"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "394DFCA9F94F2109"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "7554126AD2BD655C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.75d
+			y: 9.0d
+		}
+	]
+}

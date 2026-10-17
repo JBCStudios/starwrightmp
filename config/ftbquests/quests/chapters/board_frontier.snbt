@@ -1,0 +1,1585 @@
+{
+	autofocus_id: "5308DEE5F8C34901"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "board_frontier"
+	group: "2A7A781070AD62D0"
+	icon: {
+		id: "minecraft:brush"
+	}
+	id: "0C19875CBA0CDA3A"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/board_frontier.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 11.5d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/board_frontier.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier I orders: daily", "&7Open with the Frontier Board"]
+			image: "numismatics:textures/item/coin/bevel.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.5d
+			y: -2.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier II orders: daily", "&7Open with Andesite Works"]
+			image: "numismatics:textures/item/coin/sprocket.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier III orders: daily", "&7Open with Steel Backbone"]
+			image: "numismatics:textures/item/coin/sprocket.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 11.5d
+			y: -2.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier IV orders: weekly", "&7Open with Reactor Online"]
+			image: "numismatics:textures/item/coin/cog.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 15.5d
+			y: -2.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier V orders: weekly", "&7Open with Lunar Program"]
+			image: "numismatics:textures/item/coin/cog.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 19.5d
+			y: -2.25d
+		}
+		{
+			height: 0.8d
+			hover: ["The Grand Survey", "&7A one-time expedition"]
+			image: "numismatics:textures/item/coin/crown.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 23.5d
+			y: -2.5d
+		}
+	]
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71EC7611C4E6788F"]
+			icon: {
+				id: "minecraft:brush"
+			}
+			id: "5308DEE5F8C34901"
+			rewards: [
+				{
+					id: "3A7B9BFA9AD106D4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "63D0687FC1D9B157"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "4EB076490C65CD4E"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5308DEE5F8C34901"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "312465333D785146"
+			rewards: [
+				{
+					id: "6634DCA76CB474A0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "3A098669DC41450A"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["312465333D785146"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:allium"
+			}
+			id: "62B4DE545E4CC805"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "386CFA61922B6621"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "367E39770EF4FBA7"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "48981F5FB0F548AE"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					biome: "minecraft:meadow"
+					id: "5FCB4BC198563621"
+					type: "biome"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "07D577E726B56A6C"
+					item: {
+						count: 1
+						id: "minecraft:allium"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "021267E3F06F7599"
+					item: {
+						count: 1
+						id: "minecraft:azure_bluet"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "7A3989AFC369407E"
+					item: {
+						count: 1
+						id: "minecraft:cornflower"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["312465333D785146"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "63D24BB8455E407D"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "1C9176EEA55A5A65"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D8904FAD170930B"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "29505052322CCA26"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "1DF7C8A287519409"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "2F221B4DC5CBB577"
+					item: {
+						count: 1
+						id: "minecraft:filled_map"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["312465333D785146"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:sniffer_egg"
+			}
+			id: "20B3B3B925B8C12E"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "6F80B1810FD03FD2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "08A66A98DDD8D43B"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "0C2B1552AB763E0C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "7E5A765055F65D1D"
+					item: {
+						count: 1
+						id: "minecraft:torchflower_seeds"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1572DDB67A4EA6B8"
+					item: {
+						count: 1
+						id: "minecraft:pitcher_pod"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["312465333D785146"]
+			hide_dependency_lines: true
+			icon: {
+				id: "exposure:camera"
+			}
+			id: "392E0A600200162C"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "110B3A70D28D05E0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "44AD15AC6AA8CD7F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "68E2EDCAAD4DE625"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					biome: "terralith:sakura_grove"
+					id: "60A0A453ACA9A465"
+					type: "biome"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "1E561613273EF34B"
+					item: {
+						count: 1
+						id: "exposure:photograph"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["312465333D785146", "64A1D729B5DB5F26"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "0FDC134C3C72D50A"
+			rewards: [
+				{
+					id: "61FA031F04A3A347"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "0AAD2CCCE4143E41"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FDC134C3C72D50A", "1354CCEEEE48250F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:firefly"
+			}
+			id: "24E2166031700F05"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "1CD1AD7A7DE40F3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1196476548422E96"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3D9AA4E59A63BFA4"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "134913B288302D95"
+					type: "dimension"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6B75EFBACC7FBFC0"
+					item: {
+						count: 1
+						id: "twilightforest:firefly"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "680A5382E84425D1"
+					item: {
+						count: 1
+						id: "twilightforest:mushgloom"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "1D50A620C1FBF5C9"
+					item: {
+						count: 1
+						id: "twilightforest:liveroot"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FDC134C3C72D50A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:trial_key"
+			}
+			id: "0C0B479418473217"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "2C6EBBE8E30719C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "427AE4A2F2B8888E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6360AB31CA1A0376"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "71806D10D727AB23"
+					structure: "minecraft:trial_chambers"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "0018D22DBAA090BC"
+					item: {
+						count: 1
+						id: "minecraft:trial_key"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7E126F745846D701"
+					item: {
+						count: 1
+						id: "minecraft:breeze_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FDC134C3C72D50A", "3CC7D60810C89559"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:crimson_fungus"
+			}
+			id: "71D8917A7F476120"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "7AC85D683072951C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53DAEB9B9D774FB4"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "12D27D059421FF8E"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					biome: "minecraft:crimson_forest"
+					id: "4D239FDEB7AD3984"
+					type: "biome"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "7B19E516D8168C18"
+					item: {
+						count: 1
+						id: "minecraft:crimson_fungus"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "50FBE6253EE797E8"
+					item: {
+						count: 1
+						id: "minecraft:warped_fungus"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "23678F635C875763"
+					item: {
+						count: 1
+						id: "minecraft:shroomlight"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FDC134C3C72D50A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "exposure:aged_photograph"
+			}
+			id: "0651F48D2BF568BC"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "4EB877B1B793C992"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "513FCAB093A1B694"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "435E95A1E2AAE81C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "3556807E804B8C77"
+					structure: "minecraft:trail_ruins"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "1E332C7B0C95F2DC"
+					item: {
+						count: 1
+						id: "exposure:aged_photograph"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0FDC134C3C72D50A", "56DBBBA399A21A84"]
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "29E7EE6833277D17"
+			rewards: [
+				{
+					id: "026D2F5A665EE834"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "01F2CB3198073450"
+					type: "checkmark"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["29E7EE6833277D17", "3CC7D60810C89559"]
+			hide_dependency_lines: true
+			icon: {
+				id: "undergarden:gloomgourd"
+			}
+			id: "37EE2A6AF59CE27F"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "7D78A0359C8586E2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "01A0F049E468DA2C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "62D9307C78AF844C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					dimension: "undergarden:undergarden"
+					id: "5C6F22C81D75E9CC"
+					type: "dimension"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "5275C35620ADB0E7"
+					item: {
+						count: 1
+						id: "undergarden:gloomgourd"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "74DE2F7B9EC7CB75"
+					item: {
+						count: 1
+						id: "undergarden:droopvine_item"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "7E1CD71C9CA7E9A0"
+					item: {
+						count: 1
+						id: "undergarden:underbeans"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["29E7EE6833277D17", "707D13F65486E543"]
+			hide_dependency_lines: true
+			icon: {
+				id: "eternal_starlight:blue_starlight_crystal_shard"
+			}
+			id: "7DE28BDF04DE0529"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "0002B633828CBBFB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "55564510BDC92F5E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "798220716E7FA61B"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					biome: "eternal_starlight:crystallized_desert"
+					id: "145DAC28D9A515AC"
+					type: "biome"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "6D52D3EBD09BB022"
+					item: {
+						count: 1
+						id: "eternal_starlight:red_starlight_crystal_shard"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "1A9B35DCD0DD89C2"
+					item: {
+						count: 1
+						id: "eternal_starlight:blue_starlight_crystal_shard"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["29E7EE6833277D17", "1354CCEEEE48250F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:filled_magic_map"
+			}
+			id: "229A003A0EC96ABB"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "6A9B54378285C3A3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "10364EC2DDA32627"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5AA81984E59F54B3"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					biome: "twilightforest:enchanted_forest"
+					id: "57B30CD25483F1E7"
+					type: "biome"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7D02BBB22D592AFE"
+					item: {
+						count: 1
+						id: "twilightforest:filled_magic_map"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["29E7EE6833277D17"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:prismarine_crystals"
+			}
+			id: "74620465D076CCCC"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "24B1811A5E6C2AA4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "07C697A93AA9D873"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6635D9CCC348B9BD"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "369CA98F332871FD"
+					structure: "#minecraft:on_ocean_explorer_maps"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 24L
+					id: "79B949DF8C5D0581"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_shard"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "3ECACA95199FA9B3"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_crystals"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29E7EE6833277D17", "5721DCBFFA4087DD"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "2E824E54F39E8076"
+			rewards: [
+				{
+					id: "00F387131EFA9220"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "2238ADD393D098AF"
+					type: "checkmark"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E824E54F39E8076", "5AAF6A676CE94794"]
+			hide_dependency_lines: true
+			icon: {
+				id: "deeperdarker:sculk_bone"
+			}
+			id: "2BAD0E214586DAB6"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "70E4903205C362DA"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "31CC82C5ECE8914D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6BEFE13ECDF0DA9A"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6B6E4A2229ACEE8C"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "61CA831FD6355281"
+					type: "dimension"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "6BD6731400C22B12"
+					item: {
+						count: 1
+						id: "deeperdarker:sculk_bone"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "1BDC4081D73C0448"
+					item: {
+						count: 1
+						id: "deeperdarker:soul_dust"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "42022502514A42EB"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E824E54F39E8076"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "6575B36D502BB123"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "65526ED3C812C8E9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "726FBE3BFC9FC787"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "34C18C65B9A0434E"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "65553A1B1F56F92C"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "0DB4434D9211DFE0"
+					structure: "#minecraft:on_woodland_explorer_maps"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "78717CD88780D327"
+					item: {
+						count: 1
+						id: "minecraft:filled_map"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "33F176CA149A8D9F"
+					item: {
+						count: 1
+						id: "exposure:photograph"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E824E54F39E8076"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:sculk_shrieker"
+			}
+			id: "26E7366D671605C4"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "27BFDFEF0209E46E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "5A3F90812F2E8F89"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1C53CBFFA9E377D3"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "203DE110C31C500A"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "2A97A68CBAE84B7F"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "60DE223071FC3744"
+					item: {
+						count: 1
+						id: "exposure:photograph"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E824E54F39E8076", "679D66E054F60E90"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "53F139E16ECF2BDA"
+			rewards: [
+				{
+					id: "34361BE33538D4E1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "2EFB4982F5CD60E0"
+					type: "checkmark"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["53F139E16ECF2BDA", "054DF2C40282112C"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:chorus_flower"
+			}
+			id: "33C383B7123DED6A"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "75B29364D8B8D12A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "4D38C2F599ED2CD1"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4857816DA2A46E1D"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5311EB8143F457DC"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "1662E7F788B46DA0"
+					type: "dimension"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "4295917024837FC4"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "28AAB1DFFFBF1510"
+					item: {
+						count: 1
+						id: "minecraft:chorus_flower"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "4F187286DB446883"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["53F139E16ECF2BDA", "054DF2C40282112C"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:end_rod"
+			}
+			id: "4026479B02A84582"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "7655CB2F619FEEBB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "4F2765B7B5FD8B3D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4197E15BF48DBE87"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6CA5FF9E19407FF6"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "01DAFE505B520F9A"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "6A5F0FDB4099A070"
+					item: {
+						count: 1
+						id: "exposure:photograph"
+					}
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["53F139E16ECF2BDA", "054DF2C40282112C"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:bone_block"
+			}
+			id: "1BFEC3A05A10FC08"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "13E8F64D24EA9A6F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 2
+					id: "54697875C7BD30AF"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "664959CEA7876A45"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "232718B6AAFC50BF"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "2AF3CCC6548EAC3D"
+					structure: "nullscape:dragon_skeleton"
+					type: "structure"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "0257D077DA3E2BED"
+					item: {
+						count: 1
+						id: "minecraft:bone_block"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53F139E16ECF2BDA", "054DF2C40282112C"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "6E2A2AAA35DC2527"
+			rewards: [
+				{
+					id: "7E481932FF43FD67"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "141E4B336D0210D4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "1F644A697BE9131F"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7F65E94C455F3F64"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "sw_star"
+			size: 2.25d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					biome: "minecraft:ice_spikes"
+					id: "7579DD71C9B3B8AD"
+					type: "biome"
+				}
+				{
+					biome: "terralith:yellowstone"
+					id: "15E768AFE40D1BC3"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:eroded_badlands"
+					id: "5C5F5178FB19D8E0"
+					type: "biome"
+				}
+				{
+					biome: "terralith:moonlight_grove"
+					id: "38ACC259496CD4F4"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:deep_dark"
+					id: "520B606F4308C85A"
+					type: "biome"
+				}
+				{
+					biome: "minecraft:basalt_deltas"
+					id: "080EBFBEDB10BA40"
+					type: "biome"
+				}
+				{
+					biome: "twilightforest:dark_forest"
+					id: "42B64FACCAF689DC"
+					type: "biome"
+				}
+				{
+					biome: "undergarden:frostfields"
+					id: "1B5FCB08E47243EE"
+					type: "biome"
+				}
+				{
+					biome: "eternal_starlight:scarlet_forest"
+					id: "0A79EAB85F2390F5"
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:echoing_forest"
+					id: "2B11C00A37353BC4"
+					type: "biome"
+				}
+				{
+					biome: "nullscape:crystal_peaks"
+					id: "44D5A28C9E978EB8"
+					type: "biome"
+				}
+				{
+					id: "2398A824AE28395D"
+					item: {
+						count: 1
+						id: "exposure:album"
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 0.0d
+		}
+	]
+}

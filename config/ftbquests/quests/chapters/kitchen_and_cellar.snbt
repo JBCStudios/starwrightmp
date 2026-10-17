@@ -1,0 +1,645 @@
+{
+	autofocus_id: "0C4CB939F4FE0DF1"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "kitchen_and_cellar"
+	group: "0332BC2814A0D22E"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "6DAD8433FE6416E9"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/kitchen_and_cellar.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 6.0d
+			y: -7.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/kitchen_and_cellar.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tomato", "&7Wild tomatoes like it hot and dry"]
+			image: "farmersdelight:textures/item/tomato.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Cabbage", "&7Wild cabbages grow on beaches"]
+			image: "farmersdelight:textures/item/cabbage.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Red Grape", "&7Press it, ferment it, then forget it in the cellar"]
+			image: "vinery:textures/item/red_grape.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Beer", "&7Four tankards to a keg batch"]
+			image: "brewinandchewin:textures/item/beer.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.0d
+			y: 3.0d
+		}
+	]
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6737712F566E2896"]
+			icon: {
+				id: "farmersdelight:wild_cabbages"
+			}
+			id: "0C4CB939F4FE0DF1"
+			rewards: [
+				{
+					id: "30EA5C29DC055A66"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "2193F96ABCB0B5A4"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "2988B05B9DAA88E2"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/get_fd_seed"
+					criterion: ""
+					id: "5852BB5DD4B5F271"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C4CB939F4FE0DF1"]
+			icon: {
+				id: "farmersdelight:rice_panicle"
+			}
+			id: "5AE294653975C39E"
+			rewards: [
+				{
+					id: "477410A53B81C247"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5C5793013F00BD12"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/plant_rice"
+					criterion: ""
+					id: "0D5ACC9035579B01"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C4CB939F4FE0DF1"]
+			icon: {
+				id: "farmersdelight:rich_soil"
+			}
+			id: "775405C51A168941"
+			rewards: [
+				{
+					id: "5E306872621A9EB3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "25F345F681515C91"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/get_rich_soil"
+					criterion: ""
+					id: "1D22B385BBDDE7AA"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["775405C51A168941"]
+			icon: {
+				id: "farmersdelight:roast_chicken_block"
+			}
+			id: "41C3943A1F9B53C1"
+			rewards: [
+				{
+					id: "61B85D45FA5E6212"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C83BE3DFE3F4140"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "495C6D728B5C3CB4"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/place_feast"
+					criterion: ""
+					id: "451586DE302E42E7"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["41C3943A1F9B53C1", "5BD624F6413EE9F3"]
+			icon: {
+				id: "sliceanddice:slicer"
+			}
+			id: "06683ECDAF2DE46C"
+			rewards: [
+				{
+					id: "2D513442157B8581"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7EE1734F81CEFA08"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "2DBD67859B83644D"
+					item: {
+						count: 1
+						id: "sliceanddice:slicer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["41C3943A1F9B53C1", "3CC7D60810C89559"]
+			icon: {
+				id: "mynethersdelight:hot_wings"
+			}
+			id: "05F01351A2C3CDDB"
+			rewards: [
+				{
+					id: "0C9C8868381AB05D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "34619C5C81981CD2"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					count: 4L
+					id: "1865BE28DEB67E5D"
+					item: {
+						count: 1
+						id: "mynethersdelight:hot_wings"
+					}
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["41C3943A1F9B53C1", "7EDECCD0E26C2744"]
+			icon: {
+				id: "endersdelight:chorus_stew"
+			}
+			id: "36F5D4190924FA08"
+			optional: true
+			rewards: [
+				{
+					id: "7212667F3D8F825A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7AA08118154556D9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					count: 2L
+					id: "01577D5735C53C89"
+					item: {
+						count: 1
+						id: "endersdelight:chorus_stew"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["41C3943A1F9B53C1"]
+			icon: {
+				id: "brewinandchewin:keg"
+			}
+			id: "6C4D0D804D2A5915"
+			rewards: [
+				{
+					id: "4DF277ED2B694CC9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E7D0612E19432D7"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "brewinandchewin:main/brew_drink"
+					criterion: ""
+					id: "4F47F1CF175526C4"
+					type: "advancement"
+				}
+			]
+			x: 8.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["0C4CB939F4FE0DF1"]
+			icon: {
+				id: "vinery:grapevine_pot"
+			}
+			id: "3B833B34F071CD8D"
+			rewards: [
+				{
+					id: "58C9AED202DEA285"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DAF18F87F4A908D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "vinery:main/juice_it_up"
+					criterion: ""
+					id: "2DAF2E1BB468FCF6"
+					type: "advancement"
+				}
+				{
+					advancement: "vinery:main/the_noble_drop"
+					criterion: ""
+					id: "4E6A6361DA1109E8"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0C4CB939F4FE0DF1"]
+			icon: {
+				id: "farm_and_charm:cooking_pot"
+			}
+			id: "6312E631463F5813"
+			rewards: [
+				{
+					id: "0E14C44864482B36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "01FE2092ED435287"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "farm_and_charm:main/place_cooking_pot"
+					criterion: ""
+					id: "58CE367B55CABF51"
+					type: "advancement"
+				}
+				{
+					advancement: "farm_and_charm:main/place_roaster"
+					criterion: ""
+					id: "581D07A6649625A4"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6312E631463F5813"]
+			icon: {
+				id: "farm_and_charm:silo_wood"
+			}
+			id: "7A81C7B752F16373"
+			rewards: [
+				{
+					id: "163BDB8CFEF59657"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C81008C2C7533ED"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "farm_and_charm:main/introduction_drying"
+					criterion: ""
+					id: "2A7BB1308798BC37"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7A81C7B752F16373"]
+			icon: {
+				id: "brewery:wooden_brewingstation"
+			}
+			id: "657FCF657B8C20BE"
+			rewards: [
+				{
+					id: "0F3ABDA2D6CDE1CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "337B66F585F40ABD"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "brewery:main/brewing_pioneer"
+					criterion: ""
+					id: "1CEADC40A0B93C3E"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6312E631463F5813"]
+			icon: {
+				id: "bakery:baker_station"
+			}
+			id: "70140716807F1C63"
+			rewards: [
+				{
+					id: "7BC709638520F64A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69FB2C9B901F9194"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "bakery:main/place_baker_station"
+					criterion: ""
+					id: "76089CC6B82BEB4E"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 4.75d
+		}
+		{
+			dependencies: ["6312E631463F5813"]
+			icon: {
+				id: "herbalbrews:tea_kettle"
+			}
+			id: "3AF3A3138D8CDFF3"
+			rewards: [
+				{
+					id: "15571D3919F25C59"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0ADF8D9B82317320"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "herbalbrews:main/place_tea_kettle"
+					criterion: ""
+					id: "2B3FA5E49CA10738"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6312E631463F5813"]
+			icon: {
+				id: "candlelight:beef_wellington"
+			}
+			id: "6894CCC61B85B936"
+			rewards: [
+				{
+					id: "61D335559695AB9D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "248AE549CFB0E77A"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "candlelight:main/cook_beef_wellington"
+					criterion: ""
+					id: "5BF3824237373C6D"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["41C3943A1F9B53C1", "6C4D0D804D2A5915", "6894CCC61B85B936"]
+			icon: {
+				id: "candlelight:cooking_hat"
+			}
+			id: "53218DED68CC37DC"
+			rewards: [
+				{
+					id: "30E6DFB3597184C3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5E53D2C4FD9CB0B5"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "0B6B5AF4D0A31A57"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 2
+					id: "488E9441FA726030"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/master_chef"
+					criterion: ""
+					id: "1B87FA462980718A"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

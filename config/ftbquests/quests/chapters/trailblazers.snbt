@@ -1,0 +1,671 @@
+{
+	autofocus_id: "5489297940B89403"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "trailblazers"
+	group: "25ED7DB1465E6A02"
+	icon: {
+		id: "minecraft:filled_map"
+	}
+	id: "222916F9530946E4"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/trailblazers.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.5d
+			y: -8.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/trailblazers.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.75d
+			y: 1.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Trial Key", "&7Dropped by Trial Spawners once their waves are beaten"]
+			image: "minecraft:textures/item/trial_key.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 8.0d
+			y: 7.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Ominous Trial Key", "&7From ominous spawners; opens Ominous Vaults"]
+			image: "minecraft:textures/item/ominous_trial_key.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 9.0d
+			y: 7.25d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6737712F566E2896"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "5489297940B89403"
+			rewards: [
+				{
+					id: "235DF5CD592B1170"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "2456DF5EFF9A1977"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6A343F67630B6307"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "527EA17A79A91532"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "38A8401FE07EC07E"
+					item: {
+						count: 1
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5489297940B89403"]
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "61E6C44B41B5B9E1"
+			rewards: [
+				{
+					id: "515DB5BFA704A8B0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "38587568F10BE43E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "430E48CDB8FC8ED4"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["5489297940B89403"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "3472AA54D75D145C"
+			rewards: [
+				{
+					id: "3B7A2E011BFA9C51"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "5199CECACBD4BAE7"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "lootr:10loot"
+					criterion: ""
+					id: "7BBF78FAD0D77F25"
+					type: "advancement"
+				}
+			]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3472AA54D75D145C"]
+			icon: {
+				id: "minecraft:sandstone"
+			}
+			id: "683E4FBCB449C94B"
+			rewards: [
+				{
+					id: "3206FA160DD9D15A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4E77FE1700CD9906"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "betterdeserttemples:temple_clear"
+					criterion: ""
+					id: "641DE3A8328EBA75"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["3472AA54D75D145C"]
+			icon: {
+				id: "minecraft:dark_oak_door"
+			}
+			id: "11239812938F0BB8"
+			rewards: [
+				{
+					id: "4A417A140BDFDAD4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "71DE210DF8EC1F62"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "nova_structures:adventure/find_illager_manor"
+					criterion: ""
+					id: "3C7B2439917C11BC"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["683E4FBCB449C94B", "11239812938F0BB8"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "55ACED1B136DDBDD"
+			rewards: [
+				{
+					id: "75AB5D9B4C2E3467"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "0215ED076088652B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "lootr:25loot"
+					criterion: ""
+					id: "764686FAA53396A8"
+					type: "advancement"
+				}
+			]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E6C44B41B5B9E1", "5BD624F6413EE9F3"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "2289DEA90B0AD2DB"
+			rewards: [
+				{
+					id: "63209F401EAAE5A5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4B9E70E082076A7F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6FC6F36040950678"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "664D5609F97E9269"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["61E6C44B41B5B9E1"]
+			icon: {
+				id: "yo_hooks:iron_grappling_hook"
+			}
+			id: "0BFDF7280E76E789"
+			rewards: [
+				{
+					id: "20EED8E84394A694"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "1019FDBF5A6C1AAF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "4A7BA7AEA03E4649"
+					item: {
+						count: 1
+						id: "yo_hooks:iron_grappling_hook"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55ACED1B136DDBDD", "700E97FF6C7C076D"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "1CCDFC8372E2F8CA"
+			rewards: [
+				{
+					id: "452AB0B00F99A580"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "34A329EF403E9855"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "44B94CA237F6D405"
+					stage: "sw_explorer"
+					type: "stage"
+				}
+				{
+					id: "5E9B03842F2EF3AE"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "3E66290B1B240DF4"
+					item: {
+						count: 1
+						id: "kubejs:explorer_licence"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "lootr:50loot"
+					criterion: ""
+					id: "693C9878F0D94646"
+					type: "advancement"
+				}
+			]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CCDFC8372E2F8CA"]
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "0B113AA2F053AA7F"
+			rewards: [
+				{
+					id: "6A528B67BF5143D5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "39FF4361271ED855"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "0A86A1658EF6F103"
+					item: {
+						count: 1
+						id: "explorerscompass:explorerscompass"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["5489297940B89403"]
+			icon: {
+				id: "minecraft:trial_spawner"
+			}
+			id: "1B6A1B9663FA93E3"
+			rewards: [
+				{
+					id: "6CED9DA6CFA8D297"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "2D91AD524134DAB1"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/minecraft_trials_edition"
+					criterion: ""
+					id: "5D1ECF72ADB92E56"
+					type: "advancement"
+				}
+			]
+			x: 2.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1B6A1B9663FA93E3"]
+			icon: {
+				id: "minecraft:trial_key"
+			}
+			id: "1A88A382BC351AD3"
+			rewards: [
+				{
+					id: "2F6485468D4159C4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "082A521203EC250B"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/under_lock_and_key"
+					criterion: ""
+					id: "454A015A7102E83B"
+					type: "advancement"
+				}
+			]
+			x: 5.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["1A88A382BC351AD3"]
+			icon: {
+				id: "minecraft:ominous_trial_key"
+			}
+			id: "32AD0450CF4E8C54"
+			optional: true
+			rewards: [
+				{
+					id: "24826B58C4D88B81"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "18944DD9A2D2951B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/vertical_trial_chambers"
+					criterion: ""
+					id: "641E9232E7070A18"
+					type: "advancement"
+				}
+			]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5489297940B89403"]
+			icon: {
+				id: "betterarcheology:iron_brush"
+			}
+			id: "7B0B8AE1512EE746"
+			rewards: [
+				{
+					id: "2B946497AA0DC9CB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "02A8831104DBBEDD"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "betterarcheology:fossil_found"
+					criterion: ""
+					id: "3D1F29D3A18A75B9"
+					type: "advancement"
+				}
+			]
+			x: 2.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7B0B8AE1512EE746"]
+			icon: {
+				id: "betterarcheology:archeology_table"
+			}
+			id: "4FE9148CE9EE10B9"
+			rewards: [
+				{
+					id: "4F663ED00CE8C27F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "792154C52A696995"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "betterarcheology:artifact_shards"
+					criterion: ""
+					id: "3584D99C093A4920"
+					type: "advancement"
+				}
+				{
+					advancement: "betterarcheology:unidentified_artifact"
+					criterion: ""
+					id: "0F261C97AEB6BBFC"
+					type: "advancement"
+				}
+				{
+					id: "1676B2DA95872A88"
+					item: {
+						count: 1
+						id: "betterarcheology:archeology_table"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["1CCDFC8372E2F8CA", "4FE9148CE9EE10B9", "1A88A382BC351AD3"]
+			icon: {
+				id: "lootr:trophy"
+			}
+			id: "5FFDA1E8C4BB5E61"
+			rewards: [
+				{
+					id: "0C1CC1D8A6531E40"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "2866251490F1E85B"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "13D7C4BA2D3A7CB7"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 2
+					id: "3CC33B3E53F11339"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					advancement: "lootr:100loot"
+					criterion: ""
+					id: "2C84A573EADCA534"
+					type: "advancement"
+				}
+			]
+			x: 13.25d
+			y: 1.75d
+		}
+	]
+}

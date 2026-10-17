@@ -1,0 +1,107 @@
+{
+	icon: {
+		id: "immersiveengineering:hammer"
+	}
+	id: "2F03ABEC9DF78991"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 16
+			id: "603026FF83786D3D"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_copper"
+			}
+		}
+		{
+			count: 8
+			id: "2218B17F4615A00A"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_electrum"
+			}
+		}
+		{
+			count: 8
+			id: "519D410903028FD6"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_lv"
+			}
+		}
+		{
+			count: 64
+			id: "7A354DEFD77A39E3"
+			item: {
+				count: 1
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
+		}
+		{
+			count: 32
+			id: "19B9D631CA21F14F"
+			item: {
+				count: 1
+				id: "immersiveengineering:steel_scaffolding_standard"
+			}
+		}
+		{
+			count: 16
+			id: "5CF6F457D52847D7"
+			item: {
+				count: 1
+				id: "immersiveengineering:plate_steel"
+			}
+		}
+		{
+			count: 32
+			id: "08EEF1131E63812C"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+		}
+		{
+			count: 8
+			id: "29660E54B39BE981"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+		{
+			count: 32
+			id: "3224991F589AF306"
+			item: {
+				count: 1
+				id: "mekanism:basic_universal_cable"
+			}
+		}
+		{
+			count: 32
+			id: "522004469A886633"
+			item: {
+				count: 1
+				id: "mekanism:basic_mechanical_pipe"
+			}
+		}
+		{
+			count: 32
+			id: "6C26FD9456F40C93"
+			item: {
+				count: 1
+				id: "mekanism:basic_logistical_transporter"
+			}
+		}
+		{
+			count: 32
+			id: "16F3D6E14113EBF2"
+			item: {
+				count: 1
+				id: "mekanism:basic_pressurized_tube"
+			}
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,1467 @@
+{
+	autofocus_id: "6A01311E65CA22E7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "guild_exchange"
+	group: "2A7A781070AD62D0"
+	icon: {
+		id: "kubejs:contract_seal"
+	}
+	id: "2D801DB8A2AF14B2"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/guild_exchange.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 15.5d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/guild_exchange.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+	]
+	order_index: 27
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71EC7611C4E6788F"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "6A01311E65CA22E7"
+			rewards: [
+				{
+					id: "5C540AC05A3CAB18"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "0F06900A0676264B"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A01311E65CA22E7"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "1648B6A532E716E7"
+			rewards: [
+				{
+					id: "4FDA0D71A34951B7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "6355A08BBF523E65"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1648B6A532E716E7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:golden_carrot"
+			}
+			id: "62BD6E67CE4A7286"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "7FDF3F48E854B030"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "77E612A110725784"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1648B6A532E716E7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "1CB7155B35A28F76"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2B6B99A921811D90"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "0FEC3536710F3F77"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1648B6A532E716E7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "57EAB4E5AF2E4761"
+			optional: true
+			rewards: [
+				{
+					id: "14B3AEB7DC0B190E"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3E90CBD8E89A55C9"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "44E035533F947CE5"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "507E5DB500D8462D"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1648B6A532E716E7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "11A5BA7CB88A398C"
+			optional: true
+			rewards: [
+				{
+					id: "28C0A488C5E1A598"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "6F42A89555578FEB"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1648B6A532E716E7", "30F0C2612F362B34"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "6A7376D9F74AA7DD"
+			rewards: [
+				{
+					id: "08DAC16DE1CA316A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "7FD4A6154C29083F"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A7376D9F74AA7DD"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "40DE29389C5CC2D7"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "45DAB9654E46FED2"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "27C1196C51FC0812"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A7376D9F74AA7DD", "5BD624F6413EE9F3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "waystones:warp_scroll"
+			}
+			id: "26B1653D874386E1"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "775422453D4C2D8C"
+					item: {
+						count: 1
+						id: "waystones:warp_scroll"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "092813815B3A1A84"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A7376D9F74AA7DD"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:tomato_crate"
+			}
+			id: "5296445A84ED74F6"
+			optional: true
+			rewards: [
+				{
+					id: "731DDA66871EE124"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "205818AE092D6FFF"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A7376D9F74AA7DD", "64A1D729B5DB5F26"]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "19D89804B0757533"
+			optional: true
+			rewards: [
+				{
+					id: "284919501F86AC68"
+					table_id: 7600718158564844365L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "3433A3270B01FD2C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A7376D9F74AA7DD", "0079A5D0AEA5DD0B"]
+			icon: {
+				id: "sophisticatedbackpacks:feeding_upgrade"
+			}
+			id: "408A0F7E64D71534"
+			rewards: [
+				{
+					id: "1B579905EF1D0C00"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "427642B817CE73AF"
+					type: "checkmark"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["408A0F7E64D71534"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "628142CEA5FCBDCE"
+			optional: true
+			rewards: [
+				{
+					id: "1DFCE52232A41BAD"
+					table_id: 938981422449501338L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "08534819820C4E6A"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["408A0F7E64D71534"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starcatcher:tackle_box"
+			}
+			id: "78258D7B343316B5"
+			optional: true
+			rewards: [
+				{
+					id: "53A91025278593CF"
+					table_id: 7016316928528634766L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "0D0F491ACEB033F9"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["408A0F7E64D71534", "56DBBBA399A21A84"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:coal_coke"
+			}
+			id: "2E9F2AFA3DF52370"
+			optional: true
+			rewards: [
+				{
+					id: "73D84C9A5456F192"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "671F2B9AA9B70C26"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["408A0F7E64D71534"]
+			hide_dependency_lines: true
+			icon: {
+				id: "sophisticatedbackpacks:feeding_upgrade"
+			}
+			id: "5CEE47354759D054"
+			optional: true
+			rewards: [
+				{
+					id: "0D730D4A6AD5A56D"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:feeding_upgrade"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "079A169F3EF025B6"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["408A0F7E64D71534"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:globe_banner_pattern"
+			}
+			id: "4F2FA921E6455559"
+			optional: true
+			rewards: [
+				{
+					id: "08C70FD4F639784C"
+					item: {
+						count: 1
+						id: "minecraft:globe_banner_pattern"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "64A69DED2F33FEB6"
+					item: {
+						count: 1
+						id: "minecraft:piglin_banner_pattern"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1393FD0C46D8637B"
+					item: {
+						count: 1
+						id: "minecraft:flow_banner_pattern"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5EFA1B65DEE5C65C"
+					item: {
+						count: 1
+						id: "minecraft:guster_banner_pattern"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "27E7B76E39353692"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["408A0F7E64D71534", "4CEA6742D62CFAB2"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "3C3A582538136380"
+			rewards: [
+				{
+					id: "70AEB6E70E020F63"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "560B36DA30E5A62C"
+					type: "checkmark"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C3A582538136380", "5721DCBFFA4087DD"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:steel_casing"
+			}
+			id: "167A0F6F177C7011"
+			optional: true
+			rewards: [
+				{
+					id: "64DC6B69EDBB0BEC"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "3B9E7844D8DDD6FD"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C3A582538136380"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:coast_armor_trim_smithing_template"
+			}
+			id: "24A1B52680B9E815"
+			optional: true
+			rewards: [
+				{
+					id: "1C15DE7462A44A88"
+					item: {
+						count: 1
+						id: "minecraft:coast_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "28D7874BDFF8D15C"
+					item: {
+						count: 1
+						id: "minecraft:dune_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "38EBA262688C4950"
+					item: {
+						count: 1
+						id: "minecraft:wild_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5A412FECBFF360A2"
+					item: {
+						count: 1
+						id: "minecraft:sentry_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "15C3A7B3CF461C9F"
+					item: {
+						count: 1
+						id: "minecraft:vex_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "19D222F77B169C4D"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C3A582538136380"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:sniffer_egg"
+			}
+			id: "566F6602B7DBE2B3"
+			optional: true
+			rewards: [
+				{
+					id: "7D1D2B51F0B12958"
+					item: {
+						count: 1
+						id: "minecraft:sniffer_egg"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 15L
+					id: "2319D83D6BFDC60D"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3C3A582538136380"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "7221460CA63FFCA9"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "69C0D5891C4A01E5"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 40L
+					id: "7BA478C9E7297650"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C3A582538136380", "1A91F95133FA0CAE"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "477E437640216DF5"
+			rewards: [
+				{
+					id: "05F9EDBDC7058FE6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "634F1C9B3FC4697A"
+					type: "checkmark"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["477E437640216DF5", "679D66E054F60E90"]
+			hide_dependency_lines: true
+			icon: {
+				id: "northstar:vanilla_ice_cream"
+			}
+			id: "5C0439ED63F90BC6"
+			optional: true
+			rewards: [
+				{
+					id: "4836A273FAA7DF26"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "773A161B947E4619"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["477E437640216DF5", "679D66E054F60E90"]
+			hide_dependency_lines: true
+			icon: {
+				id: "northstar:titanium_ingot"
+			}
+			id: "6F4111E0A7AC1E98"
+			optional: true
+			rewards: [
+				{
+					id: "38F464D3FC402E48"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "5DABB25832295F0C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["477E437640216DF5"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wayfinder_armor_trim_smithing_template"
+			}
+			id: "46F873267A32958C"
+			optional: true
+			rewards: [
+				{
+					id: "586E638CD2520A69"
+					item: {
+						count: 1
+						id: "minecraft:wayfinder_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "370BE3E5E40BB62D"
+					item: {
+						count: 1
+						id: "minecraft:raiser_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "26B233F446C36315"
+					item: {
+						count: 1
+						id: "minecraft:shaper_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "494DD9FE3C437C61"
+					item: {
+						count: 1
+						id: "minecraft:host_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3F760F89B769A4F3"
+					item: {
+						count: 1
+						id: "minecraft:flow_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6A7C0D7BFF52E903"
+					item: {
+						count: 1
+						id: "minecraft:bolt_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 15L
+					id: "7E9CBCF00EFF20AB"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["477E437640216DF5", "054DF2C40282112C"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "797F928DB6BA2199"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "43267479E62D350A"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 60L
+					id: "3D64842BDD849299"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["477E437640216DF5", "2F22198244247CB3"]
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "3E3D3188ED1A2659"
+			rewards: [
+				{
+					id: "4D36602F2F907ECC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "4F5A9F527185408E"
+					type: "checkmark"
+				}
+			]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3E3D3188ED1A2659", "7EDECCD0E26C2744"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:spire_armor_trim_smithing_template"
+			}
+			id: "1CB6A34F0AC0D6BF"
+			optional: true
+			rewards: [
+				{
+					id: "5E1E5FB9D7D15074"
+					item: {
+						count: 1
+						id: "minecraft:tide_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "45291E4A1EE71475"
+					item: {
+						count: 1
+						id: "minecraft:ward_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "20FB12EB6EB89040"
+					item: {
+						count: 1
+						id: "minecraft:eye_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "278A3F38EA63F97D"
+					item: {
+						count: 1
+						id: "minecraft:snout_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "43A6693D2D454ADF"
+					item: {
+						count: 1
+						id: "minecraft:rib_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "46081C501E6FEF40"
+					item: {
+						count: 1
+						id: "minecraft:spire_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 18L
+					id: "6B708939E5BD6E4F"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3E3D3188ED1A2659"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:music_disc_pigstep"
+			}
+			id: "596EAC095F4EF676"
+			optional: true
+			rewards: [
+				{
+					id: "5CF69857700C608E"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_pigstep"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "248F3F8FDC66338A"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_otherside"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "02EA71BCE6AD8A59"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_relic"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6CC7A179E142AF8C"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_precipice"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "76FAD396C4B9C1D3"
+					item: {
+						count: 1
+						id: "minecraft:music_disc_creator"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "02B5389CED05D8A8"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 24.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3E3D3188ED1A2659"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "6760E1F97E35B7C6"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "3F42D1A079358F06"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 35L
+					id: "2CF3B196D99BCD01"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E3D3188ED1A2659", "444DD73252255ACF"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "191EA4C1D0B2B6E8"
+			rewards: [
+				{
+					id: "29F94E1639B10899"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "29250D25DAEFBC88"
+					type: "checkmark"
+				}
+			]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["191EA4C1D0B2B6E8"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:silence_armor_trim_smithing_template"
+			}
+			id: "33219DA310892441"
+			optional: true
+			rewards: [
+				{
+					id: "07E1D30EF6ADB873"
+					item: {
+						count: 1
+						id: "minecraft:silence_armor_trim_smithing_template"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 40L
+					id: "195C102EE61E2AA9"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["191EA4C1D0B2B6E8", "7B0DE722C00AC9B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "sophisticatedbackpacks:everlasting_upgrade"
+			}
+			id: "6A25081BBA7048D9"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "6C7B77D7148A51CC"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:everlasting_upgrade"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 60L
+					id: "1ECCBF465DEB03AC"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["191EA4C1D0B2B6E8", "7B0DE722C00AC9B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "61005E823624ED67"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "6A1BC9175B6413EF"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 100L
+					id: "1CED8849802F1FD1"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["191EA4C1D0B2B6E8"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "740470BF79988FA0"
+			rewards: [
+				{
+					id: "3FC21CED293F6687"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "347D026314BFA02E"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "2AE58A2933346C78"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.25d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					consume_items: true
+					count: 300L
+					id: "7E5011AA3C346A17"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 0.0d
+		}
+	]
+}

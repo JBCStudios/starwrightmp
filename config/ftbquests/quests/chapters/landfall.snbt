@@ -1,0 +1,577 @@
+{
+	autofocus_id: "36A35AC3CBAF0A52"
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "landfall"
+	group: "4238620E3FCDB80E"
+	icon: {
+		id: "minecraft:campfire"
+	}
+	id: "09A493CECBB65BE5"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/landfall.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: -3.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/landfall.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			height: 0.8d
+			hover: ["Campfire", "&7The first light of the first night"]
+			image: "minecraft:textures/item/campfire.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Andesite Alloy", "&7Next stop: the Andesite Age"]
+			image: "create:textures/item/andesite_alloy.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 2.5d
+			y: 7.75d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "36A35AC3CBAF0A52"
+			rewards: [
+				{
+					id: "6ED56B68BCAD2BCA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3075E204D219AC1F"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "5377F91E915B46B2"
+					table_id: 7632232893630519244L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "1CD6B24F43B5BF0A"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A35AC3CBAF0A52"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "70A3AF57B13715BF"
+			rewards: [
+				{
+					id: "3BC27D1E4D75AAED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "7668B81E42037C21"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "3F546897F53F956E"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A35AC3CBAF0A52"]
+			icon: {
+				id: "minecraft:brush"
+			}
+			id: "7645608427E8E53A"
+			optional: true
+			rewards: [
+				{
+					id: "5C54F5594354FA9A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "7BD2C3DEB2CE1ABB"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "22391C8ABD2F2C9C"
+					item: {
+						count: 1
+						id: "minecraft:brush"
+					}
+					type: "item"
+				}
+			]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A35AC3CBAF0A52"]
+			icon: {
+				id: "farmersdelight:flint_knife"
+			}
+			id: "00829F5A41A0FA59"
+			rewards: [
+				{
+					id: "4D7F1DB6D0BAEDB6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "6C3700574350B8A6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/craft_knife"
+					criterion: ""
+					id: "1BB1C130761F5587"
+					type: "advancement"
+				}
+			]
+			x: -2.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36A35AC3CBAF0A52"]
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "4A60764377A4A565"
+			rewards: [
+				{
+					id: "4D7187CED9918C54"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "51E8444F4238DECB"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+					id: "5855375DEEA90AD5"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36A35AC3CBAF0A52"]
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "056B0AA20A15766B"
+			rewards: [
+				{
+					id: "500C4BB3CDD43E3C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "551D17AA7BD2CF9C"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "minecraft:story/iron_tools"
+					criterion: ""
+					id: "7468360F53B91528"
+					type: "advancement"
+				}
+			]
+			x: 2.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00829F5A41A0FA59"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "78F7D96803013A98"
+			rewards: [
+				{
+					id: "5CCBF9887D7A824F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A7E4E88CEA84739"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "329A812502475A93"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "51D5A0E522DD696A"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					id: "289AD107B3896637"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "3B4CD591DDA5ADED"
+					item: {
+						count: 1
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["78F7D96803013A98"]
+			icon: {
+				id: "solcarrot:food_book"
+			}
+			id: "0D8B5522DBF8A010"
+			rewards: [
+				{
+					id: "5D2138A45A105ABF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "19EAA623A1BFC11E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "38173A93660053A8"
+					item: {
+						count: 1
+						id: "solcarrot:food_book"
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D8B5522DBF8A010"]
+			icon: {
+				id: "farmersdelight:beef_stew"
+			}
+			id: "2C092A9172F974F6"
+			rewards: [
+				{
+					id: "13C1924A9FFF94AE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "6FD81B165A4431D3"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/eat_nourishing_food"
+					criterion: ""
+					id: "3317754B7330024E"
+					type: "advancement"
+				}
+			]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["056B0AA20A15766B"]
+			icon: {
+				id: "minecraft:cracked_stone_bricks"
+			}
+			id: "68A91D4E5193B315"
+			rewards: [
+				{
+					id: "74169AA9FF09EBEA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3ABF6EDF9ED98967"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "create_ltab:ruin"
+					criterion: ""
+					id: "02CA0E8F0A63C8A5"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["056B0AA20A15766B"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "2E764568D34635FC"
+			rewards: [
+				{
+					id: "55FB850FAA3C3AC2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "1D29B8F38A9830C9"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "nova_structures:adventure/find_tavern"
+					criterion: ""
+					id: "36CC0B0B58D5EEC1"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2E764568D34635FC"]
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "1659B281D9981361"
+			optional: true
+			rewards: [
+				{
+					id: "78D534A4076F1CB7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "7AEBDF44B1B2904E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "nova_structures:adventure/tavern_quest"
+					criterion: ""
+					id: "2B2E302C0CBA8446"
+					type: "advancement"
+				}
+			]
+			x: 6.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["056B0AA20A15766B"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "190AD6D34C19EEB9"
+			rewards: [
+				{
+					id: "0294C05170943374"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "536EBB71EC03422C"
+					table_id: 7632232893630519244L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "betterdungeons:small_dungeon"
+					criterion: ""
+					id: "201C963A6EB5EA22"
+					type: "advancement"
+				}
+			]
+			x: 4.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["4A60764377A4A565", "056B0AA20A15766B", "78F7D96803013A98", "0D8B5522DBF8A010"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "6737712F566E2896"
+			rewards: [
+				{
+					id: "3A7B0142D13C949D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "31397C6392B93BC6"
+					table_id: 7632232893630519244L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "3FFA5A6C9CA8B835"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6E00B1E83DB2EB77"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "784E04655A5D4325"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 7.75d
+		}
+	]
+}

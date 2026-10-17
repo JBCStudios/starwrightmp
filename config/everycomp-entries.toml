@@ -1,0 +1,412 @@
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
+		[types.lantern.candlelight]
+			lamp = true
+
+		[types.lantern.eternal_starlight]
+			eternal_ice_lantern = true
+			haze_ice_lantern = true
+			amaramber_lantern = true
+
+		[types.lantern.northstar]
+			extinguished_lantern = true
+			glowstone_lantern = true
+
+		[types.wood_type.betterarcheology]
+			rotten = false
+
+		[types.wood_type.cataclysm]
+			chorus = false
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = false
+
+		[types.wood_type.deeperdarker]
+			bloom = true
+			echo = true
+
+		[types.wood_type.eternal_starlight]
+			lunar = true
+			northland = true
+			banyin = true
+			scarlet = true
+			torreya = true
+			jinglestem = true
+			cradlewood = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = false
+
+		[types.wood_type.northstar]
+			wilter = false
+			argyre = false
+			coiler = false
+			calorian = false
+
+		[types.wood_type.regions_unexplored]
+			alpha = false
+			baobab = true
+			blackwood = true
+			brimwood = true
+			cobalt = true
+			cypress = true
+			dead = false
+			eucalyptus = true
+			joshua = true
+			kapok = true
+			larch = true
+			magnolia = true
+			maple = true
+			palm = true
+			pine = true
+			redwood = true
+			socotra = true
+			willow = true
+			wisteria = true
+			pink_bioshroom = false
+			yellow_bioshroom = false
+			blue_bioshroom = false
+			green_bioshroom = false
+
+		[types.wood_type.silentgear]
+			netherwood = false
+
+		[types.wood_type.twilightforest]
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			time = false
+			transformation = false
+			mining = false
+			sorting = false
+
+		[types.wood_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.wood_type.vinery]
+			dark_cherry = true
+
+		[types.leaves_type.deeperdarker]
+			echo = true
+
+		[types.leaves_type.eternal_starlight]
+			lunar = true
+			cyan_lunar = true
+			purple_lunar = true
+			northland = true
+			banyin = true
+			scarlet = true
+			torreya = true
+			cradlewood = true
+
+		[types.leaves_type.northstar]
+			wilter = true
+			argyre = true
+			coiler = true
+
+		[types.leaves_type.regions_unexplored]
+			alpha = true
+			apple_oak = true
+			ashen = true
+			bamboo = true
+			baobab = true
+			blackwood = true
+			blue_magnolia = true
+			brimwood = true
+			cypress = true
+			dead_pine = true
+			dead = true
+			eucalyptus = true
+			flowering = true
+			golden_larch = true
+			kapok = true
+			larch = true
+			magnolia = true
+			maple = true
+			orange_maple = true
+			palm = true
+			pine = true
+			pink_magnolia = true
+			red_maple = true
+			redwood = true
+			silver_birch = true
+			small_oak = true
+			socotra = true
+			white_magnolia = true
+			willow = true
+			sky_wisteria = true
+			lavender_wisteria = true
+			salmon_wisteria = true
+
+		[types.leaves_type.silentgear]
+			netherwood = true
+
+		[types.leaves_type.twilightforest]
+			thorn = true
+			beanstalk = true
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			rainbow_oak = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
+		[types.leaves_type.undergarden]
+			smogstem = true
+			wigglewood = true
+			grongle = true
+
+		[types.leaves_type.vinery]
+			grapevine = true
+			dark_cherry = true
+			apple = true
+
+		[entries.wood_type.another_furniture]
+			bench = true
+			flower_box = true
+			shutter = true
+			drawer = true
+			shelf = true
+			table = true
+			chair = true
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.friendsandfoes]
+			beehive = true
+
+		[entries.wood_type.handcrafted]
+			fancy_bed = true
+			dining_bench = true
+			drawer = true
+			couch = true
+			bench = true
+			counter = true
+			corner_trim = true
+			desk = true
+			side_table = true
+			table = true
+			chair = true
+			shelf = true
+			cupboard = true
+			pillar_trim = true
+			nightstand = true
+
+		[entries.wood_type.mcwbridges]
+			bridge_pier = true
+			rope_bridge = true
+			log_bridge_middle = true
+			log_bridge_stair = true
+			rope_bridge_stair = true
+			rail_bridge = true
+
+		[entries.wood_type.mcwdoors]
+			japanese2_door = true
+			tropical_door = true
+			barn_glass_door = true
+			four_panel_door = true
+			waffle_door = true
+			cottage_door = true
+			swamp_door = true
+			barn_door = true
+			classic_door = true
+			beach_door = true
+			japanese_door = true
+			stable_door = true
+			modern_door = true
+			nether_door = true
+			stable_head_door = true
+			western_door = true
+			paper_door = true
+			bamboo_door = true
+			glass_door = true
+			mystic_door = true
+			whispering_door = true
+			bark_glass_door = true
+
+		[entries.wood_type.mcwfences]
+			picket_fence = true
+			wired_fence = true
+			pyramid_gate = true
+			highley_gate = true
+			stockade_fence = true
+			horse_fence = true
+
+		[entries.wood_type.mcwroofs]
+			top_roof = true
+			lower_roof = true
+			planks_roof = true
+			steep_roof = true
+			planks_top_roof = true
+			planks_upper_steep_roof = true
+			upper_steep_roof = true
+			upper_lower_roof = true
+			attic_roof = true
+			planks_upper_lower_roof = true
+			roof = true
+			planks_attic_roof = true
+			planks_steep_roof = true
+			planks_lower_roof = true
+
+		[entries.wood_type.mcwwindows]
+			curtain_rod = true
+			plank_four_window = true
+			window2 = true
+			stripped_log_window = true
+			plank_window2 = true
+			louvered_shutter = true
+			plank_pane_window = true
+			stripped_log_window2 = true
+			log_parapet = true
+			stripped_log_four_window = true
+			plank_window = true
+			pane_window = true
+			stripped_pane_window = true
+			four_window = true
+			plank_parapet = true
+			blinds = true
+			window = true
+			shutter = true
+
+		[entries.wood_type.rechiseled]
+			planks_diagonal_tiles_connecting = true
+			planks_rotated_bricks_slab_connecting = true
+			planks_large_tiles_stairs = true
+			planks_dotted_connecting = true
+			planks_mosaic = true
+			planks_tiles_slab = true
+			planks_diagonal_stripes_stairs_connecting = true
+			planks_flooring_stairs = true
+			planks_diagonal_stripes_slab = true
+			planks_crate_slab = true
+			planks_small_tiles_stairs = true
+			planks_brick_pattern_connecting = true
+			planks_large_tiles_stairs_connecting = true
+			planks_tiles_stairs_connecting = true
+			planks_wavy_stairs = true
+			planks_brick_paving_slab_connecting = true
+			planks_brick_pattern = true
+			planks_large_tiles_slab_connecting = true
+			planks_large_tiles_slab = true
+			planks_flooring_slab = true
+			planks_rotated_bricks_connecting = true
+			planks_small_bricks_stairs = true
+			planks_woven_slab = true
+			planks_woven_connecting = true
+			planks_beams_slab_connecting = true
+			planks_rotated_bricks_stairs = true
+			planks_beams_slab = true
+			planks_squares = true
+			planks_woven = true
+			planks_pattern_slab_connecting = true
+			planks_small_bricks_slab = true
+			planks_tiles_slab_connecting = true
+			planks_beams_connecting = true
+			planks_squares_stairs_connecting = true
+			planks_pattern = true
+			planks_pattern_stairs_connecting = true
+			planks_woven_stairs = true
+			planks_squares_connecting = true
+			planks_bricks_slab_connecting = true
+			planks_rotated_bricks_stairs_connecting = true
+			planks_diagonal_stripes = true
+			planks_diagonal_tiles = true
+			planks_pattern_stairs = true
+			planks_wavy_stairs_connecting = true
+			planks_bricks = true
+			planks_brick_pattern_slab = true
+			planks_flooring_connecting = true
+			planks_diagonal_stripes_slab_connecting = true
+			planks_small_tiles_stairs_connecting = true
+			planks_rotated_bricks = true
+			planks_crate_slab_connecting = true
+			planks_small_bricks_slab_connecting = true
+			planks_woven_stairs_connecting = true
+			planks_squares_slab = true
+			planks_wavy = true
+			planks_mosaic_stairs = true
+			planks_small_tiles_slab_connecting = true
+			planks_brick_pattern_stairs = true
+			planks_dotted_slab_connecting = true
+			planks_bricks_connecting = true
+			planks_mosaic_slab = true
+			planks_beams_stairs = true
+			planks_wavy_connecting = true
+			planks_dotted = true
+			planks_large_tiles = true
+			planks_flooring_slab_connecting = true
+			planks_squares_stairs = true
+			planks_wavy_slab_connecting = true
+			planks_small_tiles = true
+			planks_small_tiles_slab = true
+			planks_diagonal_stripes_connecting = true
+			planks_small_bricks = true
+			planks_brick_paving_stairs_connecting = true
+			planks_small_bricks_stairs_connecting = true
+			planks_diagonal_tiles_slab_connecting = true
+			planks_brick_paving_slab = true
+			planks_small_tiles_connecting = true
+			planks_pattern_slab = true
+			planks_brick_paving_connecting = true
+			planks_brick_pattern_stairs_connecting = true
+			planks_diagonal_tiles_slab = true
+			planks_diagonal_tiles_stairs_connecting = true
+			planks_crate = true
+			planks_bricks_slab = true
+			planks_crate_stairs_connecting = true
+			planks_brick_paving = true
+			planks_small_bricks_connecting = true
+			planks_woven_slab_connecting = true
+			planks_dotted_slab = true
+			planks_wavy_slab = true
+			planks_bricks_stairs_connecting = true
+			planks_flooring = true
+			planks_dotted_stairs_connecting = true
+			planks_crate_connecting = true
+			planks_tiles = true
+			planks_pattern_connecting = true
+			planks_diagonal_stripes_stairs = true
+			planks_beams = true
+			planks_crate_stairs = true
+			planks_flooring_stairs_connecting = true
+			planks_beams_stairs_connecting = true
+			planks_brick_pattern_slab_connecting = true
+			planks_large_tiles_connecting = true
+			planks_tiles_connecting = true
+			planks_rotated_bricks_slab = true
+			planks_brick_paving_stairs = true
+			planks_diagonal_tiles_stairs = true
+			planks_squares_slab_connecting = true
+			planks_dotted_stairs = true
+			planks_bricks_stairs = true
+			planks_tiles_stairs = true
+
+		[entries.wood_type.regions_unexplored]
+			branch = true
+
+		[entries.wood_type.twilightforest]
+			drying_rack = true
+			hollow_log_climbable = true
+			hollow_log = true
+			banister = true
+			hollow_log_horizontal = true
+			hollow_log_vertical = true
+
+		[entries.leaves_type.mcwfences]
+			hedge = true
+
+		[entries.leaves_type.regions_unexplored]
+			shrub = true

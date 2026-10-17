@@ -1,0 +1,655 @@
+{
+	autofocus_id: "5C6FB5BC9874ABF6"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "bosses_and_tiers"
+	group: "25ED7DB1465E6A02"
+	icon: {
+		id: "minecraft:wither_skeleton_skull"
+	}
+	id: "23EB5067CA322D4D"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/bosses_and_tiers.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -3.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/bosses_and_tiers.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Frontier", "&7The Wroughtnaut, or the Naga and the Lich"]
+			image: "twilightforest:textures/item/naga_scale.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Ascent", "&7The Hydra and the Netherite Monstrosity"]
+			image: "cataclysm:textures/item/monstrous_horn.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Summit", "&7The Wither and the Otherside"]
+			image: "minecraft:textures/item/nether_star.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Pinnacle", "&7The Ender Dragon, the Ender Guardian and Mars"]
+			image: "minecraft:textures/item/dragon_breath.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.5d
+			y: 4.0d
+		}
+	]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6737712F566E2896"]
+			icon: {
+				id: "apotheosis:boss_summoner"
+			}
+			id: "5C6FB5BC9874ABF6"
+			rewards: [
+				{
+					id: "0C3BEFFBE7D23D91"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "136E084082891F5E"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "7A70513A80A16E35"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C6FB5BC9874ABF6"]
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "686698F3D5642A2A"
+			rewards: [
+				{
+					id: "72DEE8B2A7FCFBE2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B3BBEAD03E17B54"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "1D13953B3617606F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C6FB5BC9874ABF6", "41267FEC24FC3323", "0893C89892611494"]
+			icon: {
+				id: "twilightforest:naga_scale"
+			}
+			id: "3163F46F4CBA7A70"
+			rewards: [
+				{
+					id: "5C8B9757BAB193E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "436E9401EA4524F8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "0C7D450F233979BE"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["686698F3D5642A2A", "3163F46F4CBA7A70"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+			}
+			id: "707D13F65486E543"
+			rewards: [
+				{
+					id: "29ECE692E307EB25"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "09C4038E261C8F6A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "42F696844FDD9462"
+					stage: "sw_frontier"
+					type: "stage"
+				}
+				{
+					id: "3BA28E7FB22BB56D"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "20B234B5F14F8E79"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["707D13F65486E543"]
+			icon: {
+				id: "mutantmonsters:hulk_hammer"
+			}
+			id: "163E51F6BD4F7ED6"
+			optional: true
+			rewards: [
+				{
+					id: "48FC2DDB17E5F80C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7946D52063C24CE3"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					id: "509C583E052FD319"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					id: "55E22EDEAA796453"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_creeper"
+					id: "707B88191F1387D2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["707D13F65486E543"]
+			icon: {
+				id: "bosses_of_mass_destruction:soul_star"
+			}
+			id: "36B06ACDA228A8BC"
+			optional: true
+			rewards: [
+				{
+					id: "74BF81115E48407E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "33F97EE6B21643C4"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "5881A70FCF6F8288"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["707D13F65486E543", "3CC7D60810C89559"]
+			icon: {
+				id: "cataclysm:infernal_forge"
+			}
+			id: "237289BFD9DA0B5E"
+			rewards: [
+				{
+					id: "008580EC3F1AA03C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7C65187A31173C53"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "74225A42A5052C36"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["707D13F65486E543", "3CC7D60810C89559"]
+			icon: {
+				id: "bosses_of_mass_destruction:blazing_eye"
+			}
+			id: "0E842E49E98E9D39"
+			optional: true
+			rewards: [
+				{
+					id: "4BF6AB6893835156"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4EA9DE6FB86EFA45"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					id: "169C61743E6E45DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 5.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4A16E4A9D510E5A1", "237289BFD9DA0B5E"]
+			icon: {
+				id: "twilightforest:fiery_blood"
+			}
+			id: "3CAD5FEE8C2E015E"
+			rewards: [
+				{
+					id: "18046DD2E0ABD305"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "0712AEBB7D15EC22"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "16B825BCE2777C99"
+					stage: "sw_ascent"
+					type: "stage"
+				}
+				{
+					id: "73CEB3FFF94B50EE"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "3D578AA2AA1694AC"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3CAD5FEE8C2E015E"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "032B3828F3F9D59E"
+			rewards: [
+				{
+					id: "2243806F7EDFCFB2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "1B7CD199C03E09D6"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "5F77612CEB72E26F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["032B3828F3F9D59E", "5AAF6A676CE94794"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "7B0DE722C00AC9B3"
+			rewards: [
+				{
+					id: "0CC974F369E34167"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "397DF2FEF503F4FC"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "735A3A7488036C99"
+					stage: "sw_summit"
+					type: "stage"
+				}
+				{
+					id: "6C6D7C4F4FEB2DC9"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "32D13AA04CB7C79B"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7B0DE722C00AC9B3"]
+			icon: {
+				id: "cataclysm:tidal_claws"
+			}
+			id: "6EAC93958186E880"
+			optional: true
+			rewards: [
+				{
+					id: "76210B1B470074EB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7AC45C83B5DFD851"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "4184625B8E742DCE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7B0DE722C00AC9B3"]
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "4572AA26D4750963"
+			optional: true
+			rewards: [
+				{
+					id: "10256B38247B30AC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2453DB0892A13553"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "2FFBFB6470D6547C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7B0DE722C00AC9B3", "7EDECCD0E26C2744"]
+			icon: {
+				id: "cataclysm:gauntlet_of_guard"
+			}
+			id: "741B1A8FE417B261"
+			rewards: [
+				{
+					id: "72428FBF7EFE13BB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5824B37C1FFB6A3E"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "675BAEE60F1501DF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7B0DE722C00AC9B3", "7EDECCD0E26C2744"]
+			icon: {
+				id: "bosses_of_mass_destruction:obsidian_heart"
+			}
+			id: "71FC5E73B1127971"
+			optional: true
+			rewards: [
+				{
+					id: "17220EDF8183E684"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6F383780AC3343E5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					id: "1FC146666FD8883C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 5.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["741B1A8FE417B261", "054DF2C40282112C", "348139E23EE423A6"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "7D1A3320046D453A"
+			rewards: [
+				{
+					id: "7C7A93CD435F1784"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "34D3AE78F575742F"
+					stage: "sw_pinnacle"
+					type: "stage"
+				}
+				{
+					id: "7941F4A1C56BCE66"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "6E7A96387A613470"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "482F5BE66B0758BF"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 16.0d
+		}
+	]
+}

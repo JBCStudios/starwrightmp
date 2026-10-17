@@ -1,0 +1,619 @@
+{
+	autofocus_id: "19FEF02447A6E938"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "the_network"
+	group: "00E1186A159B6C1D"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "7B7E5E6D1554EEB1"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/the_network.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/the_network.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Inscriber Silicon Press", "&7All four presses drop from one Mysterious Cube"]
+			image: "ae2:textures/item/silicon_press.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Inscriber Logic Press", "&7All four presses drop from one Mysterious Cube"]
+			image: "ae2:textures/item/logic_processor_press.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Inscriber Calculation Press", "&7All four presses drop from one Mysterious Cube"]
+			image: "ae2:textures/item/calculation_processor_press.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Inscriber Engineering Press", "&7All four presses drop from one Mysterious Cube"]
+			image: "ae2:textures/item/engineering_processor_press.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.0d
+			y: 3.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5721DCBFFA4087DD"]
+			icon: {
+				id: "ae2:meteorite_compass"
+			}
+			id: "19FEF02447A6E938"
+			rewards: [
+				{
+					id: "792F035CBD47B2E1"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "0F847D81FA63BEDD"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6551F940DA54CB36"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "46AF83E0EEBCC4FA"
+					structure: "ae2:meteorite"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19FEF02447A6E938"]
+			icon: {
+				id: "ae2:logic_processor_press"
+			}
+			id: "5028411460B088F8"
+			rewards: [
+				{
+					id: "2BDEA95431C8001C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "181B021F1328F667"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "ae2:main/presses"
+					criterion: ""
+					id: "77213AE837752427"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5028411460B088F8"]
+			icon: {
+				id: "ae2:inscriber"
+			}
+			id: "5EFC4314608477A0"
+			rewards: [
+				{
+					id: "32E6D26F642A1A6F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4D9CF67DC45EB210"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "2C5C1399AE501F72"
+					item: {
+						count: 1
+						id: "ae2:inscriber"
+					}
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19FEF02447A6E938"]
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
+			id: "17E09617317FB62C"
+			rewards: [
+				{
+					id: "0F83EE680A9AF1A5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "233665C420FE52F1"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "ae2:main/fluix"
+					criterion: ""
+					id: "5ED6F0547147D5DB"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17E09617317FB62C"]
+			icon: {
+				id: "ae2:growth_accelerator"
+			}
+			id: "453514A41434FD4E"
+			rewards: [
+				{
+					id: "17E61B85DC8AEF57"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "4B14C46FB324F3FD"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "ae2:main/growth_accelerator"
+					criterion: ""
+					id: "0493E1C43319C62B"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EFC4314608477A0"]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			id: "2AE6E6E8F866A445"
+			rewards: [
+				{
+					id: "73077C0A32005822"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "694D00307623C2E3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "14D0955121D6B863"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					count: 4L
+					id: "77A2C2C4344C413A"
+					item: {
+						count: 1
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "792886AA0D7DB33D"
+					item: {
+						count: 1
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "204950B569321083"
+					item: {
+						count: 1
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AE6E6E8F866A445", "453514A41434FD4E"]
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "6573EE324D51E048"
+			rewards: [
+				{
+					id: "097ADC1F7D826024"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "1BD5F312F5C656DD"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "ae2:main/controller"
+					criterion: ""
+					id: "474C7A691A431ADA"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6573EE324D51E048"]
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "7612DF8723C9B6A8"
+			rewards: [
+				{
+					id: "647C7F6CD52B2B54"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "04B2DD0625A1E82F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "ae2:main/storage_cell"
+					criterion: ""
+					id: "3EB179738A7C928C"
+					type: "advancement"
+				}
+				{
+					id: "63122B6622C50D0E"
+					item: {
+						count: 1
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7612DF8723C9B6A8"]
+			icon: {
+				id: "ae2:crafting_terminal"
+			}
+			id: "661C8B021E138E76"
+			rewards: [
+				{
+					id: "520EC4F27C064BE0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "0F9DB2428C67C24D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "ae2:main/crafting_terminal"
+					criterion: ""
+					id: "17ED83AA1B253DAF"
+					type: "advancement"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["661C8B021E138E76"]
+			icon: {
+				id: "ae2:molecular_assembler"
+			}
+			id: "39B8C4970A4FAF0D"
+			rewards: [
+				{
+					id: "1069C4E834856C58"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "595C1D997165C3A3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7FD6E49B8BCCD0E6"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "ae2:main/pattern_encoding_terminal"
+					criterion: ""
+					id: "5A84052DC7E8F753"
+					type: "advancement"
+				}
+				{
+					id: "5790F9BD958BD1A4"
+					item: {
+						count: 1
+						id: "ae2:pattern_provider"
+					}
+					type: "item"
+				}
+				{
+					id: "5C3FFD26B2D7A385"
+					item: {
+						count: 1
+						id: "ae2:molecular_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "1BC45B00DD79153C"
+					item: {
+						count: 1
+						id: "ae2:1k_crafting_storage"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39B8C4970A4FAF0D"]
+			icon: {
+				id: "appliedcreate:brass_pattern_provider"
+			}
+			id: "3FCB6F872ECD12C2"
+			rewards: [
+				{
+					id: "0C3B12D31CD68AF9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "5404C48AD6C50B30"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "494F34E7CB63E16B"
+					item: {
+						count: 1
+						id: "appliedcreate:brass_pattern_provider"
+					}
+					type: "item"
+				}
+			]
+			x: 18.75d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39B8C4970A4FAF0D"]
+			icon: {
+				id: "createstockbridge:ae_bridge"
+			}
+			id: "2995554DE66D07BF"
+			rewards: [
+				{
+					id: "5E56F178A3C5CE91"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "68B3859B852AA854"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "46A5456208BB3343"
+					item: {
+						count: 1
+						id: "createstockbridge:ae_bridge"
+					}
+					type: "item"
+				}
+			]
+			x: 18.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FCB6F872ECD12C2", "2995554DE66D07BF"]
+			icon: {
+				id: "ae2:wireless_access_point"
+			}
+			id: "4BCD6DC4BB6DD6A3"
+			rewards: [
+				{
+					id: "01F1BF1484C71ED1"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "2D165D00535790EE"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "69672A5D9E0B097A"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6142FE5D11F26CAD"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					count: 2L
+					id: "1BFCAEE38589C00A"
+					item: {
+						count: 1
+						id: "ae2:crafting_accelerator"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "275AB68C1FB5989E"
+					item: {
+						count: 1
+						id: "ae2:cell_component_16k"
+					}
+					type: "item"
+				}
+				{
+					id: "06DB24FFD1327A2D"
+					item: {
+						count: 1
+						id: "ae2:wireless_access_point"
+					}
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 0.0d
+		}
+	]
+}

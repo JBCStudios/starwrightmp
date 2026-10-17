@@ -1,0 +1,691 @@
+{
+	autofocus_id: "016B8D963E4A5024"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "main_street"
+	group: "0332BC2814A0D22E"
+	icon: {
+		id: "numismatics:vendor"
+	}
+	id: "00D60F3DE55200BF"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/main_street.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.75d
+			y: -8.0d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/main_street.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			height: 0.7d
+			hover: ["Spur", "&71 spur"]
+			image: "numismatics:textures/item/coin/spur.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			hover: ["Bevel", "&78 spurs"]
+			image: "numismatics:textures/item/coin/bevel.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -6.2d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			hover: ["Sprocket", "&716 spurs"]
+			image: "numismatics:textures/item/coin/sprocket.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -5.4d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			hover: ["Cog", "&764 spurs"]
+			image: "numismatics:textures/item/coin/cog.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -4.6d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			hover: ["Crown", "&7512 spurs"]
+			image: "numismatics:textures/item/coin/crown.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -3.8d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			hover: ["Sun", "&74096 spurs"]
+			image: "numismatics:textures/item/coin/sun.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -3.0d
+			y: 4.0d
+		}
+	]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6737712F566E2896"]
+			icon: {
+				id: "numismatics:vendor"
+			}
+			id: "016B8D963E4A5024"
+			rewards: [
+				{
+					id: "08CAF8236E7F8AFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3EF8413562F8F3D1"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "2A05F03ECF659521"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "26001A9F2DEE80BA"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["016B8D963E4A5024"]
+			icon: {
+				id: "rechiseled:chisel"
+			}
+			id: "5CD73D9234274484"
+			rewards: [
+				{
+					id: "2F3F7C759B06170A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BED69717460579E"
+					table_id: 938981422449501338L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "7E5C9EC0A3CB163F"
+					item: {
+						count: 1
+						id: "rechiseled:chisel"
+					}
+					type: "item"
+				}
+				{
+					id: "4C8FFC034A7707DE"
+					item: {
+						count: 1
+						id: "sawmill:sawmill"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CD73D9234274484"]
+			icon: {
+				id: "constructionstick:iron_stick"
+			}
+			id: "330D20D3345F8BA2"
+			rewards: [
+				{
+					id: "0DED5B988D878A57"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3179869FF59F9DAF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "constructionstick:iron_stick"
+					criterion: ""
+					id: "258869BE880F35B6"
+					type: "advancement"
+				}
+			]
+			x: -2.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["5CD73D9234274484"]
+			icon: {
+				id: "copycats:copycat_block"
+			}
+			id: "7F8BEB56018E8A66"
+			rewards: [
+				{
+					id: "46F838875EF4BF26"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "113CA9B890D642B4"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					count: 8L
+					id: "33B773AC53B14C45"
+					item: {
+						count: 1
+						id: "copycats:copycat_block"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5CD73D9234274484"]
+			icon: {
+				id: "torchmaster:megatorch"
+			}
+			id: "1B1F7BD6F68993DC"
+			rewards: [
+				{
+					id: "2A143A3A990F18F9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "14C5FEECFCCFD4A4"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "69651A15DC859315"
+					item: {
+						count: 1
+						id: "torchmaster:megatorch"
+					}
+					type: "item"
+				}
+			]
+			x: 2.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["016B8D963E4A5024", "5BD624F6413EE9F3"]
+			icon: {
+				id: "numismatics:blaze_banker"
+			}
+			id: "40EE6855E2F4FD25"
+			rewards: [
+				{
+					id: "1A48851B8533ED99"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6874EBF6110568FF"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3807D2214888C812"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "3AB1BE210E020629"
+					item: {
+						count: 1
+						id: "numismatics:banking_guide"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["40EE6855E2F4FD25"]
+			icon: {
+				id: "numismatics:bank_terminal"
+			}
+			id: "0170694929EAA683"
+			rewards: [
+				{
+					id: "76E1CB463F80F8A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E0DBA8F9FC10AE4"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "427B5EE93D0FA7EE"
+					item: {
+						count: 1
+						id: "numismatics:bank_terminal"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40EE6855E2F4FD25"]
+			icon: {
+				id: "numismatics:vendor"
+			}
+			id: "0CD907845D35EE39"
+			rewards: [
+				{
+					id: "0408737FC3256389"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "01C4348517227664"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "5ADA6823D9BE72D6"
+					item: {
+						count: 1
+						id: "numismatics:vendor"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CD907845D35EE39"]
+			icon: {
+				id: "create_marketplace:registration_book"
+			}
+			id: "047CCA38F679C4DE"
+			rewards: [
+				{
+					id: "2F5A054A0284B543"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2664BBDE2CE48D7F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "62D90DA703A8A1C2"
+					item: {
+						count: 1
+						id: "create_marketplace:registration_book"
+					}
+					type: "item"
+				}
+			]
+			x: 7.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["016B8D963E4A5024"]
+			icon: {
+				id: "exposure:camera"
+			}
+			id: "5208E4A2CDEA8B14"
+			rewards: [
+				{
+					id: "4CF2C1C01818B2FC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "6FC9848B2E4F234D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "exposure:adventure/exposure"
+					criterion: ""
+					id: "7BDF6D9D2265CF35"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5208E4A2CDEA8B14"]
+			icon: {
+				id: "exposure:photograph_frame"
+			}
+			id: "67BDCA8A86D8F072"
+			rewards: [
+				{
+					id: "0637CBB6A4BABF34"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "54112BEEAB7E8C2E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "exposure:adventure/moment_in_time"
+					criterion: ""
+					id: "6A165C92956B8C7D"
+					type: "advancement"
+				}
+			]
+			x: 4.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["016B8D963E4A5024"]
+			icon: {
+				id: "etched:etching_table"
+			}
+			id: "34E08A1392A73890"
+			rewards: [
+				{
+					id: "4B7A5372E1F31A12"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "587FE45F4D096EFA"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "4D6062C0DE0FC13C"
+					item: {
+						count: 1
+						id: "etched:etching_table"
+					}
+					type: "item"
+				}
+				{
+					id: "591BEDD6172E4B69"
+					item: {
+						count: 1
+						id: "etched:album_jukebox"
+					}
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["016B8D963E4A5024"]
+			icon: {
+				id: "starcatcher:starcatcher_rod"
+			}
+			id: "7C47CAACF2A592DB"
+			rewards: [
+				{
+					id: "42A178D4995C1151"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6A736697E7D1A35C"
+					table_id: 7016316928528634766L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "147852CDD01D5253"
+					item: {
+						count: 1
+						id: "starcatcher:starcatcher_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7C47CAACF2A592DB"]
+			icon: {
+				id: "starcatcher:aquarium"
+			}
+			id: "77625926F50DD190"
+			rewards: [
+				{
+					id: "5DA6EE0234BBAA89"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "639F5EB3DF0116F8"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "7548109B9597E7D4"
+					item: {
+						count: 1
+						id: "starcatcher:aquarium"
+					}
+					type: "item"
+				}
+				{
+					id: "65C434E939A89AAC"
+					item: {
+						count: 1
+						id: "starcatcher:display"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77625926F50DD190"]
+			icon: {
+				id: "starcatcher:tournament_stand"
+			}
+			id: "4B29180AA370C373"
+			rewards: [
+				{
+					id: "2D6009BAC3EBA4E9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "07D10DB0E5FB6F77"
+					table_id: 7016316928528634766L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "0054D4722F65EAD9"
+					item: {
+						count: 1
+						id: "starcatcher:tournament_stand"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["7F8BEB56018E8A66", "0CD907845D35EE39", "67BDCA8A86D8F072", "34E08A1392A73890", "4B29180AA370C373"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "6F4FB65BF8398036"
+			rewards: [
+				{
+					id: "3931D1FAE3676F25"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "170345AC549E042D"
+					table_id: 938981422449501338L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "716CA70A639549B0"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "79CB783E54FB6FCA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "242F7F55C7BD2530"
+					type: "checkmark"
+				}
+			]
+			x: 2.75d
+			y: 6.75d
+		}
+	]
+}

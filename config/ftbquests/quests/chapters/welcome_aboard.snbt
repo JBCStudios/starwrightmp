@@ -1,0 +1,402 @@
+{
+	autofocus_id: "25C9E4F087ADA27D"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "welcome_aboard"
+	group: "4238620E3FCDB80E"
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "574E9A5B0F75040B"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/welcome_aboard.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/welcome_aboard.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.75d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Compass", "&7Every road starts at spawn"]
+			image: "minecraft:textures/item/compass_00.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.25d
+			y: 6.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Map", "&7Claim it on the world map"]
+			image: "minecraft:textures/item/map.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.25d
+			y: 6.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "25C9E4F087ADA27D"
+			rewards: [
+				{
+					id: "4D673AD1E52C9C14"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D78D46EF0630CE3"
+					table_id: 6978871228941743159L
+					team_reward: true
+					type: "all_table"
+				}
+				{
+					id: "67DC2E4927D5189F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "38130A5E2ED0348C"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "minecraft:knowledge_book"
+			}
+			id: "4BDBAB56E245E196"
+			rewards: [
+				{
+					id: "711C2417F0CA92A3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "609BFC0F978747D3"
+					type: "checkmark"
+				}
+			]
+			x: -1.15d
+			y: -3.85d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "53DF8594A1F86694"
+			rewards: [
+				{
+					id: "051A39AD07201D1D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "131885A1F697474C"
+					type: "checkmark"
+				}
+			]
+			x: 1.15d
+			y: -3.85d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "2DE5720A438B9370"
+			rewards: [
+				{
+					id: "1BA7F95CEC7A7046"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "449756B048C8C346"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -2.6d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "13ED776A943E2067"
+			rewards: [
+				{
+					id: "46E57B292B1B66DC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "48A679D2FD47743A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "2BA1E4801109BDDA"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+			]
+			x: 3.95d
+			y: -0.55d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "08D14EBD917343BE"
+			rewards: [
+				{
+					id: "066357E4A4F73979"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "5DB09B45193BEEFD"
+					type: "checkmark"
+				}
+			]
+			x: 3.65d
+			y: 1.65d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "lootr:lootr_chest"
+			}
+			id: "200DFAD481F7305A"
+			rewards: [
+				{
+					id: "71EB0EDCC0C66B34"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "7A4295D1C7272138"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					advancement: "lootr:1chest"
+					criterion: ""
+					id: "2BB0BDE207391B8F"
+					type: "advancement"
+				}
+			]
+			x: 2.15d
+			y: 3.35d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "4863E5F2D5609288"
+			rewards: [
+				{
+					id: "52D1CE5B5CBCEF3C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "40822247945BF8CA"
+					type: "checkmark"
+				}
+			]
+			x: -2.15d
+			y: 3.35d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "minecraft:goat_horn"
+			}
+			id: "6EBEA8AD067B2EBE"
+			rewards: [
+				{
+					id: "6BBB8FCEC8B17247"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "77B490221BE7C578"
+					type: "checkmark"
+				}
+			]
+			x: -3.65d
+			y: 1.65d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "eclipticseasons:calendar"
+			}
+			id: "16B59EF14DC1521E"
+			rewards: [
+				{
+					id: "028170A82DDB0200"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "6008B46A1119CE87"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "607D888D23F60818"
+					item: {
+						count: 1
+						id: "eclipticseasons:calendar"
+					}
+					type: "item"
+				}
+			]
+			x: -3.95d
+			y: -0.55d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "6F71C96EF6E39FF8"
+			rewards: [
+				{
+					id: "292D78BB6CCA0F97"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "745AF246D50B1562"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: -2.6d
+		}
+		{
+			dependencies: ["25C9E4F087ADA27D", "4BDBAB56E245E196", "53DF8594A1F86694", "2DE5720A438B9370", "13ED776A943E2067", "08D14EBD917343BE", "200DFAD481F7305A", "4863E5F2D5609288", "6EBEA8AD067B2EBE", "16B59EF14DC1521E", "6F71C96EF6E39FF8"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "2E983C9D0D7579C0"
+			rewards: [
+				{
+					id: "46FE0A7B5B3DB46C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "20D9FE29FCB7BA43"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "71F5504396582B00"
+					table_id: 7632232893630519244L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 2
+					id: "47E82013FEBAD51C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_start"]
+			tasks: [
+				{
+					id: "690B226F30652AED"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.75d
+		}
+	]
+}

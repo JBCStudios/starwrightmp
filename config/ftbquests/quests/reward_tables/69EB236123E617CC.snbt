@@ -1,0 +1,118 @@
+{
+	icon: {
+		id: "minecraft:barrel"
+	}
+	id: "69EB236123E617CC"
+	loot_size: 2
+	order_index: 1
+	rewards: [
+		{
+			count: 8
+			id: "388D42D6789C1A54"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 10f
+		}
+		{
+			count: 32
+			id: "2CDE038A2EE1405A"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 10f
+		}
+		{
+			count: 8
+			id: "77DFA4750CF093C3"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 8f
+		}
+		{
+			count: 16
+			id: "21B64C32C1670D19"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 8f
+		}
+		{
+			count: 12
+			id: "34C4B74885D87579"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "0BDF1EACA1F1E597"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+			weight: 6f
+		}
+		{
+			count: 8
+			id: "10516F2B496CD52C"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 6f
+		}
+		{
+			count: 24
+			id: "02E30C49E0126107"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+			weight: 5f
+		}
+		{
+			count: 6
+			id: "3DA34071D368D745"
+			item: {
+				count: 1
+				id: "minecraft:leather"
+			}
+			weight: 5f
+		}
+		{
+			count: 4
+			id: "3921C52E9FEA1FA6"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato_seeds"
+			}
+			weight: 4f
+		}
+		{
+			id: "36336B8144D0DCA6"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+			weight: 3f
+		}
+		{
+			count: 8
+			id: "2EE4CBBA4A51A30A"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 4f
+		}
+	]
+	use_title: true
+}

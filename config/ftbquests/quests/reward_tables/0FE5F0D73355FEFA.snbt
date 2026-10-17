@@ -1,0 +1,92 @@
+{
+	icon: {
+		id: "lootr:trophy"
+	}
+	id: "0FE5F0D73355FEFA"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			id: "59662BCA1D6CC94B"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+		}
+		{
+			id: "3468E24621A532A8"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+		{
+			count: 2
+			id: "051A58459E378823"
+			item: {
+				count: 1
+				id: "apotheosis:sigil_of_socketing"
+			}
+		}
+		{
+			count: 16
+			id: "0BFA5C3DFDA183B6"
+			item: {
+				count: 1
+				id: "apotheosis:gem_dust"
+			}
+		}
+		{
+			id: "3F5BAAFD7E01CF4C"
+			item: {
+				count: 1
+				id: "create_enchantment_industry:experience_bucket"
+			}
+		}
+		{
+			id: "5E4CA0449405A3B7"
+			item: {
+				count: 1
+				id: "lootr:trophy"
+			}
+		}
+		{
+			id: "6FD034546D4DD03F"
+			item: {
+				count: 1
+				id: "artifacts:running_shoes"
+			}
+		}
+		{
+			id: "0BE4B5BDA414708E"
+			item: {
+				count: 1
+				id: "nameless_trinkets:mysterious_trinket"
+			}
+		}
+		{
+			count: 8
+			id: "7BBA050699F0401E"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 16
+			id: "3D5549D505856E87"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{
+			id: "77DC0DC56A6C2C7A"
+			item: {
+				count: 1
+				id: "starcatcher:trophy_gold"
+			}
+		}
+	]
+	use_title: true
+}

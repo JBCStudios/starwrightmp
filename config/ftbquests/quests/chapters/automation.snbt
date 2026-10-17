@@ -1,0 +1,399 @@
+{
+	autofocus_id: "0D99523D75AB4CD4"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "automation"
+	group: "00E1186A159B6C1D"
+	icon: {
+		id: "computercraft:computer_advanced"
+	}
+	id: "78C4573680CB6B1D"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/automation.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 5.0d
+			y: -5.75d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/automation.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.75d
+			y: 0.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2ED2715936DBA720"]
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "0D99523D75AB4CD4"
+			rewards: [
+				{
+					id: "7FFD59588BDD7C66"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "34A1268A8CEBD366"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "14D70496BFE0A247"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "061724D1B86768A4"
+					item: {
+						count: 1
+						id: "computercraft:computer_normal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D99523D75AB4CD4"]
+			icon: {
+				id: "computercraft:monitor_advanced"
+			}
+			id: "27582B55ED899B3F"
+			rewards: [
+				{
+					id: "186C0238FDA85EA3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "09D01C348131A2A2"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "068EAD84DB03E33A"
+					item: {
+						count: 1
+						id: "computercraft:computer_advanced"
+					}
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2332FF15F0B59DFA"
+					item: {
+						count: 1
+						id: "computercraft:monitor_advanced"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D99523D75AB4CD4"]
+			icon: {
+				id: "computercraft:turtle_normal"
+			}
+			id: "20F9911AC0D65706"
+			optional: true
+			rewards: [
+				{
+					id: "7667CB6CEA637C70"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7CCFD778815801B1"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "3A58C0811CFA6D84"
+					item: {
+						count: 1
+						id: "computercraft:turtle_normal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["27582B55ED899B3F"]
+			icon: {
+				id: "create:stressometer"
+			}
+			id: "47C733BE1C436199"
+			rewards: [
+				{
+					id: "0A84106F0D596EA2"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "5667A188E8900194"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "11EEABA5F966378E"
+					item: {
+						count: 1
+						id: "create:stressometer"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6832A37C691F52E4"
+					item: {
+						count: 1
+						id: "computercraft:wired_modem"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "38DC07D0B386C712"
+					item: {
+						count: 1
+						id: "computercraft:cable"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["47C733BE1C436199", "5721DCBFFA4087DD"]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_port"
+			}
+			id: "7B22085A53A166BE"
+			rewards: [
+				{
+					id: "5EC2240B7678D344"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "00657CB07073BA7F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "452998D82A06BB97"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "7F99390C474762F1"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_reactor_port"
+					}
+					type: "item"
+				}
+				{
+					id: "257D5CA9160503B7"
+					item: {
+						count: 1
+						id: "computercraft:computer_advanced"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["27582B55ED899B3F", "6960DF48DE0C7CEF"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "5B0FD64C71D68DEB"
+			rewards: [
+				{
+					id: "2794238D440F9B4B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "76ED6EB5A95EDC75"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					count: 2L
+					id: "5013B59CC3DF2739"
+					item: {
+						count: 1
+						id: "computercraft:wireless_modem_normal"
+					}
+					type: "item"
+				}
+				{
+					id: "2714D7AA355F7348"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27582B55ED899B3F", "40CA9ECEACECD431"]
+			icon: {
+				id: "createthrusters:advanced_contraption_controller"
+			}
+			id: "2E14823A24A1366F"
+			rewards: [
+				{
+					id: "00CAF5EC7770C8BF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "7854E437564D5DC3"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "77F46F0E2DB23F07"
+					item: {
+						count: 1
+						id: "createthrusters:advanced_contraption_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["7B22085A53A166BE", "5B0FD64C71D68DEB", "2E14823A24A1366F"]
+			icon: {
+				id: "computercraft:pocket_computer_advanced"
+			}
+			id: "0E740526C9A4DBB2"
+			rewards: [
+				{
+					id: "30F3E91657D8FC2A"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "5A694ACDECBE3298"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 4
+					id: "7A76B47FFE432146"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "4C92CECB138C672C"
+					item: {
+						count: 1
+						id: "computercraft:wireless_modem_advanced"
+					}
+					type: "item"
+				}
+				{
+					id: "1920FF39AEDC6C20"
+					item: {
+						count: 1
+						id: "computercraft:pocket_computer_advanced"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

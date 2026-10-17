@@ -1,0 +1,115 @@
+{
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "76FD8028E028E2DB"
+	loot_size: 2
+	order_index: 6
+	rewards: [
+		{
+			count: 16
+			id: "6959998231B5A41A"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 8f
+		}
+		{
+			count: 64
+			id: "23CAE4655779F746"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 8f
+		}
+		{
+			count: 4
+			id: "7C533B4A8F14FD1C"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "2D360932CD14AFCB"
+			item: {
+				count: 1
+				id: "minecraft:cooked_porkchop"
+			}
+			weight: 6f
+		}
+		{
+			count: 4
+			id: "31153AEEC7F753DD"
+			item: {
+				count: 1
+				id: "minecraft:map"
+			}
+			weight: 6f
+		}
+		{
+			id: "415482B93186ACBB"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 4f
+		}
+		{
+			id: "5252CED3C26125FD"
+			item: {
+				count: 1
+				id: "minecraft:spyglass"
+			}
+			weight: 4f
+		}
+		{
+			count: 2
+			id: "1536BEC4E0F00D7F"
+			item: {
+				count: 1
+				id: "minecraft:lead"
+			}
+			weight: 4f
+		}
+		{
+			id: "165804434870584C"
+			item: {
+				count: 1
+				id: "comforts:sleeping_bag_brown"
+			}
+			weight: 3f
+		}
+		{
+			id: "5D512B5333A837A1"
+			item: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			weight: 3f
+		}
+		{
+			count: 8
+			id: "2FBE6C173A838A52"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 3f
+		}
+		{
+			count: 16
+			id: "3971F65DFDCF086C"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 4f
+		}
+	]
+	use_title: true
+}

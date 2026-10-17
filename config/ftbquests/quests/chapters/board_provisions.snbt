@@ -1,0 +1,1433 @@
+{
+	autofocus_id: "65A73EF3DD75AA23"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "board_provisions"
+	group: "2A7A781070AD62D0"
+	icon: {
+		id: "farmersdelight:beef_stew"
+	}
+	id: "1A90D0F56276639D"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/board_provisions.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 9.5d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/board_provisions.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier I orders: daily", "&7Open with the Provisions Board"]
+			image: "numismatics:textures/item/coin/bevel.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier II orders: daily", "&7Open with Andesite Works"]
+			image: "numismatics:textures/item/coin/sprocket.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.5d
+			y: -1.75d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier III orders: daily", "&7Open with Steel Backbone"]
+			image: "numismatics:textures/item/coin/sprocket.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 11.5d
+			y: -1.75d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier IV orders: weekly", "&7Open with Reactor Online"]
+			image: "numismatics:textures/item/coin/cog.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 15.5d
+			y: -1.75d
+		}
+		{
+			height: 0.8d
+			hover: ["The Founders' Feast", "&7Opens with Tier IV and Master Chef"]
+			image: "numismatics:textures/item/coin/crown.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 19.5d
+			y: -2.0d
+		}
+	]
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71EC7611C4E6788F"]
+			icon: {
+				id: "candlelight:dinner_bell"
+			}
+			id: "65A73EF3DD75AA23"
+			rewards: [
+				{
+					id: "0CC31315F4724055"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "1610C8FA3E1C4E29"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "38D1CC25771981D9"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65A73EF3DD75AA23"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "78F78146255CF119"
+			rewards: [
+				{
+					id: "7795FBB7605ED9E5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "342E5CBCD669EB3A"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78F78146255CF119", "64A1D729B5DB5F26"]
+			icon: {
+				id: "brewinandchewin:keg"
+			}
+			id: "6DA8470A7DD99A43"
+			rewards: [
+				{
+					id: "1962A5151C26D83D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "3BA17E7BA9DFB5B4"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DA8470A7DD99A43", "56DBBBA399A21A84"]
+			icon: {
+				id: "brewery:copper_brewingstation"
+			}
+			id: "6656E293E15E46C0"
+			rewards: [
+				{
+					id: "53F861979CB096C5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "0E4BB27A15A19738"
+					type: "checkmark"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6656E293E15E46C0", "5721DCBFFA4087DD"]
+			icon: {
+				id: "ftbquests:screen_1"
+			}
+			id: "5ED4DC162002DB92"
+			rewards: [
+				{
+					id: "798A55C9D6F70DA1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "25AE026E3EC6AD30"
+					type: "checkmark"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78F78146255CF119", "0C4CB939F4FE0DF1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:tomato"
+			}
+			id: "519DE109F7A29F9F"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "641E47B1B06135DE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "68FECFDBC9D1B40C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "411B669519350B8B"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "60F2ED7FE4167FDD"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "12D45C85C8891A7F"
+					item: {
+						count: 1
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78F78146255CF119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:apple_pie"
+			}
+			id: "04A518B6EF5644B0"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "5029069F08710E06"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1E7E68A9493FE9C3"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "53884253BB75AF99"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "4BAAEC32106BCB18"
+					item: {
+						count: 1
+						id: "farmersdelight:apple_pie"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7BF9CA5704EACC9F"
+					item: {
+						count: 1
+						id: "farmersdelight:sweet_berry_cheesecake"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78F78146255CF119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:beef_stew"
+			}
+			id: "66F5264BC563FE64"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "0462CFE58666C921"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2E7247AFF31DCFEA"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6A7F2F931A272920"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "4F1398E0E5C99037"
+					item: {
+						count: 1
+						id: "farmersdelight:beef_stew"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78F78146255CF119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:salmon_roll"
+			}
+			id: "7441777147AAED8D"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "0A1DAD0DFA4675D1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2775C032DBE02C0A"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "0E5160402D01E70B"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "23DBF11B20E3D765"
+					item: {
+						count: 1
+						id: "farmersdelight:cod_roll"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "4CF3C45E3814C13A"
+					item: {
+						count: 1
+						id: "farmersdelight:salmon_roll"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["78F78146255CF119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:hamburger"
+			}
+			id: "21E573E827F2FA7F"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "4E9AA750FA9BEC0B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6B87568297762675"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "164A4992F264C89C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "471EF64237286CEA"
+					item: {
+						count: 1
+						id: "farmersdelight:hamburger"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "061E844C3D6BE065"
+					item: {
+						count: 1
+						id: "farmersdelight:mutton_wrap"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DA8470A7DD99A43"]
+			hide_dependency_lines: true
+			icon: {
+				id: "brewinandchewin:flaxen_cheese_wheel"
+			}
+			id: "74F811DA624CA054"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "31DBF94B55F8EEBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56167656FDDEB40A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C77BA30BE06F701"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "43C97ADB881C9A38"
+					item: {
+						count: 1
+						id: "farm_and_charm:butter"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "7794D908316B2288"
+					item: {
+						count: 1
+						id: "brewinandchewin:flaxen_cheese_wedge"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DA8470A7DD99A43"]
+			hide_dependency_lines: true
+			icon: {
+				id: "bakery:bread_crate"
+			}
+			id: "552A51C90822B8CA"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "57E8E4612566C764"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7217DFA11D691E39"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E353C33B72263CC"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "790DEB51084ED70D"
+					item: {
+						count: 1
+						id: "bakery:bread_crate"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DA8470A7DD99A43"]
+			hide_dependency_lines: true
+			icon: {
+				id: "brewinandchewin:beer"
+			}
+			id: "6867EBFBC94C2660"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "1D1A7891D3A0DE60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6FE30933BA0EDBB8"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09E3C416D965C58C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "16A49BAAFECA078E"
+					item: {
+						count: 1
+						id: "brewinandchewin:beer"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "69B12A01C1596FB9"
+					item: {
+						count: 1
+						id: "brewinandchewin:mead"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DA8470A7DD99A43"]
+			hide_dependency_lines: true
+			icon: {
+				id: "vinery:red_wine"
+			}
+			id: "2816D6DBA65B4B04"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "47D505A2F24147EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03E41EEC259734D7"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D0DE26F7DD8D2BB"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "24317F51A03E75B7"
+					item: {
+						count: 1
+						id: "vinery:red_wine"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6DA8470A7DD99A43"]
+			hide_dependency_lines: true
+			icon: {
+				id: "herbalbrews:rooibos_tea"
+			}
+			id: "0F6D6C242DA5E5F2"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "3D43308EF206E6EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1E2173C209DC2366"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "28D327D5A0B26806"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "74B93352EA948869"
+					item: {
+						count: 1
+						id: "herbalbrews:rooibos_tea"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "1CFDDB12DF3D3F61"
+					item: {
+						count: 1
+						id: "farm_and_charm:strawberry_tea"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6656E293E15E46C0"]
+			hide_dependency_lines: true
+			icon: {
+				id: "brewery:whiskey_highland_hearth"
+			}
+			id: "2BE10259489E68C9"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "2C9CEAC155DE99F4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "5F2490AAEEA211A3"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "79847EF412E10D52"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "7979CE21BFB7EBEA"
+					item: {
+						count: 1
+						id: "brewery:whiskey_highland_hearth"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "3A57F3593FB4BA4A"
+					item: {
+						count: 1
+						id: "brewery:whiskey_lilitusinglemalt"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6656E293E15E46C0"]
+			hide_dependency_lines: true
+			icon: {
+				id: "candlelight:beef_wellington"
+			}
+			id: "31AC504774757F54"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "6B853030D9E57195"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "52107255F99B1280"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "76C01A984498BD17"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "652F147D52A389B1"
+					item: {
+						count: 1
+						id: "candlelight:beef_wellington"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "67CA77824663FB9E"
+					item: {
+						count: 1
+						id: "vinery:noir_wine"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6656E293E15E46C0"]
+			hide_dependency_lines: true
+			icon: {
+				id: "herbalbrews:green_tea"
+			}
+			id: "224DAF15F5B6E180"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "75CE4CDA075AD742"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "0C8D68BD5329EEEA"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "620CEFDF30A13778"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "03F3A94070F994D5"
+					item: {
+						count: 1
+						id: "herbalbrews:green_tea"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "4BD4B76A2277EBD3"
+					item: {
+						count: 1
+						id: "herbalbrews:milk_coffee"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6656E293E15E46C0", "016B8D963E4A5024"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starcatcher:redscaled_tuna"
+			}
+			id: "35F2DD91D273EA29"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "690C3EDCB08CEAD0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "18C0CA47C28F66F6"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "210FBA2B4E7E738D"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "4D2DA5EA55570A24"
+					item: {
+						count: 1
+						id: "starcatcher:sea_bass"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1D7EC71E15D48BC2"
+					item: {
+						count: 1
+						id: "starcatcher:redscaled_tuna"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6656E293E15E46C0", "3CC7D60810C89559"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mynethersdelight:hot_wings"
+			}
+			id: "2AC99E788390D1FF"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "68F2B5C76E6AA1F8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "545A3A6DD8F2DFBB"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "723EB72E0F8A3C35"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "37162705C315AFD9"
+					item: {
+						count: 1
+						id: "mynethersdelight:hot_wings"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "045A4101D2813F94"
+					item: {
+						count: 1
+						id: "mynethersdelight:hotdog"
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 5.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5ED4DC162002DB92"]
+			hide_dependency_lines: true
+			icon: {
+				id: "bakery:chocolate_gateau"
+			}
+			id: "2E35CBB3ADC4D12B"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "0AE7A8759D67B940"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "05DE387BFD185068"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2210633B6DB7529C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2C5A7B1F9E303B79"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "46463C52EB780A7F"
+					item: {
+						count: 1
+						id: "bakery:strawberry_cake"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7E7E120D1ACFA6FC"
+					item: {
+						count: 1
+						id: "bakery:chocolate_gateau"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 24L
+					id: "67969FD29E9E8E50"
+					item: {
+						count: 1
+						id: "bakery:strawberry_glazed_cookie"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5ED4DC162002DB92", "016B8D963E4A5024"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starcatcher:bigeye_tuna"
+			}
+			id: "349467C10B1B5A1E"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "694508732C494E9D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "573E61D0EAA86837"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5B3C3C68DB35E943"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "74E99CCB31135B58"
+					table_id: 7016316928528634766L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "6377C9F25715C4E7"
+					item: {
+						count: 1
+						id: "starcatcher:bigeye_tuna"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "0D1A84293A19AF0B"
+					item: {
+						count: 1
+						id: "starcatcher:willow_bream"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "68EEAFF6C8C96DF5"
+					item: {
+						count: 1
+						id: "starcatcher:blue_ice_pike"
+					}
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5ED4DC162002DB92"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "2E6397F4E40952AF"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "6F9899F4A8772973"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 3
+					id: "6FBDAC25D35B25AE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3658B120331D9283"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "474219B18AE5E5E5"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 2048L
+					id: "594307FDC84D8411"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "51C85A1AFBD78E87"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5ED4DC162002DB92", "53218DED68CC37DC"]
+			icon: {
+				id: "farmersdelight:honey_glazed_ham_block"
+			}
+			id: "21D70DCE353B7B26"
+			rewards: [
+				{
+					id: "0E23CAC1641EE6FC"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "6D8C5E275118C101"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "5411DBF5D37AA703"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "342E1A62757A8A58"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "sw_star"
+			size: 2.25d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "79E0C431CEDBF215"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7B608EF540E40DB4"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin_block"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5274822B443B14F9"
+					item: {
+						count: 1
+						id: "candlelight:lasagne"
+					}
+					type: "item"
+				}
+				{
+					id: "002B4AD5549EF381"
+					item: {
+						count: 1
+						id: "farm_and_charm:grandmothers_strawberry_cake"
+					}
+					type: "item"
+				}
+				{
+					id: "6426ADF2A92319E8"
+					item: {
+						count: 1
+						id: "vinery:jellie_wine"
+					}
+					type: "item"
+				}
+				{
+					id: "10428DE795455E14"
+					item: {
+						count: 1
+						id: "brewery:dark_brew"
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+	]
+}

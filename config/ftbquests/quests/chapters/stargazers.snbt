@@ -1,0 +1,429 @@
+{
+	autofocus_id: "1CB00059C89A2672"
+	default_hide_dependency_lines: false
+	default_quest_shape: "sw_planet"
+	filename: "stargazers"
+	group: "647D19DDF0404300"
+	icon: {
+		id: "northstar:telescope"
+	}
+	id: "48ADD1D0CDAA92EE"
+	images: [
+		{
+			height: 2.5d
+			image: "starwright:textures/quests/banners/stargazers.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/stargazers.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.25d
+			y: -3.75d
+		}
+		{
+			height: 1.0d
+			hover: ["Andromeda Galaxy", "&7One of hundreds of objects in the Exposure: Space catalogue"]
+			image: "exposure_space:textures/gui/catalog/objects/andromeda.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.75d
+			y: 1.25d
+		}
+		{
+			height: 1.0d
+			hover: ["Orion Nebula", "&7Photograph it, then let the Photo Analyzer name it"]
+			image: "exposure_space:textures/gui/catalog/objects/orion_nebula.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.75d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Pleiades", "&7Some objects only show on special nights"]
+			image: "exposure_space:textures/gui/catalog/objects/pleiades.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			height: 1.25d
+			hover: ["The Moon", "&7First stop of the space program"]
+			image: "northstar:textures/planet/solar_system/earth/moon.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: -2.75d
+			y: 9.25d
+		}
+	]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40CA9ECEACECD431"]
+			icon: {
+				id: "northstar:telescope"
+			}
+			id: "1CB00059C89A2672"
+			rewards: [
+				{
+					id: "0418758D7FD1C60C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "4045216D90811582"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "48BA78A30B0BAD32"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "0AB9DA0914BD97CA"
+					item: {
+						count: 1
+						id: "northstar:telescope"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CB00059C89A2672"]
+			icon: {
+				id: "northstar:astronomical_reading"
+			}
+			id: "18480AC22EFD3172"
+			rewards: [
+				{
+					id: "24DC6178DCA9C79E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "2AF6EB403FF285C7"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "3C0C4BC51B79F42B"
+					item: {
+						count: 1
+						id: "northstar:astronomical_reading"
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["18480AC22EFD3172"]
+			icon: {
+				id: "northstar:astronomy_table"
+			}
+			id: "6A15EC62D533901F"
+			rewards: [
+				{
+					id: "26123B9263A56EF8"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "0AB839095939E02E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "43223AD6327697EA"
+					item: {
+						count: 1
+						id: "northstar:astronomy_table"
+					}
+					type: "item"
+				}
+			]
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1CB00059C89A2672"]
+			icon: {
+				id: "northstar:titanium_ingot"
+			}
+			id: "145AC34DB89305B1"
+			rewards: [
+				{
+					id: "2C7CEA8ECA3CBBE0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "5B4EAF72076FB70D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					count: 8L
+					id: "06631AB7DE78F0B3"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: -4.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6A15EC62D533901F", "145AC34DB89305B1"]
+			icon: {
+				id: "northstar:space_atlas"
+			}
+			id: "4EC6D83FA4A7A19C"
+			rewards: [
+				{
+					id: "47ABDE65EA45B03D"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "5B5409FAF2F4A762"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0B7B19AD484543AF"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "46FE14BDA94766E5"
+					item: {
+						count: 1
+						id: "northstar:space_atlas"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1CB00059C89A2672"]
+			icon: {
+				id: "exposure_space:normal_telescopic_lens"
+			}
+			id: "404902FEDEEE9AD5"
+			rewards: [
+				{
+					id: "7A22213858F361D4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "5CBE109EA9DF29AD"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "1E621FBB4B15221A"
+					item: {
+						count: 1
+						id: "exposure_space:space_filter"
+					}
+					type: "item"
+				}
+				{
+					id: "7A355353183CD95C"
+					item: {
+						count: 1
+						id: "exposure_space:normal_telescopic_lens"
+					}
+					type: "item"
+				}
+			]
+			x: 2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["404902FEDEEE9AD5"]
+			icon: {
+				id: "exposure_space:analyzer"
+			}
+			id: "198F41CE91FCF066"
+			rewards: [
+				{
+					id: "09486AC5874D03FE"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "17B3B536FC983669"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					advancement: "exposure_space:first_object"
+					criterion: ""
+					id: "2A90E0F9CA676EAA"
+					type: "advancement"
+				}
+			]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["198F41CE91FCF066"]
+			icon: {
+				id: "exposure_space:good_telescopic_lens"
+			}
+			id: "51B9317F83A6BE34"
+			optional: true
+			rewards: [
+				{
+					id: "4C69D46685E6C767"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "464211F06F101637"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "5B424C5ABF862821"
+					item: {
+						count: 1
+						id: "exposure_space:good_telescopic_lens"
+					}
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4EC6D83FA4A7A19C", "198F41CE91FCF066"]
+			icon: {
+				id: "northstar:targeting_computer"
+			}
+			id: "19EF7D59B3336FA7"
+			rewards: [
+				{
+					id: "501A22765BBFA35E"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "4EFF63CBC7F73A16"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "4F1AF4ED687F5E6B"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3C28FB18ED622EE2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "1916DEC773C8CF6A"
+					type: "checkmark"
+				}
+				{
+					id: "31D26AE2677C4C08"
+					item: {
+						count: 1
+						id: "northstar:targeting_computer"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+	]
+}

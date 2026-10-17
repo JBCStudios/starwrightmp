@@ -1,0 +1,1534 @@
+{
+	autofocus_id: "2FF250F3388474BC"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "board_bounties"
+	group: "2A7A781070AD62D0"
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "40B9510ABF7BC591"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/board_bounties.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 11.5d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/board_bounties.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier I: daily culls in the Overworld", "&7Open from the start"]
+			image: "numismatics:textures/item/coin/bevel.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier II: Twilight and Nether culls, minor bounties", "&7Opens with Andesite Works"]
+			image: "numismatics:textures/item/coin/sprocket.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier III: culls in deeper dimensions", "&7Opens with Steel Backbone"]
+			image: "numismatics:textures/item/coin/sprocket.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier IV: major boss bounties", "&7Opens with Reactor Online"]
+			image: "numismatics:textures/item/coin/cog.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Tier V: apex boss bounties", "&7Opens with Lunar Program"]
+			image: "numismatics:textures/item/coin/cog.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Legend of the Lodge", "&7Five great beasts, one ledger"]
+			image: "minecraft:textures/item/end_crystal.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 23.5d
+			y: -2.5d
+		}
+	]
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71EC7611C4E6788F"]
+			icon: {
+				id: "supplementaries:notice_board"
+			}
+			id: "2FF250F3388474BC"
+			rewards: [
+				{
+					id: "77A5801EFF13295D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "26DD79C0262C822C"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "198E499EBB89DF50"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FF250F3388474BC"]
+			icon: {
+				id: "minecraft:wooden_sword"
+			}
+			id: "2403ACB5E5A291AE"
+			rewards: [
+				{
+					id: "5C3F983272840131"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "7D03A49A9D52414C"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2403ACB5E5A291AE", "64A1D729B5DB5F26"]
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "1CF95111046C91F1"
+			rewards: [
+				{
+					id: "13B2C9935BAD0568"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "0DB2717C585C7CB5"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CF95111046C91F1", "56DBBBA399A21A84"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "77599DE8D96496F2"
+			rewards: [
+				{
+					id: "3340CA9DF0D67B37"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "493ADC3DEE332152"
+					type: "checkmark"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77599DE8D96496F2", "5721DCBFFA4087DD"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "4D32643C5EB97EE6"
+			rewards: [
+				{
+					id: "0FD521F8955D0EFC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "37B660C9000F8A84"
+					type: "checkmark"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D32643C5EB97EE6", "679D66E054F60E90"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "777C535C0DCBC1BD"
+			rewards: [
+				{
+					id: "791818C0AADDCE84"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "22502CBB4FAE03E4"
+					type: "checkmark"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2403ACB5E5A291AE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "26E7210222FAF558"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "1B3269477C955AA5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "04F48F30DBBBEF4F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "24085D04A1F87A05"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "0B5BCB24A306A2C6"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "2CBA6E6885E7F1A6"
+					type: "kill"
+					value: 20L
+				}
+			]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2403ACB5E5A291AE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "73984793B48600B5"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "1975BD86782F2864"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4CF859B3ACA71DD7"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "66209C98D264EC26"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					id: "6256A5157C2373D4"
+					type: "kill"
+					value: 24L
+				}
+			]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2403ACB5E5A291AE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "6FC4E037B82480B1"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "583CDF693A05CD91"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "11B2411BCA0E36CA"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "49A28201005AAE21"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:drowned"
+					id: "1296504308D4338C"
+					type: "kill"
+					value: 16L
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CF95111046C91F1", "1354CCEEEE48250F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:torchberries"
+			}
+			id: "2B7F22A4027E969F"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "51FE771F66213ECF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06692947CDB287F0"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E318D24A12A29B4"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "twilightforest:kobold"
+					id: "063728B099E52C66"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "twilightforest:skeleton_druid"
+					id: "4F437CD70A25BBE1"
+					type: "kill"
+					value: 4L
+				}
+			]
+			x: 6.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CF95111046C91F1", "3CC7D60810C89559"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "4B34FB8F0F645F42"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "1D0DFBC7B325DF8F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "241CB0DD66868108"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C0E6C474921F692"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "6226B9D9E0611F49"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "08CD838127A3A99C"
+					type: "kill"
+					value: 15L
+				}
+			]
+			x: 8.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CF95111046C91F1", "707D13F65486E543"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mutantmonsters:hulk_hammer"
+			}
+			id: "560B18227152CBA2"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "6E7D50A92193C687"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "68F04D5396E722D8"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3B2510342F595586"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "234D051BA65AC8C2"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					id: "7CCC75FDAE4D79E2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					id: "5ECB3CB1B0A8EEA6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1CF95111046C91F1", "41267FEC24FC3323"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:naga_scale"
+			}
+			id: "1759A8DF4D620881"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "514D6D29292783D5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "120E9D4F39EADDC6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "123FF4FE8CCE7DD1"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7A2EA74715125D0E"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "7585A0A62DF92E65"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77599DE8D96496F2", "3CC7D60810C89559"]
+			hide_dependency_lines: true
+			icon: {
+				id: "undergarden:utheric_shard"
+			}
+			id: "1ED7B179A5B1DB1C"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "0440EC3818A89785"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "79143C722316A46F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "50EFC409A3BF6D39"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "undergarden:rotwalker"
+					id: "1D4265F3DB5AEE21"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "undergarden:rotbelcher"
+					id: "5F9203A6D1178322"
+					type: "kill"
+					value: 8L
+				}
+			]
+			x: 10.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77599DE8D96496F2", "707D13F65486E543"]
+			hide_dependency_lines: true
+			icon: {
+				id: "eternal_starlight:nightfall_spider_eye"
+			}
+			id: "62A61DE9F4750EBF"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "05BF81A57623F3D7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "0547D84C3266B4EA"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "268B20F6DC76D0ED"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "eternal_starlight:nightfall_spider"
+					id: "4CE497AB312BDB03"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "eternal_starlight:lonestar_skeleton"
+					id: "57309AF15521E010"
+					type: "kill"
+					value: 12L
+				}
+			]
+			x: 12.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77599DE8D96496F2", "5AAF6A676CE94794"]
+			hide_dependency_lines: true
+			icon: {
+				id: "deeperdarker:sculk_bone"
+			}
+			id: "5CBD66B0579BCBA0"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "5FC6B2062766C4E0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7D7D8FCBD0009717"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1528C1CCA10FE6AD"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "deeperdarker:shattered"
+					id: "16F11105249DD360"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "deeperdarker:sculk_centipede"
+					id: "56657281B5AB950C"
+					type: "kill"
+					value: 6L
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77599DE8D96496F2", "0893C89892611494"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:arctic_fur"
+			}
+			id: "522CD5565413BA12"
+			optional: true
+			repeat_cooldown: 86400
+			rewards: [
+				{
+					id: "413FA048E8C199DF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "1622EB0CBF3B6509"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7A83D4255516A7A7"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "twilightforest:winter_wolf"
+					id: "3BFB510A80FBF235"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "twilightforest:yeti"
+					id: "549E0A3670BC0C18"
+					type: "kill"
+					value: 6L
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77599DE8D96496F2", "3CC7D60810C89559"]
+			hide_dependency_lines: true
+			icon: {
+				id: "gateways:gate_pearl"
+			}
+			id: "150236B5BB135CFA"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "232E6329866D1696"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "64CE33B639DE647F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4A4CFB829CF1B84D"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6C26B4F3E1A06B7A"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:piglin_brute"
+					id: "5564F8EB407A9E08"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:zombified_piglin"
+					id: "0224B1A5EFFD2B18"
+					type: "kill"
+					value: 20L
+				}
+			]
+			x: 10.5d
+			y: 5.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77599DE8D96496F2", "3CAD5FEE8C2E015E"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:monstrous_horn"
+			}
+			id: "607AA86257F73399"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "16E6A3818C31BCE9"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "2786E74CE9503DE2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "09EBD6F5F60E7838"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1A1F9F5C16D2C4E8"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "758F653915FADC6C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 12.5d
+			y: 5.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D32643C5EB97EE6", "7B0DE722C00AC9B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "244DC1B951D3979C"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "4355A1DD08A1B90D"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "0FAD36300A804948"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0878BE7B4296F0C5"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6C8AAD09EF264618"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "7659C5B7DC446856"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D32643C5EB97EE6", "7B0DE722C00AC9B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:sculk_shrieker"
+			}
+			id: "5112975F69D5C01E"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "43FC85256258F3DE"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "6A4A70100FD98D07"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "734FD6D576F096E8"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1135D1315B30A32D"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "731EF4C966BBAF87"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D32643C5EB97EE6", "3CAD5FEE8C2E015E"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:necklace_of_the_desert"
+			}
+			id: "59C9F3434E96F15B"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "48763E2224D0727B"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "513C5E8F1D73FE37"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4AAF773640877EBC"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "14440372A96A64CB"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "585C061D29529235"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D32643C5EB97EE6", "7B0DE722C00AC9B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:cursium_ingot"
+			}
+			id: "2AFA47F63C210C0B"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "42274743435E8D62"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "01154864FE5F4FF0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "64F996DCCD5ED668"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "59CCB636D00E98F1"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "62C5CED186A3D3DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["777C535C0DCBC1BD", "7EDECCD0E26C2744"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:void_eye"
+			}
+			id: "1E072015D22E5C21"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "161FA313FEBBA9E6"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "6CB799C6A568E2BB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6E1D2D4817E144ED"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "065E098F0BEA61B8"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "315D78D527151616"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 18.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["777C535C0DCBC1BD", "054DF2C40282112C"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "0809C4438D205B11"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "4659EC965D817E37"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 4
+					id: "1E533A4723B7B19A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "27265FC02984D1F8"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1C854FD17E662C5E"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "618A545504152636"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 20.5d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			dependencies: ["777C535C0DCBC1BD", "7B0DE722C00AC9B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:abyssal_sacrifice"
+			}
+			id: "3CA89C8F29BEC3EA"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "39E9070D424BBBF3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 4
+					id: "172C942FADECB454"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "3B26BD4CCC7E2746"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "14D28146DB8D791B"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "419FFEDEFECD6701"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["777C535C0DCBC1BD", "7B0DE722C00AC9B3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "7F375E064ED54976"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "112616832294B6B1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 4
+					id: "201B60BC43E176F9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0D71306760A14418"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0140E75AB9657F1D"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "12EA5B019A88B8BA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["777C535C0DCBC1BD", "7D1A3320046D453A"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "49BDF026EE8B2904"
+			optional: true
+			repeat_cooldown: 604800
+			rewards: [
+				{
+					id: "054A30648C4CC2FD"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 4
+					id: "4BB6F11B9CB7C3D9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "611F0E4AF3774B9E"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6FEE663C073F2447"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					entity: "cataclysm:scylla"
+					id: "4BF298EF2E780655"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 18.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["777C535C0DCBC1BD"]
+			icon: {
+				id: "lootr:trophy"
+			}
+			id: "0667A3F283FCEF87"
+			rewards: [
+				{
+					id: "63D6EEC096D8BEBC"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "29743076B919927E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "20B13232D332087B"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2EB31F13F4AB8F3F"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "sw_star"
+			size: 2.25d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "1B0D43256529245E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "2222E4B4DC595227"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "513F52781D4147CE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:scylla"
+					id: "73A308925DD4233E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignis"
+					id: "05FEDE7354F807F1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 23.5d
+			y: 0.0d
+		}
+	]
+}

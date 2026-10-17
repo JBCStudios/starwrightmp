@@ -1,0 +1,545 @@
+{
+	autofocus_id: "1354CCEEEE48250F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "twilight_expeditions"
+	group: "25ED7DB1465E6A02"
+	icon: {
+		id: "twilightforest:naga_trophy"
+	}
+	id: "5462B84F6AC2A145"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/twilight_expeditions.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 3.0d
+			y: -5.75d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/twilight_expeditions.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Naga Scale", "&7From the serpent of the courtyard"]
+			image: "twilightforest:textures/item/naga_scale.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Twilight Scepter", "&7Part of the Lich's hoard"]
+			image: "twilightforest:textures/item/twilight_scepter.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Meef Stroganoff", "&7The Minoshroom's last meal"]
+			image: "twilightforest:textures/item/meef_stroganoff.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Fiery Tears", "&7Wept by the Ur-Ghast"]
+			image: "twilightforest:textures/item/fiery_tears.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Alpha Yeti Fur", "&7Warm enough for the Glacier"]
+			image: "twilightforest:textures/item/alpha_yeti_fur.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -2.5d
+			y: 3.0d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["64A1D729B5DB5F26"]
+			icon: {
+				id: "twilightforest:naga_trophy"
+			}
+			id: "1354CCEEEE48250F"
+			rewards: [
+				{
+					id: "075E3DD09F26397D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "694BC58814784E12"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7D5258DF41DFFC4E"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					id: "34DDAFB8116DBD6D"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1354CCEEEE48250F"]
+			icon: {
+				id: "twilightforest:magic_map"
+			}
+			id: "395C5864871A86E6"
+			rewards: [
+				{
+					id: "176A9A46296F94E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2098FA4BE71C695A"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "twilightforest:magic_map"
+					criterion: ""
+					id: "64F0FAA3F82F28A6"
+					type: "advancement"
+				}
+			]
+			x: 2.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1354CCEEEE48250F"]
+			icon: {
+				id: "twilightforest:naga_scale"
+			}
+			id: "41267FEC24FC3323"
+			rewards: [
+				{
+					id: "26B38B77FA13E9EA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3F7B4AE309DB9D51"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3F3F95E510FB96B7"
+					table_id: 7600718158564844365L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "3FD22CDB7E6BAEEB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41267FEC24FC3323"]
+			icon: {
+				id: "twilightforest:twilight_scepter"
+			}
+			id: "0893C89892611494"
+			rewards: [
+				{
+					id: "5FCC42EB24485D34"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "517143A6FFB7ED2F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "37416B3E8860DBEA"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					id: "20C3CE61E43F945F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0893C89892611494"]
+			icon: {
+				id: "twilightforest:lich_trophy"
+			}
+			id: "181CEE5D2365AA30"
+			optional: true
+			rewards: [
+				{
+					id: "6F2C45B525C830E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7089D20997279A06"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_trophy_pedestal"
+					criterion: ""
+					id: "7BBDAA5DBE418AD2"
+					type: "advancement"
+				}
+			]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0893C89892611494"]
+			icon: {
+				id: "twilightforest:meef_stroganoff"
+			}
+			id: "3A1216C6DA812B19"
+			rewards: [
+				{
+					id: "6A5E9B18F3A4F4E2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "78A4357C914733E9"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+					id: "48C24A9A3BA09EE7"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A1216C6DA812B19"]
+			icon: {
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "4A16E4A9D510E5A1"
+			rewards: [
+				{
+					id: "3E14E68D37981C46"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "0B96BEE4DE395484"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7F27D9CE246C64BB"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					entity: "twilightforest:hydra"
+					id: "2B8900502AC34DB1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A16E4A9D510E5A1"]
+			icon: {
+				id: "twilightforest:knightmetal_ingot"
+			}
+			id: "092FFC2628E76BD3"
+			optional: true
+			rewards: [
+				{
+					id: "281C0CAAA4059EED"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "34EA3A556698275D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					count: 8L
+					id: "2C7F44F3EC4F01D3"
+					item: {
+						count: 1
+						id: "twilightforest:ironwood_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "422553A5467CC6E3"
+					item: {
+						count: 1
+						id: "twilightforest:steeleaf_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "737A53D6EA7336C8"
+					item: {
+						count: 1
+						id: "twilightforest:knightmetal_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A16E4A9D510E5A1", "3CAD5FEE8C2E015E"]
+			icon: {
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "45A43915474CAF5A"
+			rewards: [
+				{
+					id: "4087F741EA0BD2A6"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "608D3A49BF3F3A16"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+					id: "1919F6AF90C67ACF"
+					type: "advancement"
+				}
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A43915474CAF5A"]
+			icon: {
+				id: "twilightforest:fiery_tears"
+			}
+			id: "4612D395724E7B7B"
+			rewards: [
+				{
+					id: "13D60B99D7C09C0F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "02D95F586C94BCC8"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_ur_ghast"
+					criterion: ""
+					id: "00A2DBCDB68A5AAD"
+					type: "advancement"
+				}
+			]
+			x: 15.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4612D395724E7B7B"]
+			icon: {
+				id: "twilightforest:alpha_yeti_fur"
+			}
+			id: "6FA40B0AC5C8DA23"
+			rewards: [
+				{
+					id: "71BC4750471961EF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "6D456CFC1F2E52F3"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+					id: "3BE85B5B72B28C82"
+					type: "advancement"
+				}
+			]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FA40B0AC5C8DA23"]
+			icon: {
+				id: "twilightforest:snow_queen_trophy"
+			}
+			id: "2F3E1AE2AFE11B72"
+			rewards: [
+				{
+					id: "42F26BCB087EC9AC"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "43C3B714A73A4189"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "6C29CC43AEBFCC60"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 4
+					id: "71116F41A1259E6F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					advancement: "twilightforest:progress_merge"
+					criterion: ""
+					id: "23E901F22475FCB1"
+					type: "advancement"
+				}
+			]
+			x: 20.5d
+			y: 0.0d
+		}
+	]
+}

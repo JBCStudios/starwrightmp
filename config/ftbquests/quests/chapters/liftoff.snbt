@@ -1,0 +1,622 @@
+{
+	autofocus_id: "2B9505C495C2C2EB"
+	default_hide_dependency_lines: false
+	default_quest_shape: "sw_planet"
+	filename: "liftoff"
+	group: "647D19DDF0404300"
+	icon: {
+		id: "northstar:rocket_station"
+	}
+	id: "4F33047E3C52C0C7"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/liftoff.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 7.0d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/liftoff.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			height: 1.25d
+			hover: ["The Moon", "&7Reachable only by rocket"]
+			image: "northstar:textures/planet/solar_system/earth/moon.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 12.25d
+			y: -2.5d
+		}
+		{
+			height: 1.25d
+			hover: ["Earth", "&7Home, for now"]
+			image: "northstar:textures/planet/solar_system/earth.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 17.75d
+			y: -2.75d
+		}
+	]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E4B339054DA0DD9", "19EF7D59B3336FA7"]
+			icon: {
+				id: "northstar:hardened_precision_mechanism"
+			}
+			id: "2B9505C495C2C2EB"
+			rewards: [
+				{
+					id: "67AB1076185CF527"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4BC20683158CF153"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "605FD5F90A358399"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					count: 4L
+					id: "37F895213275BC89"
+					item: {
+						count: 1
+						id: "northstar:hardened_precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D8650C79ACFEA5B"
+					item: {
+						count: 1
+						id: "northstar:circuit"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9505C495C2C2EB"]
+			icon: {
+				id: "northstar:computer_rack"
+			}
+			id: "2C99A7C02E65B4E2"
+			rewards: [
+				{
+					id: "61E416B17520C3EC"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6E74E195331FC0AA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					count: 2L
+					id: "0D5D08A1E9492B51"
+					item: {
+						count: 1
+						id: "northstar:targeting_computer"
+					}
+					type: "item"
+				}
+				{
+					id: "5D65BA5EB0719F10"
+					item: {
+						count: 1
+						id: "northstar:computer_rack"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["2B9505C495C2C2EB"]
+			icon: {
+				id: "northstar:rocket_combustion_chamber"
+			}
+			id: "684B219DCFEF822D"
+			rewards: [
+				{
+					id: "1004C22447370946"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5D6EC0AD9624984B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "586E42CF4D4EEB96"
+					item: {
+						count: 1
+						id: "northstar:rocket_combustion_chamber"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["684B219DCFEF822D"]
+			icon: {
+				id: "northstar:rocket_thruster"
+			}
+			id: "30B0881FABD5A8F6"
+			rewards: [
+				{
+					id: "2446ACBA752B856C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7DD44BF34F3B82E5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					count: 4L
+					id: "3AB823AF020FE0F7"
+					item: {
+						count: 1
+						id: "northstar:rocket_thruster"
+					}
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C99A7C02E65B4E2", "30B0881FABD5A8F6"]
+			icon: {
+				id: "northstar:rocket_station"
+			}
+			id: "1CDF18F85B5D60ED"
+			rewards: [
+				{
+					id: "5450BA930385F3BD"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "24F94D3738155ED7"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5463AF3AF88DA703"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "67EF701560ACE306"
+					item: {
+						count: 1
+						id: "northstar:rocket_station"
+					}
+					type: "item"
+				}
+				{
+					id: "4C0BD8299FF16B0D"
+					item: {
+						count: 1
+						id: "northstar:rocket_controls"
+					}
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: -1.125d
+		}
+		{
+			dependencies: ["1CDF18F85B5D60ED"]
+			icon: {
+				id: "northstar:biofuel_bucket"
+			}
+			id: "0BFDEBE829D5B60C"
+			rewards: [
+				{
+					id: "079A855F22C11052"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1D87CDA156527221"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					count: 8L
+					id: "5FB359605A3E053D"
+					item: {
+						count: 1
+						id: "northstar:biofuel_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: -1.125d
+		}
+		{
+			dependencies: ["2B9505C495C2C2EB"]
+			icon: {
+				id: "northstar:iron_space_suit_helmet"
+			}
+			id: "6C929F1AF3424A94"
+			rewards: [
+				{
+					id: "121C0CBA50AB8A93"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7CDA105A2E284C79"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "3806B25F1B8D9313"
+					item: {
+						count: 1
+						id: "northstar:iron_space_suit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "64C9A461B166334C"
+					item: {
+						count: 1
+						id: "northstar:iron_space_suit_chestpiece"
+					}
+					type: "item"
+				}
+				{
+					id: "00DDEDBE166D5774"
+					item: {
+						count: 1
+						id: "northstar:iron_space_suit_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "4C4905F841AD3F43"
+					item: {
+						count: 1
+						id: "northstar:iron_space_suit_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6C929F1AF3424A94"]
+			icon: {
+				id: "northstar:oxygen_filler"
+			}
+			id: "6900B76E5DA9E492"
+			rewards: [
+				{
+					id: "299E373A5795CF29"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0067E2CE966875F4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "67B113F978345D46"
+					item: {
+						count: 1
+						id: "northstar:oxygen_filler"
+					}
+					type: "item"
+				}
+				{
+					id: "2C633563A8A61C9F"
+					item: {
+						count: 1
+						id: "northstar:atmospheric_concentrator"
+					}
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0BFDEBE829D5B60C", "6900B76E5DA9E492"]
+			icon: {
+				id: "northstar:moon_stone"
+			}
+			id: "14BEDB8DABEBFAC8"
+			rewards: [
+				{
+					id: "14D82B20EDEB4D9A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "7570C06B72FFC5CA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "451076975E1B2FDA"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "4B2749ECD10D8174"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					advancement: "northstar:one_small_step"
+					criterion: ""
+					id: "4C2C73FCA19FCDF6"
+					type: "advancement"
+				}
+			]
+			x: 12.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14BEDB8DABEBFAC8"]
+			icon: {
+				id: "northstar:raw_titanium_ore"
+			}
+			id: "385396B3B423388D"
+			rewards: [
+				{
+					id: "0A36A00ACC546699"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "236E7DAF95A123C6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					count: 16L
+					id: "733D353635B6F10A"
+					item: {
+						count: 1
+						id: "northstar:raw_titanium_ore"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D351E33F43F5B47"
+					item: {
+						count: 1
+						id: "northstar:polished_lunar_sapphire"
+					}
+					type: "item"
+				}
+			]
+			x: 14.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14BEDB8DABEBFAC8"]
+			icon: {
+				id: "northstar:oxygen_sealer"
+			}
+			id: "34175E85BB4725CC"
+			rewards: [
+				{
+					id: "446890D0A81112D8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "1907C5D7AB471DEF"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "05433FA1AD877F0C"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "75ECB4CFFEC8D413"
+					item: {
+						count: 1
+						id: "northstar:oxygen_sealer"
+					}
+					type: "item"
+				}
+			]
+			x: 14.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14BEDB8DABEBFAC8"]
+			icon: {
+				id: "northstar:titanium_sheetmetal"
+			}
+			id: "6732D4A49F32F47B"
+			optional: true
+			rewards: [
+				{
+					id: "246768AD4FE2BB8E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "26B31C465F080689"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					dimension: "northstar:earth_orbit"
+					id: "2393997A44F87D4D"
+					type: "dimension"
+				}
+			]
+			x: 12.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["385396B3B423388D", "34175E85BB4725CC"]
+			icon: {
+				id: "northstar:interplanetary_navigator"
+			}
+			id: "679D66E054F60E90"
+			rewards: [
+				{
+					id: "55F5781AC4BF483F"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "01EDD718CCEDFAC4"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "279A750E2A1475AE"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "0EC5BA1AA800BB6F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "3E79FF5BAAC8B350"
+					item: {
+						count: 1
+						id: "northstar:interplanetary_navigator"
+					}
+					type: "item"
+				}
+			]
+			x: 17.75d
+			y: 0.25d
+		}
+	]
+}

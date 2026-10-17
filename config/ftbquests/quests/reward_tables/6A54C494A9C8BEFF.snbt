@@ -1,0 +1,119 @@
+{
+	icon: {
+		id: "immersiveengineering:coal_coke"
+	}
+	id: "6A54C494A9C8BEFF"
+	loot_size: 2
+	order_index: 3
+	rewards: [
+		{
+			count: 32
+			id: "0B661C9A27389640"
+			item: {
+				count: 1
+				id: "immersiveengineering:coal_coke"
+			}
+			weight: 8f
+		}
+		{
+			count: 32
+			id: "07D96536BA3A7B30"
+			item: {
+				count: 1
+				id: "immersiveengineering:treated_wood_horizontal"
+			}
+			weight: 6f
+		}
+		{
+			count: 8
+			id: "62B8E633D324CC81"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_copper"
+			}
+			weight: 6f
+		}
+		{
+			count: 4
+			id: "596A6024B43EC397"
+			item: {
+				count: 1
+				id: "immersiveengineering:component_iron"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "3E735FCC5DE7A111"
+			item: {
+				count: 1
+				id: "immersiveengineering:hemp_fiber"
+			}
+			weight: 4f
+		}
+		{
+			count: 16
+			id: "53FB658F046BC6CF"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 6f
+		}
+		{
+			count: 2
+			id: "54C5BBB7EB89425D"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 5f
+		}
+		{
+			count: 4
+			id: "0F34183C0AE598BB"
+			item: {
+				count: 1
+				id: "create:sturdy_sheet"
+			}
+			weight: 4f
+		}
+		{
+			count: 2
+			id: "038CA829FD7F10FD"
+			item: {
+				count: 1
+				id: "createaddition:copper_spool"
+			}
+			weight: 4f
+		}
+		{
+			count: 32
+			id: "54857C0B660A080A"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 6f
+		}
+		{
+			count: 4
+			id: "4FE07D896F4FD1BB"
+			item: {
+				count: 1
+				id: "minecraft:magma_block"
+			}
+			weight: 4f
+		}
+		{
+			count: 8
+			id: "0BDB5A9BBCBD0C2A"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 4f
+		}
+	]
+	use_title: true
+}

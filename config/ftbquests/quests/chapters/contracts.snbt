@@ -1,0 +1,1242 @@
+{
+	autofocus_id: "71EC7611C4E6788F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "contracts"
+	group: "2A7A781070AD62D0"
+	icon: {
+		id: "numismatics:crown"
+	}
+	id: "6FA4F1B446776259"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/contracts.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 13.75d
+			y: -5.25d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/contracts.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+	]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6737712F566E2896"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "71EC7611C4E6788F"
+			rewards: [
+				{
+					id: "39FA8D510BB63B2A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "3C64DB0C1524AEB5"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2EF774EC754DBDFF"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "2C93A23A57C53DAF"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71EC7611C4E6788F"]
+			icon: {
+				id: "supplementaries:notice_board"
+			}
+			id: "75A844EC9DEECA0D"
+			rewards: [
+				{
+					id: "7BAA8A793644B216"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "3AD6F2D892FB2AA2"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "140A711925D735FE"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71EC7611C4E6788F"]
+			icon: {
+				id: "ftbquests:screen_1"
+			}
+			id: "402B2804288D4E44"
+			rewards: [
+				{
+					id: "02ADC66D058A77ED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "177BA2C90440D8B2"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "276BFD58B0A9C1F7"
+					item: {
+						count: 1
+						id: "ftbquests:screen_1"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71EC7611C4E6788F"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "30F0C2612F362B34"
+			rewards: [
+				{
+					id: "74157FFE3FC82606"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "061F216A0882A160"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0784A0C2726AAD61"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "1FA9CB9AC571A650"
+					table_id: 4869029533059807159L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 25L
+					id: "36A2B0E8CAD6D087"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30F0C2612F362B34"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "0079A5D0AEA5DD0B"
+			rewards: [
+				{
+					id: "7D9C0A291E893F77"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4118F0BB23FA5A03"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2D0960CAE784C02C"
+					table_id: 938981422449501338L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "11128B6C9731BC7B"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 60L
+					id: "1D6E2AB7382C528D"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0079A5D0AEA5DD0B"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "4CEA6742D62CFAB2"
+			rewards: [
+				{
+					id: "17A37A559C25D711"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "34A0C84686A37F2B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "79AAF2C68A64F581"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "0C903A327919F7E1"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 120L
+					id: "2C74B36FD7F58ECC"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CEA6742D62CFAB2"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "1A91F95133FA0CAE"
+			rewards: [
+				{
+					id: "690C25948BDD8CCB"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					count: 4
+					id: "2008C19E2769A707"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "344EB47803D64C1A"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 250L
+					id: "4E0C52159B021FEB"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A91F95133FA0CAE"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "2F22198244247CB3"
+			rewards: [
+				{
+					id: "0DCC9E86063A9AAF"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "4FEE9041DEE5D360"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "496180CA2BFC9C4B"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "0604220C3E1D9524"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 500L
+					id: "3419D50C670168DB"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F22198244247CB3"]
+			icon: {
+				id: "kubejs:contract_seal"
+			}
+			id: "444DD73252255ACF"
+			rewards: [
+				{
+					id: "7E289C692D8BC43D"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					count: 2
+					id: "70DE68A89F3BE202"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0919619E1C47EAB1"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "76645B39F1ADF3AD"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					consume_items: true
+					count: 1000L
+					id: "3BF5367F9AAA582F"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30F0C2612F362B34", "6960DF48DE0C7CEF"]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:track"
+			}
+			id: "105B45CFB4ED747F"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "7F05DBAE4331D112"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "462B56BFB60105AF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "6E23124D1D3102F6"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4EEB13498D5D0B50"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "7243E8B56DFE0D7A"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "26831D13A4290159"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "0300C931D047E917"
+					item: {
+						count: 1
+						id: "create:track_signal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30F0C2612F362B34", "0C4CB939F4FE0DF1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:cabbage"
+			}
+			id: "4C54932B26046DE9"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "5C2B8BD4B8708F5E"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "770897BA24D0AA1E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "124078753FEAF093"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "554BC40115C9C7DC"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "7A775AAC61D47557"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "105181A0978D3AC2"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "48BF601BF3CF7F3C"
+					item: {
+						count: 1
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "297F3490597A4C27"
+					item: {
+						count: 1
+						id: "farmersdelight:rice"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0079A5D0AEA5DD0B", "56DBBBA399A21A84"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "0CC701FE1F1A9938"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "66B4732F566EB581"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "70B662B00FC5A0E4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "74391BDD9A08F09B"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "28E1EA7FC383F93D"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "2750832C324A0613"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_steel"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0079A5D0AEA5DD0B", "636C980435E2309B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:brass_casing"
+			}
+			id: "2A7CEB2EFEF83CBD"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "43E58E8F6461288C"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "211F0B20A44CEED1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "7E1BC38108CF15C8"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "56E05AEBE9AEFE9F"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "74DEE40F7B09D976"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "2AE61A4727ADD216"
+					item: {
+						count: 1
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "71B02FFA30A6D030"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4CEA6742D62CFAB2", "5721DCBFFA4087DD"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ftbquests:screen_1"
+			}
+			id: "405F306B6BDC7E62"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "3AAD52B993A6809B"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "14FEAFD3F0795A47"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "78ECB1C3D3BFA3BA"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "10B9BA8C0361408D"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					id: "35E9F3964AD50D59"
+					max_input: 250000L
+					type: "forge_energy"
+					value: 200000000L
+				}
+			]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4CEA6742D62CFAB2", "4BCD6DC4BB6DD6A3"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ae2:cell_component_64k"
+			}
+			id: "3C4779C99795F2FA"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "1958FD5AFCD060F4"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "1E0EDF7886691DDB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "131D1AB354B33A92"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2414F1BD74D5270C"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6E013C2FCC04ED0C"
+					item: {
+						count: 1
+						id: "ae2:cell_component_16k"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "6337F68B32C32195"
+					item: {
+						count: 1
+						id: "ae2:cell_component_64k"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1A91F95133FA0CAE", "1E4B339054DA0DD9", "7EDECCD0E26C2744"]
+			hide_dependency_lines: true
+			icon: {
+				id: "aeronautics:levitite_blend_bucket"
+			}
+			id: "7006F996EC5D545B"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "7D6155A3DA316020"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "2289EAA4C2876F18"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "141884B32F5D959B"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7FF3106B28A38811"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					amount: 64000L
+					fluid: "aeronautics:levitite_blend"
+					id: "0255F4E98AA349E2"
+					type: "fluid"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "320A80FDF714A8A7"
+					item: {
+						count: 1
+						id: "aeronautics:andesite_propeller"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "551B5A2A31A6E7D1"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1A91F95133FA0CAE", "679D66E054F60E90"]
+			hide_dependency_lines: true
+			icon: {
+				id: "northstar:titanium_ingot"
+			}
+			id: "6D148B08207774CC"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "6DAFB01AF83D88B3"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "3982427947AC0217"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "64E5B9C35F079F06"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "72D5D7B449C7E582"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "0B370C59FB2F833F"
+					item: {
+						count: 1
+						id: "northstar:titanium_ingot"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "70C001A3B2CB711F"
+					item: {
+						count: 1
+						id: "northstar:polished_lunar_sapphire"
+					}
+					type: "item"
+				}
+				{
+					amount: 64000L
+					fluid: "northstar:biofuel"
+					id: "2D277D0ABDF3CDB9"
+					type: "fluid"
+				}
+			]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F22198244247CB3", "7AC55F2C9554A3B6"]
+			hide_dependency_lines: true
+			icon: {
+				id: "northstar:martian_steel_ingot"
+			}
+			id: "78816A21C44989C1"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "7D29E16CD393F510"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "3B26BCA21F27AD32"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "69D03072ADBDB326"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "282653038EF0BB19"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "2BA9B76EDB8AB4DF"
+					item: {
+						count: 1
+						id: "northstar:martian_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "3239B4F76FB13148"
+					item: {
+						count: 1
+						id: "northstar:martian_strawberry"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "3F625A6B248E7A37"
+					item: {
+						count: 1
+						id: "northstar:solar_panel"
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["444DD73252255ACF", "11CE60A5DA48E7CF"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mek_x_star:durasteel"
+			}
+			id: "44A4643E12825614"
+			optional: true
+			repeat_cooldown: 2592000
+			rewards: [
+				{
+					id: "3B8EDD73ED1F1D52"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "03D0D6864E3B6B5D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "4ACC35A7401E3DBD"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "679ED2CB4433462F"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tags: ["sw_guild"]
+			tasks: [
+				{
+					consume_items: true
+					count: 128L
+					id: "4AA8CC9717F0328A"
+					item: {
+						count: 1
+						id: "mek_x_star:durasteel"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "5038EFF786EC2586"
+					item: {
+						count: 1
+						id: "northstar:tungsten_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["71EC7611C4E6788F", "7AC55F2C9554A3B6", "6F4FB65BF8398036"]
+			hide_dependency_lines: true
+			icon: {
+				id: "createthrusters:shipping_schedule"
+			}
+			id: "1D0E63255B7BA2BE"
+			rewards: [
+				{
+					id: "384651F9E9B9C2CA"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "50919BF90E1992B4"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "288187711E882348"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "3C9C7A73D9CFC9EB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "3A5D3F1BEECF7980"
+					item: {
+						count: 1
+						id: "kubejs:contract_seal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "137C8B93E1DD4840"
+					item: {
+						count: 1
+						id: "createthrusters:shipping_schedule"
+					}
+					type: "item"
+				}
+				{
+					id: "17C77EA175AA1F2D"
+					type: "checkmark"
+				}
+			]
+			x: 27.5d
+			y: 0.0d
+		}
+	]
+}

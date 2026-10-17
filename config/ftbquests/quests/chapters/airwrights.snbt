@@ -1,0 +1,670 @@
+{
+	autofocus_id: "1245D093CCCCF2E7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "airwrights"
+	group: "25ED7DB1465E6A02"
+	icon: {
+		id: "aeronautics:propeller_bearing"
+	}
+	id: "36CD7CF812FE748D"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/airwrights.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 2.0d
+			y: -5.75d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/airwrights.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Biplane", "&7The quick plane, long before the first airship"]
+			image: "immersive_aircraft:textures/item/biplane.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.25d
+			y: 3.25d
+		}
+		{
+			height: 0.8d
+			hover: ["Propeller", "&7Every airship starts with one"]
+			image: "create:textures/item/propeller.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.75d
+			y: 3.25d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5BD624F6413EE9F3"]
+			icon: {
+				id: "immersive_aircraft:biplane"
+			}
+			id: "1245D093CCCCF2E7"
+			rewards: [
+				{
+					id: "10E09C2063286122"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F73CF8EA2822F08"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "29AED6836F723CF6"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "2C1CAE40BFD8ED4A"
+					item: {
+						count: 1
+						id: "immersive_aircraft:biplane"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1245D093CCCCF2E7"]
+			icon: {
+				id: "aeronautics:aviators_goggles"
+			}
+			id: "6C55FE14AD94C256"
+			rewards: [
+				{
+					id: "70B25E82D1B9056A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "33FE63A2C50E35B1"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "aeronautics:high_fashion"
+					criterion: ""
+					id: "203193E4C013E5E2"
+					type: "advancement"
+				}
+			]
+			x: 2.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1245D093CCCCF2E7", "56DBBBA399A21A84"]
+			icon: {
+				id: "aeronautics:andesite_propeller"
+			}
+			id: "6AED0D0ABE33B68E"
+			rewards: [
+				{
+					id: "58F02983DD39921E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "35794D3FD294D996"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "aeronautics:for_every_action"
+					criterion: ""
+					id: "44E453BE311A3DAF"
+					type: "advancement"
+				}
+			]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AED0D0ABE33B68E"]
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "33DC2764E9A13B0B"
+			rewards: [
+				{
+					id: "347D3185D5527B2D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "4B14B4FFD31276D6"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "simulated:applied_kinematics"
+					criterion: ""
+					id: "6174BE53B9B32AB6"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33DC2764E9A13B0B"]
+			icon: {
+				id: "aeronautics:white_envelope"
+			}
+			id: "0948C24073235F87"
+			rewards: [
+				{
+					id: "0B6A1DE2F15488EF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "2C8545B5987468A3"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "aeronautics:head_in_the_clouds"
+					criterion: ""
+					id: "24CDDFEEC176FC70"
+					type: "advancement"
+				}
+			]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0948C24073235F87"]
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "40CA9ECEACECD431"
+			rewards: [
+				{
+					id: "6AFEC201A8C342EC"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "38E8301C5B24AD9C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "63EE7EA24EAB3DEF"
+					stage: "sw_airwright"
+					type: "stage"
+				}
+				{
+					id: "3D1D870377436BCA"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "1065DB0DD5C7C4DE"
+					item: {
+						count: 1
+						id: "kubejs:wingwright_licence"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "119F535102EB41CE"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+				{
+					id: "672E9A3D640EE78D"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+					type: "item"
+				}
+				{
+					id: "3BF7666E19AD8564"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40CA9ECEACECD431"]
+			icon: {
+				id: "create_aeronautics_ftb_chunks:contraption_claim_block"
+			}
+			id: "5AE4C90FB74FD9B1"
+			rewards: [
+				{
+					id: "64D7FE4C1E7D6128"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "30CE281FAA3A7628"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "0C842C9B93CC683B"
+					item: {
+						count: 1
+						id: "create_aeronautics_ftb_chunks:contraption_claim_block"
+					}
+					type: "item"
+				}
+			]
+			x: 12.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40CA9ECEACECD431"]
+			icon: {
+				id: "simulated:steering_wheel"
+			}
+			id: "36FC3A39D74C0162"
+			rewards: [
+				{
+					id: "4F79AEC7BE3E71DC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "7B26465E7860D567"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "simulated:unpowered_steering"
+					criterion: ""
+					id: "6F0CCF82B1378635"
+					type: "advancement"
+				}
+				{
+					advancement: "simulated:the_definition_of_up"
+					criterion: ""
+					id: "5A3D7B322D8DB940"
+					type: "advancement"
+				}
+			]
+			x: 12.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36FC3A39D74C0162"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "4C8317867AD6AB9D"
+			rewards: [
+				{
+					id: "54B83F40884904C7"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "13A5A0CE7331C7BE"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_heavenly_rider"
+					criterion: ""
+					id: "468B316B494347DA"
+					type: "advancement"
+				}
+			]
+			x: 14.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40CA9ECEACECD431", "2ED2715936DBA720"]
+			icon: {
+				id: "mekanism:jetpack"
+			}
+			id: "463775D7B1A9B895"
+			rewards: [
+				{
+					id: "71B313A076C47E39"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "6E592D27E02D4910"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "mekanism:hydrogen_powered_flight"
+					criterion: ""
+					id: "752DDDE44AE0CEF9"
+					type: "advancement"
+				}
+			]
+			x: 12.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40CA9ECEACECD431"]
+			icon: {
+				id: "icarus:white_feathered_wings"
+			}
+			id: "525506A113421DB1"
+			rewards: [
+				{
+					id: "2AD81E447A89DFD8"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "364FE302EA4BE26E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "3FDAEE4FA6F81D85"
+					item: {
+						count: 1
+						id: "icarus:white_feathered_wings"
+					}
+					type: "item"
+				}
+			]
+			x: 9.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["5AE4C90FB74FD9B1", "36FC3A39D74C0162"]
+			icon: {
+				id: "createthrusters:ship_dock"
+			}
+			id: "589E3C6CB6217301"
+			rewards: [
+				{
+					id: "321A63BDEC22DB3F"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "501D986A983C56AE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "723F1BA5032F85F3"
+					table_id: 252365611403349911L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					count: 2L
+					id: "01C45AF37FF01BB4"
+					item: {
+						count: 1
+						id: "createthrusters:ship_dock"
+					}
+					type: "item"
+				}
+				{
+					id: "7E093EE4E25A6A99"
+					item: {
+						count: 1
+						id: "createthrusters:shipping_schedule"
+					}
+					type: "item"
+				}
+			]
+			x: 14.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40CA9ECEACECD431", "7EDECCD0E26C2744"]
+			icon: {
+				id: "aeronautics:levitite"
+			}
+			id: "69A39718E2425AFB"
+			optional: true
+			rewards: [
+				{
+					id: "38AD383185470A9C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "7A2BD75A7B315C1D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					advancement: "aeronautics:unidentified_floating_object"
+					criterion: ""
+					id: "70EB182AD9AD06A5"
+					type: "advancement"
+				}
+			]
+			x: 9.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["40CA9ECEACECD431", "7EDECCD0E26C2744"]
+			icon: {
+				id: "create_jetpack:jetpack"
+			}
+			id: "1E5089866A6EF1C8"
+			optional: true
+			rewards: [
+				{
+					id: "5001DEFA452C5BA0"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "55218669F53395B3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_horizon"]
+			tasks: [
+				{
+					id: "4EF9AC8E92F26059"
+					item: {
+						count: 1
+						id: "create_jetpack:jetpack"
+					}
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["589E3C6CB6217301", "4C8317867AD6AB9D", "463775D7B1A9B895"]
+			icon: {
+				id: "aeronautics:smart_propeller"
+			}
+			id: "1E4B339054DA0DD9"
+			rewards: [
+				{
+					id: "68137E68AD65320B"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "08AC2341A669C6F5"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "1DFE8D22FE5D94BB"
+					table_id: 8574150178631115483L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6D41E93CC71A315C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "2D683C62D56623A9"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+				{
+					id: "218D8FFC099E7CCD"
+					item: {
+						count: 1
+						id: "mekanism:digital_miner"
+					}
+					type: "item"
+				}
+				{
+					id: "73134FEEC139993C"
+					item: {
+						count: 1
+						id: "createthrusters:ship_dock"
+					}
+					type: "item"
+				}
+				{
+					id: "3DA5D317A54A83DF"
+					type: "checkmark"
+				}
+			]
+			x: 17.75d
+			y: 0.0d
+		}
+	]
+}

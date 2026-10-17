@@ -1,0 +1,11 @@
+# Starwright overrides (copied into config/ftbessentials.snbt by FTB Essentials)
+{
+	teleportation: {
+		admins_exempt_dimension_blacklists: false
+		back: { enabled: true, cooldown: 30, warmup: 5 }
+		rtp: { enabled: false }
+		tpa: { cooldown: 600, warmup: 5 }
+		home: { cooldown: 600, warmup: 5, max: 1 }
+		blacklists: { from: ["northstar:moon", "northstar:mars", "northstar:venus", "northstar:mercury", "northstar:earth_orbit", "northstar:mars_orbit", "northstar:venus_orbit", "northstar:mercury_orbit"], to: ["northstar:moon", "northstar:mars", "northstar:venus", "northstar:mercury", "northstar:earth_orbit", "northstar:mars_orbit", "northstar:venus_orbit", "northstar:mercury_orbit"] }
+	}
+}

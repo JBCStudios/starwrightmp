@@ -1,0 +1,119 @@
+{
+	icon: {
+		id: "create:andesite_casing"
+	}
+	id: "697B2CE5171E634D"
+	loot_size: 2
+	order_index: 2
+	rewards: [
+		{
+			count: 16
+			id: "473FDBDCF1B90A96"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 8f
+		}
+		{
+			count: 16
+			id: "1EB5B4701F8AB349"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+			weight: 8f
+		}
+		{
+			count: 16
+			id: "469E4F8865CA124F"
+			item: {
+				count: 1
+				id: "create:iron_sheet"
+			}
+			weight: 8f
+		}
+		{
+			count: 8
+			id: "75F229E380E2A006"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "57BA29CC343ED707"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 6f
+		}
+		{
+			count: 32
+			id: "3D80CC60102B99C4"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 6f
+		}
+		{
+			count: 8
+			id: "44A1A6A590B636B5"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "4C52D3D98F401202"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 5f
+		}
+		{
+			count: 16
+			id: "7D533F20B3B8E012"
+			item: {
+				count: 1
+				id: "minecraft:quartz"
+			}
+			weight: 6f
+		}
+		{
+			count: 8
+			id: "109D1EABAA339EF4"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 5f
+		}
+		{
+			count: 16
+			id: "43BB4DD43B7B22E9"
+			item: {
+				count: 1
+				id: "minecraft:redstone"
+			}
+			weight: 5f
+		}
+		{
+			count: 4
+			id: "1007229E34339874"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 4f
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,118 @@
+{
+	icon: {
+		id: "farmersdelight:tomato_crate"
+	}
+	id: "4392449026EA77B7"
+	loot_size: 3
+	order_index: 9
+	rewards: [
+		{
+			count: 8
+			id: "3D975B97AB192F0D"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato"
+			}
+			weight: 8f
+		}
+		{
+			count: 8
+			id: "7933B7CA9A8B494F"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage"
+			}
+			weight: 8f
+		}
+		{
+			count: 8
+			id: "588FD3CE974E44E5"
+			item: {
+				count: 1
+				id: "farmersdelight:onion"
+			}
+			weight: 8f
+		}
+		{
+			count: 8
+			id: "1F9F2A387A8EB4D7"
+			item: {
+				count: 1
+				id: "farmersdelight:rice"
+			}
+			weight: 6f
+		}
+		{
+			count: 8
+			id: "69C8028ACD07FC3F"
+			item: {
+				count: 1
+				id: "minecraft:egg"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "3B0C96813D265ABA"
+			item: {
+				count: 1
+				id: "minecraft:sugar"
+			}
+			weight: 6f
+		}
+		{
+			count: 4
+			id: "3E7AE971CB4E6032"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+			weight: 4f
+		}
+		{
+			count: 4
+			id: "14B1A8C277EB5890"
+			item: {
+				count: 1
+				id: "brewinandchewin:flaxen_cheese_wedge"
+			}
+			weight: 3f
+		}
+		{
+			count: 8
+			id: "328A7C60C70CC84C"
+			item: {
+				count: 1
+				id: "herbalbrews:green_tea_leaf"
+			}
+			weight: 4f
+		}
+		{
+			count: 8
+			id: "02298E1568CFF003"
+			item: {
+				count: 1
+				id: "vinery:red_grape"
+			}
+			weight: 4f
+		}
+		{
+			count: 8
+			id: "4DBBBD3FC0741405"
+			item: {
+				count: 1
+				id: "farm_and_charm:barley"
+			}
+			weight: 4f
+		}
+		{
+			id: "335F51F5317F3AF9"
+			item: {
+				count: 1
+				id: "minecraft:milk_bucket"
+			}
+			weight: 3f
+		}
+	]
+	use_title: true
+}

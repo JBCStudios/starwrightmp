@@ -1,0 +1,91 @@
+{
+	icon: {
+		id: "create:wrench"
+	}
+	id: "7E4C2FC522D14C65"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 32
+			id: "3D4F3C32499550BC"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+		{
+			count: 64
+			id: "3E1105EE422E4BFF"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 32
+			id: "5DA1FB3FFCAA7B83"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 16
+			id: "26548864B99CDF5F"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{
+			count: 16
+			id: "627F6ABC8C528DFD"
+			item: {
+				count: 1
+				id: "create:belt_connector"
+			}
+		}
+		{
+			count: 32
+			id: "2EE4909092F6E3C5"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+		}
+		{
+			count: 8
+			id: "610C597FAE92682A"
+			item: {
+				count: 1
+				id: "create:gearbox"
+			}
+		}
+		{
+			count: 16
+			id: "3217210DD2B8CBA4"
+			item: {
+				count: 1
+				id: "create:andesite_funnel"
+			}
+		}
+		{
+			count: 32
+			id: "55FE5B03D434E46D"
+			item: {
+				count: 1
+				id: "create:iron_sheet"
+			}
+		}
+		{
+			count: 48
+			id: "50164C2EE8031976"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+	]
+	use_title: true
+}

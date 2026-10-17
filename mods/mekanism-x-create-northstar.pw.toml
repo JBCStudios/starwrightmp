@@ -1,0 +1,12 @@
+name = "Mekanism x Create: Northstar"
+filename = "mek_x_star-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5kBJRF84/versions/E5dT03Pp/mek_x_star-1.21.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "160ed587155158a55fc86cebcc3c15b8fc1e2d5ca0a194bbc062e4f8bc9b36c2d954475443dde4423b18df72173c8b0868e8f61780c843790c94aae7565ffc7a"
+
+[update.modrinth]
+mod-id = "5kBJRF84"
+version = "E5dT03Pp"

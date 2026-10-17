@@ -1,0 +1,97 @@
+{
+	icon: {
+		id: "starcatcher:tackle_box"
+	}
+	id: "615EF7128C82538E"
+	loot_size: 2
+	order_index: 14
+	rewards: [
+		{
+			count: 16
+			id: "46215C51114EBF28"
+			item: {
+				count: 1
+				id: "starcatcher:worm"
+			}
+			weight: 8f
+		}
+		{
+			count: 4
+			id: "729C550BE18C40F7"
+			item: {
+				count: 1
+				id: "starcatcher:lush_bait"
+			}
+			weight: 5f
+		}
+		{
+			count: 4
+			id: "560FE5F99016E326"
+			item: {
+				count: 1
+				id: "starcatcher:cherry_bait"
+			}
+			weight: 5f
+		}
+		{
+			count: 4
+			id: "7AE3B669DD1708D3"
+			item: {
+				count: 1
+				id: "starcatcher:dripstone_bait"
+			}
+			weight: 4f
+		}
+		{
+			id: "633FFE75479F91E9"
+			item: {
+				count: 1
+				id: "starcatcher:copper_hook"
+			}
+			weight: 4f
+		}
+		{
+			id: "7B97D7C455C56638"
+			item: {
+				count: 1
+				id: "starcatcher:shiny_hook"
+			}
+			weight: 3f
+		}
+		{
+			id: "7323A9DA49853F42"
+			item: {
+				count: 1
+				id: "starcatcher:clear_bobber"
+			}
+			weight: 3f
+		}
+		{
+			id: "4E9ABCDC02E7C5E3"
+			item: {
+				count: 1
+				id: "starcatcher:golden_bobber"
+			}
+			weight: 2f
+		}
+		{
+			count: 8
+			id: "1F6D1C07B932637B"
+			item: {
+				count: 1
+				id: "minecraft:string"
+			}
+			weight: 6f
+		}
+		{
+			count: 8
+			id: "2432798D673CA0AC"
+			item: {
+				count: 1
+				id: "minecraft:cod"
+			}
+			weight: 4f
+		}
+	]
+	use_title: true
+}

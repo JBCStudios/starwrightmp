@@ -1,0 +1,90 @@
+{
+	icon: {
+		id: "northstar:vanilla_ice_cream"
+	}
+	id: "450E79403CED38A4"
+	loot_size: 2
+	order_index: 15
+	rewards: [
+		{
+			count: 4
+			id: "3E17257A37192676"
+			item: {
+				count: 1
+				id: "northstar:vanilla_ice_cream"
+			}
+			weight: 6f
+		}
+		{
+			count: 4
+			id: "2D25F516DD41522E"
+			item: {
+				count: 1
+				id: "northstar:chocolate_ice_cream"
+			}
+			weight: 6f
+		}
+		{
+			count: 4
+			id: "2F3B9583A550D6DF"
+			item: {
+				count: 1
+				id: "northstar:strawberry_ice_cream"
+			}
+			weight: 4f
+		}
+		{
+			count: 4
+			id: "5603F478B49C16CB"
+			item: {
+				count: 1
+				id: "farmersdelight:beef_stew"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "599C9190C0A586A4"
+			item: {
+				count: 1
+				id: "minecraft:golden_carrot"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "2F4A90649ADE7793"
+			item: {
+				count: 1
+				id: "northstar:glowstone_torch"
+			}
+			weight: 6f
+		}
+		{
+			id: "633F3DC258A53955"
+			item: {
+				count: 1
+				id: "northstar:oxygen_bucket"
+			}
+			weight: 4f
+		}
+		{
+			id: "591BF3D16182ECFE"
+			item: {
+				count: 1
+				id: "mekanism:canteen"
+			}
+			weight: 2f
+		}
+		{
+			count: 8
+			id: "750D83A258E6C20D"
+			item: {
+				count: 1
+				id: "minecraft:cooked_salmon"
+			}
+			weight: 4f
+		}
+	]
+	use_title: true
+}

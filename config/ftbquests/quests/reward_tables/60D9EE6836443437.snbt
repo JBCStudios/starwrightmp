@@ -1,0 +1,42 @@
+{
+	icon: {
+		id: "minecraft:bread"
+	}
+	id: "60D9EE6836443437"
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "070FD541951C5BCD"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+		}
+		{
+			count: 32
+			id: "2A3E0D6A005A165D"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+		}
+		{
+			id: "6C53081CD982D8EC"
+			item: {
+				count: 1
+				id: "minecraft:white_bed"
+			}
+		}
+		{
+			count: 8
+			id: "3A6F0ED2A9AECDA9"
+			item: {
+				count: 1
+				id: "minecraft:apple"
+			}
+		}
+	]
+	use_title: true
+}

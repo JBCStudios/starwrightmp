@@ -1,0 +1,579 @@
+{
+	autofocus_id: "74173888E3122775"
+	default_hide_dependency_lines: false
+	default_quest_shape: "sw_planet"
+	filename: "inner_worlds"
+	group: "647D19DDF0404300"
+	icon: {
+		id: "mek_x_star:durasteel"
+	}
+	id: "50083603436C3B8B"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/inner_worlds.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 5.5d
+			y: -6.75d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/inner_worlds.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Venus", "&7Acid rain under a crushing sky"]
+			image: "northstar:textures/planet/solar_system/venus.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -2.75d
+		}
+		{
+			height: 1.5d
+			hover: ["The Sun", "&7As close as anyone should go"]
+			image: "northstar:textures/planet/solar_system/sun.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 15.25d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Mercury", "&7Scorched rock and tungsten"]
+			image: "northstar:textures/planet/solar_system/mercury.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 1.75d
+		}
+	]
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7AC55F2C9554A3B6"]
+			icon: {
+				id: "mek_x_star:durasteel"
+			}
+			id: "74173888E3122775"
+			rewards: [
+				{
+					id: "288B21F1BD21940B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "304B1DDD25EA4BD4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4D5FF791DA17DB13"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					count: 8L
+					id: "5D71EF4C39CD00DE"
+					item: {
+						count: 1
+						id: "mek_x_star:durasteel"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74173888E3122775"]
+			icon: {
+				id: "mekanism:mekasuit_helmet"
+			}
+			id: "2115159DB0AED51D"
+			rewards: [
+				{
+					id: "03453E84096C9163"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "43C6F18190B95FBE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "23D41DE02DAD0C44"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "237EBAC7FA4F74A2"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "4A071D630DCE6F12"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_bodyarmor"
+					}
+					type: "item"
+				}
+				{
+					id: "56C1EDF94667C6D0"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_pants"
+					}
+					type: "item"
+				}
+				{
+					id: "03169450B2E7D23C"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2115159DB0AED51D"]
+			icon: {
+				id: "mek_x_star:module_space_suit"
+			}
+			id: "2D653C0B43D3222F"
+			rewards: [
+				{
+					id: "65C2D4582F6FD0A1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "24101B03FBDA6A21"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "65E05A3C636DCED0"
+					item: {
+						count: 1
+						id: "mek_x_star:module_space_suit"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2115159DB0AED51D"]
+			icon: {
+				id: "mek_x_star:module_oxygen_tank"
+			}
+			id: "59171316E17FEA29"
+			rewards: [
+				{
+					id: "3A521720558BCFB8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "18446E21FA41C892"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "5F45691FBEC4B0AE"
+					item: {
+						count: 1
+						id: "mek_x_star:module_oxygen_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2115159DB0AED51D"]
+			icon: {
+				id: "mek_x_star:module_heat_resistive"
+			}
+			id: "00F91DF4149279D4"
+			rewards: [
+				{
+					id: "50234890811DEC37"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "52641882E1D8C924"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "2953B569268A4FBF"
+					item: {
+						count: 1
+						id: "mek_x_star:module_space_suit_insulation"
+					}
+					type: "item"
+				}
+				{
+					id: "65B511DCD5CBD177"
+					item: {
+						count: 1
+						id: "mek_x_star:module_heat_resistive"
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74173888E3122775"]
+			icon: {
+				id: "northstar:temperature_regulator"
+			}
+			id: "5B2F4D999AF63CC5"
+			rewards: [
+				{
+					id: "456220248E4BCD39"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "10E10A32532A5950"
+					table_id: 4976047955098024100L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "40838E8987A41E07"
+					item: {
+						count: 1
+						id: "northstar:temperature_regulator"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2D653C0B43D3222F", "59171316E17FEA29", "00F91DF4149279D4"]
+			icon: {
+				id: "northstar:venus_stone"
+			}
+			id: "5BCCCE572C3DAA4C"
+			rewards: [
+				{
+					id: "1044A203E39060FD"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "2601B3D5D6267430"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5A9373F440AE87B4"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					dimension: "northstar:venus"
+					id: "037E37A2899BCF12"
+					type: "dimension"
+				}
+			]
+			x: 8.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2D653C0B43D3222F", "59171316E17FEA29", "00F91DF4149279D4"]
+			hide_dependency_lines: true
+			icon: {
+				id: "northstar:tungsten_ingot"
+			}
+			id: "3DD305F3E14D2377"
+			rewards: [
+				{
+					id: "3D2292D419B5D73F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 2
+					id: "0CD7043B3B77672E"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7E0B10C66B05FE08"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					dimension: "northstar:mercury"
+					id: "19A8D5EE04077899"
+					type: "dimension"
+				}
+				{
+					count: 8L
+					id: "1A8AF04CCA258979"
+					item: {
+						count: 1
+						id: "northstar:tungsten_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74173888E3122775"]
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_controller"
+			}
+			id: "077E9AF5C20E460E"
+			rewards: [
+				{
+					id: "083909A4D31BE34E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "13B36C6B2A4B18AD"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					id: "0334D5F8144A7267"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "68534E78DB66EC51"
+					item: {
+						count: 1
+						id: "mekanismgenerators:laser_focus_matrix"
+					}
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["077E9AF5C20E460E"]
+			icon: {
+				id: "mekanism:pellet_antimatter"
+			}
+			id: "3DACB27D87A0A6E5"
+			rewards: [
+				{
+					id: "11D346E05AFA1126"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6BAD42FDA35C9BEB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					advancement: "mekanism:antimatter"
+					criterion: ""
+					id: "6933E1A5084D8FFC"
+					type: "advancement"
+				}
+			]
+			x: 8.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["5BCCCE572C3DAA4C", "3DD305F3E14D2377"]
+			hide_dependency_lines: true
+			icon: {
+				id: "northstar:titanium_plating"
+			}
+			id: "02847F02F1054AD7"
+			optional: true
+			rewards: [
+				{
+					id: "50D577823F98F2F7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "00D7CCF8B4D98433"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_stars"]
+			tasks: [
+				{
+					dimension: "northstar:venus_orbit"
+					id: "32C57D2848CBEE1B"
+					type: "dimension"
+				}
+				{
+					dimension: "northstar:mercury_orbit"
+					id: "47BAAA3860A48053"
+					type: "dimension"
+				}
+			]
+			x: 11.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5BCCCE572C3DAA4C", "3DD305F3E14D2377", "3DACB27D87A0A6E5"]
+			icon: {
+				id: "northstar:tungsten_block"
+			}
+			id: "11CE60A5DA48E7CF"
+			rewards: [
+				{
+					id: "34D940AE5A099862"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "174BF454DCC72176"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "01C5D92F13B7A12E"
+					table_id: 5310143568494818880L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "49F90080A07D2528"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.5d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					count: 4L
+					id: "095714A32AB1B381"
+					item: {
+						count: 1
+						id: "northstar:tungsten_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7D609E1F0AB6928B"
+					item: {
+						count: 1
+						id: "mekanism:pellet_antimatter"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.5d
+		}
+	]
+}

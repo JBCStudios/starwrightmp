@@ -1,0 +1,478 @@
+{
+	autofocus_id: "57CA3897619A2A54"
+	default_hide_dependency_lines: false
+	default_quest_shape: "sw_rivet"
+	filename: "rails_and_parcels"
+	group: "00E1186A159B6C1D"
+	icon: {
+		id: "create:track_station"
+	}
+	id: "6D3FB7F9067573AB"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/rails_and_parcels.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 6.25d
+			y: -5.5d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/rails_and_parcels.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5BD624F6413EE9F3"]
+			icon: {
+				id: "create:track"
+			}
+			id: "57CA3897619A2A54"
+			rewards: [
+				{
+					id: "6F4882302315EBFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A6EE898EBAE256E"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3FC4127175293A5A"
+					table_id: 7600718158564844365L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:track_0"
+					criterion: ""
+					id: "4459AA59AFC1984B"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57CA3897619A2A54"]
+			icon: {
+				id: "create:railway_casing"
+			}
+			id: "7562F49C22905BF3"
+			rewards: [
+				{
+					id: "1F16B840A8EDE2A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "683BEC9057E86830"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:sturdy_sheet"
+					criterion: ""
+					id: "1609AA23E08EBAAB"
+					type: "advancement"
+				}
+				{
+					advancement: "create:train_casing_00"
+					criterion: ""
+					id: "655CF6019F7FB5FA"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7562F49C22905BF3"]
+			icon: {
+				id: "create:controls"
+			}
+			id: "57FC9D6C6B05586A"
+			rewards: [
+				{
+					id: "7720F15B0DB28CFF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2D61BEE65E73D975"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "17BBCB31FCA52FEA"
+					table_id: 7600718158564844365L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:train"
+					criterion: ""
+					id: "33A70FEAEF5BDE04"
+					type: "advancement"
+				}
+				{
+					advancement: "create:conductor"
+					criterion: ""
+					id: "6C0320FD5A33835A"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["57FC9D6C6B05586A"]
+			icon: {
+				id: "create:track_signal"
+			}
+			id: "3297CB76AE5844EF"
+			rewards: [
+				{
+					id: "6EFDFFD0E36A0CE7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "659AF6890A26F8E2"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:track_signal"
+					criterion: ""
+					id: "45A2E5431CA5F92A"
+					type: "advancement"
+				}
+				{
+					id: "2EFFA68921F86AF2"
+					item: {
+						count: 1
+						id: "railways:semaphore"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3297CB76AE5844EF"]
+			icon: {
+				id: "create:track_station"
+			}
+			id: "5E1FC22746B0C030"
+			rewards: [
+				{
+					id: "183D2BE543E68F6E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "284B52EDD5F73E59"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5B0D842837404885"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_cog"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					count: 2L
+					id: "054F20EA278F7C05"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+				{
+					id: "4E98DCA5679F2A98"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["57CA3897619A2A54"]
+			icon: {
+				id: "create:packager"
+			}
+			id: "0975295FEE24016D"
+			rewards: [
+				{
+					id: "1F07E7ED0FA6DABB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F95E21757EDFE1F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:packager"
+					criterion: ""
+					id: "5515CCE03BCB837B"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0975295FEE24016D"]
+			icon: {
+				id: "create:package_frogport"
+			}
+			id: "1AB8BD3331AD7015"
+			rewards: [
+				{
+					id: "259016E601D9C91D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34D01D5EE135360E"
+					table_id: 7600718158564844365L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:frogport"
+					criterion: ""
+					id: "2F67E1730034D671"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1AB8BD3331AD7015"]
+			icon: {
+				id: "create:stock_ticker"
+			}
+			id: "3EA6265E98899670"
+			rewards: [
+				{
+					id: "38058C22CAA85C58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7421F3D8BCB753F9"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:stock_ticker"
+					criterion: ""
+					id: "5D758468BD53CE45"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0975295FEE24016D"]
+			icon: {
+				id: "create_mobile_packages:robo_bee"
+			}
+			id: "38684D794DD2A3E9"
+			rewards: [
+				{
+					id: "00DD32B593C5D5F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "491D6EC1C58EBA18"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "21BAB2C042087A49"
+					item: {
+						count: 1
+						id: "create_mobile_packages:bee_port"
+					}
+					type: "item"
+				}
+				{
+					id: "13CD87E73209A6AC"
+					item: {
+						count: 1
+						id: "create_mobile_packages:robo_bee"
+					}
+					type: "item"
+				}
+			]
+			x: 6.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3EA6265E98899670"]
+			icon: {
+				id: "create:factory_gauge"
+			}
+			id: "3CD7A7AAF18DE64B"
+			rewards: [
+				{
+					id: "07A9E9FE64F929DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "77A0C46059E7F29F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_rivet"
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "create:factory_gauge"
+					criterion: ""
+					id: "360C52E1D9C4EBBE"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["5E1FC22746B0C030", "3CD7A7AAF18DE64B", "38684D794DD2A3E9"]
+			icon: {
+				id: "create_mobile_packages:portable_stock_ticker"
+			}
+			id: "6960DF48DE0C7CEF"
+			rewards: [
+				{
+					id: "50A7D70BFFB32D3C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0D43B4B510CA15C4"
+					table_id: 7600718158564844365L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "769D0DFF3CEA4CAE"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+				{
+					id: "00512E230BFC858F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_legend"]
+			tasks: [
+				{
+					id: "5B6A798F16EAF094"
+					item: {
+						count: 1
+						id: "create_mobile_packages:portable_stock_ticker"
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+}

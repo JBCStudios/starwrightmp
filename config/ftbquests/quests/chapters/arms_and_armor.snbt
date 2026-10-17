@@ -1,0 +1,561 @@
+{
+	autofocus_id: "42EA07B609E4D05B"
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "arms_and_armor"
+	group: "0332BC2814A0D22E"
+	icon: {
+		id: "apotheosis:sigil_of_socketing"
+	}
+	id: "2FEFB849E834D1A3"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/arms_and_armor.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 4.25d
+			y: -7.0d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/arms_and_armor.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 0.7d
+			hover: ["Mysterious Scrap Metal", "&7Salvaged from Common gear"]
+			image: "apotheosis:textures/items/mysterious_scrap_metal.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -7.1d
+			y: 3.4d
+		}
+		{
+			height: 0.7d
+			hover: ["Timeworn Fabric", "&aSalvaged from Uncommon gear"]
+			image: "apotheosis:textures/items/timeworn_fabric.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -6.3d
+			y: 3.4d
+		}
+		{
+			height: 0.7d
+			hover: ["Luminous Crystal Shard", "&9Salvaged from Rare gear"]
+			image: "apotheosis:textures/items/luminous_crystal_shard.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -5.5d
+			y: 3.4d
+		}
+		{
+			height: 0.7d
+			hover: ["Arcane Sands", "&5Salvaged from Epic gear"]
+			image: "apotheosis:textures/items/arcane_sands.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -4.7d
+			y: 3.4d
+		}
+		{
+			height: 0.7d
+			hover: ["Godforged Pearl", "&6Salvaged from Mythic gear"]
+			image: "apotheosis:textures/items/godforged_pearl.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -3.9d
+			y: 3.4d
+		}
+	]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6737712F566E2896"]
+			icon: {
+				id: "apotheosis:sigil_of_socketing"
+			}
+			id: "42EA07B609E4D05B"
+			rewards: [
+				{
+					id: "53DD290D009DA247"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "6DA77DFFA06CB873"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "739D4C8A62F139E3"
+					table_id: 5301377449835429437L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "apotheosis:progression/haven"
+					criterion: ""
+					id: "5F04B4F61BC831A6"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42EA07B609E4D05B"]
+			icon: {
+				id: "apotheosis:salvaging_table"
+			}
+			id: "0E1CA585142324C7"
+			rewards: [
+				{
+					id: "75122A6F4F72F9BE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "53F0A3146EB24755"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "76B60B3538329ACA"
+					item: {
+						count: 1
+						id: "apotheosis:salvaging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E1CA585142324C7"]
+			icon: {
+				id: "apotheosis:gem_cutting_table"
+			}
+			id: "2AEE94EB40500B9D"
+			rewards: [
+				{
+					id: "522DEA10C3CF46EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43FD3967E1AD53E3"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "7151C88D3351A2DF"
+					item: {
+						count: 1
+						id: "apotheosis:gem_cutting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AEE94EB40500B9D"]
+			icon: {
+				id: "apotheosis:sigil_of_socketing"
+			}
+			id: "22FC6032D71B4000"
+			rewards: [
+				{
+					id: "06E8BB8D2D0A5EA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "700327E008C2B68D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "5DDA5F53698C6FF9"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					type: "item"
+				}
+			]
+			x: 7.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E1CA585142324C7"]
+			icon: {
+				id: "apotheosis:simple_reforging_table"
+			}
+			id: "23FD36E8AF599689"
+			rewards: [
+				{
+					id: "56AECAC37B0FD629"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "364F4BC9ABF347B4"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "68E7C0976BA12243"
+					item: {
+						count: 1
+						id: "apotheosis:simple_reforging_table"
+					}
+					type: "item"
+				}
+			]
+			x: 5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["42EA07B609E4D05B", "3CC7D60810C89559"]
+			icon: {
+				id: "apothic_enchanting:hellshelf"
+			}
+			id: "2214B9E23C1A8376"
+			rewards: [
+				{
+					id: "31D49281F5B9637D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "26F0BC0AF48D90CE"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "apothic_enchanting:hellshelf"
+					criterion: ""
+					id: "7D3AB6FB53C53BE1"
+					type: "advancement"
+				}
+				{
+					advancement: "apothic_enchanting:seashelf"
+					criterion: ""
+					id: "6C78115B9D47968F"
+					type: "advancement"
+				}
+			]
+			x: 5.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42EA07B609E4D05B"]
+			icon: {
+				id: "silentgear:template_board"
+			}
+			id: "2E8F408DD4B3A016"
+			rewards: [
+				{
+					id: "390655D9F7CE02B1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "1DC00C6FD03FFCF3"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "silentgear:template_board"
+					criterion: ""
+					id: "46943C0792F41D67"
+					type: "advancement"
+				}
+			]
+			x: 1.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["2E8F408DD4B3A016"]
+			icon: {
+				id: "silentgear:pickaxe_head"
+			}
+			id: "784A6F03E6EDAAB2"
+			rewards: [
+				{
+					id: "7118C889D713B227"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "0A4650A8F5907A35"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "silentgear:standard_tools"
+					criterion: ""
+					id: "404603DEFA373F6F"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["784A6F03E6EDAAB2"]
+			icon: {
+				id: "silentgear:helmet_plates"
+			}
+			id: "6313D66B9B4D1771"
+			rewards: [
+				{
+					id: "4709DEECDB937AE0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "348D61F9638B97DC"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "silentgear:armor"
+					criterion: ""
+					id: "094915A15B50A3EE"
+					type: "advancement"
+				}
+			]
+			x: 5.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["42EA07B609E4D05B"]
+			icon: {
+				id: "artifacts:running_shoes"
+			}
+			id: "35A037DCBBEFF3C5"
+			rewards: [
+				{
+					id: "5C21E7176954F81A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "0BBA62981EEEF77C"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "artifacts:amateur_archaeologist"
+					criterion: ""
+					id: "65677E3D7001EE9A"
+					type: "advancement"
+				}
+			]
+			x: -1.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["35A037DCBBEFF3C5"]
+			icon: {
+				id: "nameless_trinkets:mysterious_trinket"
+			}
+			id: "04C84E761131DC6D"
+			rewards: [
+				{
+					id: "65EF8179C48860F9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "7B7414CF112E7FB7"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "nameless_trinkets:unknown_fragment"
+					criterion: ""
+					id: "0D8BD9CDC6D4F582"
+					type: "advancement"
+				}
+			]
+			x: -1.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42EA07B609E4D05B"]
+			icon: {
+				id: "simplyswords:iron_katana"
+			}
+			id: "7BC41FBE69F09519"
+			rewards: [
+				{
+					id: "5BC8C4E48F9B5334"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 4
+					id: "63FE47D0C3B0FB58"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_life"]
+			tasks: [
+				{
+					id: "039A13D6A75AC438"
+					item: {
+						count: 1
+						id: "simplyswords:iron_longsword"
+					}
+					type: "item"
+				}
+				{
+					id: "65AF5DF44535BC9E"
+					item: {
+						count: 1
+						id: "simplyswords:iron_katana"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["2214B9E23C1A8376", "22FC6032D71B4000", "23FD36E8AF599689", "3CAD5FEE8C2E015E"]
+			icon: {
+				id: "apothic_enchanting:infused_hellshelf"
+			}
+			id: "66C0759130C96C7F"
+			rewards: [
+				{
+					id: "790E725DAB26D2D8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "25075B9CEA291382"
+					table_id: 1145586487305567994L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "759DDBE9B53722A4"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4F2ADA23BDCD9FE9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_life"]
+			tasks: [
+				{
+					advancement: "apothic_enchanting:60ench"
+					criterion: ""
+					id: "5C511571C8F52357"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: -1.25d
+		}
+	]
+}

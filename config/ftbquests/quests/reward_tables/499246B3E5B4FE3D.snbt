@@ -1,0 +1,55 @@
+{
+	icon: {
+		id: "numismatics:bevel"
+	}
+	id: "499246B3E5B4FE3D"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 16
+			id: "6DA5199905173E4D"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 40f
+		}
+		{
+			count: 2
+			id: "2F761431A5C57F02"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 30f
+		}
+		{
+			count: 4
+			id: "1DD1FFDB56D329B1"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 15f
+		}
+		{
+			count: 2
+			id: "40A6E0FD64DAC719"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 10f
+		}
+		{
+			id: "7B7E102A257E3E7A"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 5f
+		}
+	]
+	use_title: true
+}

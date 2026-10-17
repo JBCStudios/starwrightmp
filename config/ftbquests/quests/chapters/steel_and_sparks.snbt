@@ -1,0 +1,755 @@
+{
+	autofocus_id: "700E97FF6C7C076D"
+	default_hide_dependency_lines: false
+	default_quest_shape: "sw_rivet"
+	filename: "steel_and_sparks"
+	group: "00E1186A159B6C1D"
+	icon: {
+		id: "immersiveengineering:ingot_steel"
+	}
+	id: "5C3AD743F69F3686"
+	images: [
+		{
+			height: 3.0d
+			image: "starwright:textures/quests/banners/steel_and_sparks.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			height: 4.0d
+			image: "starwright:textures/quests/emblems/steel_and_sparks.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Copper Spool", "&7The first wire to carry FE"]
+			image: "createaddition:textures/item/copper_spool.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -5.75d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Coal Coke", "&7Baked slowly in a Coke Oven"]
+			image: "immersiveengineering:textures/item/material_coal_coke.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -4.75d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Steel Ingot", "&7The rung everything later stands on"]
+			image: "immersiveengineering:textures/item/metal_ingot_steel.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -3.75d
+			y: 3.0d
+		}
+		{
+			height: 0.8d
+			hover: ["Diesel", "&7Black gold, distilled"]
+			image: "createdieselgenerators:textures/item/diesel_bucket.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -2.75d
+			y: 3.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["636C980435E2309B"]
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "700E97FF6C7C076D"
+			rewards: [
+				{
+					id: "3ECCC74DADB6F911"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5BCC9A35580A4838"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7942812445113613"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "33804091C339B1E6"
+					item: {
+						count: 1
+						id: "createaddition:alternator"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["700E97FF6C7C076D"]
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
+			id: "08177422F8DCAA62"
+			rewards: [
+				{
+					id: "34E3530AD6AA3510"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1A0C8448D933031E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/craft_hammer"
+					criterion: ""
+					id: "63F83E2DF853CEE8"
+					type: "advancement"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08177422F8DCAA62"]
+			icon: {
+				id: "immersiveengineering:cokebrick"
+			}
+			id: "63A206447F968E11"
+			rewards: [
+				{
+					id: "487DD2E19FA6DC64"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "70A17A60C83530BA"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "44532DE1FEB2884B"
+					type: "advancement"
+				}
+				{
+					advancement: "immersiveengineering:main/craft_treatedwood"
+					criterion: ""
+					id: "5BA5DA01548FFCEC"
+					type: "advancement"
+				}
+			]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63A206447F968E11"]
+			icon: {
+				id: "immersiveengineering:blastbrick"
+			}
+			id: "032D224D95D62407"
+			rewards: [
+				{
+					id: "426739D870E94DAF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "56EB226C67877F83"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_blastfurnace"
+					criterion: ""
+					id: "0AB0DFA540B792BA"
+					type: "advancement"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["032D224D95D62407"]
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "51BD29ACAC6D79FD"
+			rewards: [
+				{
+					id: "445D1A79F337EEDF"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "0E05DBD3DA22ED50"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "268894112D60C747"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/make_steel"
+					criterion: ""
+					id: "6F9F06C6D1333396"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08177422F8DCAA62"]
+			icon: {
+				id: "immersiveengineering:wirecoil_copper"
+			}
+			id: "1052E90BE14BA51D"
+			rewards: [
+				{
+					id: "564FAC64E326AB94"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "78A6647A9AC72086"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/connect_wire"
+					criterion: ""
+					id: "7C423C4D910F9CB3"
+					type: "advancement"
+				}
+			]
+			x: 4.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51BD29ACAC6D79FD"]
+			icon: {
+				id: "immersiveengineering:workbench"
+			}
+			id: "5ACC483F4135F2C4"
+			rewards: [
+				{
+					id: "4C0F14D6570415D6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "040FC24C6F4CC501"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/craft_workbench"
+					criterion: ""
+					id: "5487E4C1CE5C7070"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1052E90BE14BA51D", "5ACC483F4135F2C4"]
+			icon: {
+				id: "immersiveengineering:transformer_hv"
+			}
+			id: "018DDBC98C0721F2"
+			rewards: [
+				{
+					id: "714B1C5FE72EC964"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "17839477CD30044F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "336E0CBF21AD6361"
+					table_id: 8940660266400069854L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					count: 8L
+					id: "540CDBC01EC9E28B"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0A3DA71368B92404"
+					item: {
+						count: 1
+						id: "immersiveengineering:transformer_hv"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51BD29ACAC6D79FD"]
+			icon: {
+				id: "immersiveengineering:blastfurnace_preheater"
+			}
+			id: "353FB8EEF951A241"
+			optional: true
+			rewards: [
+				{
+					id: "6CA7466FAC79670F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4221291E61B25B4B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+					criterion: ""
+					id: "4C08C532090DC675"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5ACC483F4135F2C4"]
+			icon: {
+				id: "immersiveengineering:sample_drill"
+			}
+			id: "2E90C13B32DC2F73"
+			rewards: [
+				{
+					id: "121938843F61483E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "204620E519D20C8A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "1D5E0214187B5E99"
+					item: {
+						count: 1
+						id: "immersiveengineering:sample_drill"
+					}
+					type: "item"
+				}
+				{
+					id: "54893524E155ED8D"
+					item: {
+						count: 1
+						id: "immersiveengineering:coresample"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E90C13B32DC2F73", "018DDBC98C0721F2"]
+			icon: {
+				id: "immersiveengineering:heavy_engineering"
+			}
+			id: "719BA90BFC814701"
+			rewards: [
+				{
+					id: "315842169E35CC4C"
+					type: "xp"
+					xp: 400
+				}
+				{
+					count: 2
+					id: "5B944902DE1E2409"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "228FF2D727208759"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "sw_rivet"
+			size: 1.5d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_excavator"
+					criterion: ""
+					id: "2E5D18B26BC148A9"
+					type: "advancement"
+				}
+			]
+			x: 16.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["719BA90BFC814701"]
+			icon: {
+				id: "create_power_loader:andesite_chunk_loader"
+			}
+			id: "20A3284402EE0A77"
+			rewards: [
+				{
+					id: "0945BF79FC4449E6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "67E4F282243A02C1"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "1200CCF9603A0809"
+					item: {
+						count: 1
+						id: "create_power_loader:andesite_chunk_loader"
+					}
+					type: "item"
+				}
+			]
+			x: 16.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["700E97FF6C7C076D"]
+			icon: {
+				id: "createdieselgenerators:oil_scanner"
+			}
+			id: "2C564BCACEF58A15"
+			rewards: [
+				{
+					id: "1778B6EA5EF0A0FF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5F671801B87F7D35"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "2D8F273F1A31A29A"
+					item: {
+						count: 1
+						id: "createdieselgenerators:oil_scanner"
+					}
+					type: "item"
+				}
+				{
+					id: "429CB50631CE3781"
+					item: {
+						count: 1
+						id: "createdieselgenerators:crude_oil_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C564BCACEF58A15"]
+			icon: {
+				id: "createdieselgenerators:distillation_controller"
+			}
+			id: "315B81F97666ADEB"
+			rewards: [
+				{
+					id: "56041C174E59A564"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "31BECEE65CFECD51"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "3FA6983A31D4B4C8"
+					item: {
+						count: 1
+						id: "createdieselgenerators:distillation_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "624DD93A06D507A2"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["315B81F97666ADEB"]
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "1851057F2197CD5B"
+			rewards: [
+				{
+					id: "6836BFCF88503887"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "07645D14889718B0"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "1ADA09EEE74E5245"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["315B81F97666ADEB"]
+			icon: {
+				id: "createdieselgenerators:biodiesel_bucket"
+			}
+			id: "13E231C9A89E1E78"
+			optional: true
+			rewards: [
+				{
+					id: "3592833D0A516373"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "47D2CA8D9601B6F6"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					id: "1FECFEF0AFDD6EF6"
+					item: {
+						count: 1
+						id: "createdieselgenerators:biodiesel_bucket"
+					}
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["719BA90BFC814701", "1851057F2197CD5B"]
+			icon: {
+				id: "immersiveengineering:storage_steel"
+			}
+			id: "56DBBBA399A21A84"
+			rewards: [
+				{
+					id: "4A8102A2191AB31F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3FB4A22532FE7E46"
+					table_id: 3387740377463622033L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "5AA094AF80E5660E"
+					table_id: 7661965008846765823L
+					team_reward: true
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1375C0BF09F3DEB3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "sw_star"
+			size: 2.0d
+			tags: ["sw_engine"]
+			tasks: [
+				{
+					count: 64L
+					id: "1C9E3183A4FA89AD"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5C502A89D59A9CFD"
+					item: {
+						count: 1
+						id: "immersiveengineering:component_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E7C7C1D9D08D403"
+					item: {
+						count: 1
+						id: "immersiveengineering:heavy_engineering"
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+	]
+}

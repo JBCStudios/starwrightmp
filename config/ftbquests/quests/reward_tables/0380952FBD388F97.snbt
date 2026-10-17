@@ -1,0 +1,119 @@
+{
+	icon: {
+		id: "mekanism:steel_casing"
+	}
+	id: "0380952FBD388F97"
+	loot_size: 2
+	order_index: 4
+	rewards: [
+		{
+			count: 16
+			id: "0AEB59E9C1847E2C"
+			item: {
+				count: 1
+				id: "immersiveengineering:ingot_steel"
+			}
+			weight: 8f
+		}
+		{
+			count: 16
+			id: "25D102BABBDA158D"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			weight: 8f
+		}
+		{
+			count: 16
+			id: "4CF868EF9EA26DD2"
+			item: {
+				count: 1
+				id: "mekanism:ingot_tin"
+			}
+			weight: 6f
+		}
+		{
+			count: 16
+			id: "2699A1FFDDC68DED"
+			item: {
+				count: 1
+				id: "mekanism:ingot_lead"
+			}
+			weight: 5f
+		}
+		{
+			count: 16
+			id: "655B0E7A5BE794DE"
+			item: {
+				count: 1
+				id: "mekanism:enriched_carbon"
+			}
+			weight: 5f
+		}
+		{
+			count: 8
+			id: "6DF7B3DFF97E5DA0"
+			item: {
+				count: 1
+				id: "mekanism:fluorite_gem"
+			}
+			weight: 4f
+		}
+		{
+			count: 16
+			id: "7AF1EB32F217FEED"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_crystal"
+			}
+			weight: 6f
+		}
+		{
+			count: 8
+			id: "08A8B97DC2169F7E"
+			item: {
+				count: 1
+				id: "ae2:silicon"
+			}
+			weight: 5f
+		}
+		{
+			count: 4
+			id: "27D7F89BF6AB9226"
+			item: {
+				count: 1
+				id: "mekanism:hdpe_sheet"
+			}
+			weight: 3f
+		}
+		{
+			count: 4
+			id: "647352995AA0E317"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			weight: 4f
+		}
+		{
+			count: 16
+			id: "0322B28EABBF07B1"
+			item: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			weight: 4f
+		}
+		{
+			count: 4
+			id: "7F9EA5F551C7DA00"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 4f
+		}
+	]
+	use_title: true
+}
