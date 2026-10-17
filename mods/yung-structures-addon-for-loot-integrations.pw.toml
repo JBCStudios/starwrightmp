@@ -1,6 +1,6 @@
 name = "Yung Structures Addon for Loot Integrations"
 filename = "lootintegrations_yungs-1.6.jar"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha1"

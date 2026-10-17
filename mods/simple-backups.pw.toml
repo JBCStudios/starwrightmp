@@ -1,6 +1,6 @@
 name = "Simple Backups"
 filename = "SimpleBackups-1.21-4.0.30.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/fzSKSXVK/versions/tHyCDNNH/SimpleBackups-1.21-4.0.30.jar"

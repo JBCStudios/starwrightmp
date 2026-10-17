@@ -1,6 +1,6 @@
 name = "Chunky Border"
 filename = "ChunkyBorder-1.2.18.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/s86X568j/versions/Pj0tqKnE/ChunkyBorder-1.2.18.jar"

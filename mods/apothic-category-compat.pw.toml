@@ -1,6 +1,6 @@
 name = "Apothic Category Compat"
 filename = "apothic_category_compat-2.1.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Uonyc6M4/versions/sTeXh64S/apothic_category_compat-2.1.0.jar"

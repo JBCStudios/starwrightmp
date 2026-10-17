@@ -1,6 +1,6 @@
 name = "Loot Integrations: Moog's Voyager, Soaring, End & Nether Structures"
 filename = "lootintegrations_moog-2.2.jar"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha1"

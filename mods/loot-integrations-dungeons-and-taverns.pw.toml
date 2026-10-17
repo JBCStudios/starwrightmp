@@ -1,6 +1,6 @@
 name = "Loot Integrations: Dungeons and Taverns"
 filename = "lootintegrations_dnt-2.7.jar"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Sable Assembly Fix"
 filename = "SableAssemblyFix-1.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/EGcZ28rZ/versions/wojSeAAv/SableAssemblyFix-1.0.0.jar"

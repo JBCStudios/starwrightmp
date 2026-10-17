@@ -1,6 +1,6 @@
 name = "Clumps"
 filename = "Clumps-neoforge-1.21.1-19.0.0.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/jo7lDoK4/Clumps-neoforge-1.21.1-19.0.0.1.jar"

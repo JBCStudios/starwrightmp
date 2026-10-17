@@ -1,6 +1,6 @@
 name = "Loot Integrations: L_Ender's Cataclysm"
 filename = "lootintegrations_cataclysm-1.2.jar"
-side = "server"
+side = "both"
 
 [download]
 hash-format = "sha1"
