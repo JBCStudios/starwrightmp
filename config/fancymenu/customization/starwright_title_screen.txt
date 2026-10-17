@@ -148,7 +148,7 @@ element {
 
 element {
   interactable = false
-  source = Starwright 0.2 - NeoForge 1.21.1
+  source = Starwright 1.0.1 - NeoForge 1.21.1
   source_mode = direct
   shadow = true
   scale = 1.0

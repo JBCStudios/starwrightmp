@@ -1,4 +1,4 @@
-// Starwright stability fixes (test build 0.2.4). See the plan's compatibility section for sources.
+// Starwright stability fixes (1.0.1). See the plan's compatibility section for sources.
 
 ServerEvents.tags('block', event => {
   // Steam 'n' Rails 0.3.0-beta.2: snow/moss casings on curved track break track-graph sync and kick everyone.
