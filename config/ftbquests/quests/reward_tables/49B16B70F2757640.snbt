@@ -88,12 +88,13 @@
 			weight: 4f
 		}
 		{
-			count: 2
-			id: "20FB677A0D688CA1"
-			item: {
-				count: 1
+			icon: {
+				count: 2
 				id: "numismatics:cog"
 			}
+			id: "20FB677A0D688CA1"
+			tags: ["sw_coins_128"]
+			type: "custom"
 			weight: 4f
 		}
 	]

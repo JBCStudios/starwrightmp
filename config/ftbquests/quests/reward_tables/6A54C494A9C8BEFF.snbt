@@ -106,12 +106,13 @@
 			weight: 4f
 		}
 		{
-			count: 8
-			id: "0BDB5A9BBCBD0C2A"
-			item: {
-				count: 1
+			icon: {
+				count: 8
 				id: "numismatics:bevel"
 			}
+			id: "0BDB5A9BBCBD0C2A"
+			tags: ["sw_coins_64"]
+			type: "custom"
 			weight: 4f
 		}
 	]

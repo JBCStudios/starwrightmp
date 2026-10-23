@@ -7,47 +7,53 @@
 	order_index: 12
 	rewards: [
 		{
-			count: 4
-			id: "21EAC8CF77B09317"
-			item: {
-				count: 1
+			icon: {
+				count: 4
 				id: "numismatics:sprocket"
 			}
+			id: "21EAC8CF77B09317"
+			tags: ["sw_coins_64"]
+			type: "custom"
 			weight: 35f
 		}
 		{
-			count: 2
-			id: "6B5336EB992D0D30"
-			item: {
-				count: 1
+			icon: {
+				count: 2
 				id: "numismatics:cog"
 			}
+			id: "6B5336EB992D0D30"
+			tags: ["sw_coins_128"]
+			type: "custom"
 			weight: 30f
 		}
 		{
-			count: 4
-			id: "2DB5DC7296EF3E74"
-			item: {
-				count: 1
+			icon: {
+				count: 4
 				id: "numismatics:cog"
 			}
+			id: "2DB5DC7296EF3E74"
+			tags: ["sw_coins_256"]
+			type: "custom"
 			weight: 20f
 		}
 		{
-			id: "3D0D7EEF28AF0674"
-			item: {
+			icon: {
 				count: 1
 				id: "numismatics:crown"
 			}
+			id: "3D0D7EEF28AF0674"
+			tags: ["sw_coins_512"]
+			type: "custom"
 			weight: 12f
 		}
 		{
-			count: 2
-			id: "64B384DE915AFC18"
-			item: {
-				count: 1
+			icon: {
+				count: 2
 				id: "numismatics:crown"
 			}
+			id: "64B384DE915AFC18"
+			tags: ["sw_coins_1024"]
+			type: "custom"
 			weight: 3f
 		}
 	]

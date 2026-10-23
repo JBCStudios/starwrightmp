@@ -105,12 +105,13 @@
 			weight: 3f
 		}
 		{
-			count: 8
-			id: "2EE4CBBA4A51A30A"
-			item: {
-				count: 1
+			icon: {
+				count: 8
 				id: "numismatics:spur"
 			}
+			id: "2EE4CBBA4A51A30A"
+			tags: ["sw_coins_8"]
+			type: "custom"
 			weight: 4f
 		}
 	]

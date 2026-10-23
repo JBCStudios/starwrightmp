@@ -42,12 +42,13 @@
 					xp: 100
 				}
 				{
-					id: "3A6EE898EBAE256E"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "3A6EE898EBAE256E"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 				{
 					id: "3FC4127175293A5A"
@@ -83,12 +84,13 @@
 					xp: 100
 				}
 				{
-					id: "683BEC9057E86830"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "683BEC9057E86830"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 			]
 			shape: "sw_rivet"
@@ -123,12 +125,13 @@
 					xp: 200
 				}
 				{
-					id: "2D61BEE65E73D975"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "2D61BEE65E73D975"
+					tags: ["sw_coins_16"]
+					type: "custom"
 				}
 				{
 					id: "17BBCB31FCA52FEA"
@@ -170,12 +173,13 @@
 					xp: 100
 				}
 				{
-					id: "659AF6890A26F8E2"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "659AF6890A26F8E2"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 			]
 			shape: "sw_rivet"
@@ -212,12 +216,13 @@
 					xp: 200
 				}
 				{
-					id: "284B52EDD5F73E59"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "284B52EDD5F73E59"
+					tags: ["sw_coins_16"]
+					type: "custom"
 				}
 				{
 					id: "5B0D842837404885"
@@ -260,12 +265,13 @@
 					xp: 100
 				}
 				{
-					id: "0F95E21757EDFE1F"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "0F95E21757EDFE1F"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 			]
 			shape: "sw_rivet"
@@ -326,12 +332,13 @@
 					xp: 100
 				}
 				{
-					id: "7421F3D8BCB753F9"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "7421F3D8BCB753F9"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 			]
 			shape: "sw_rivet"
@@ -360,12 +367,13 @@
 					xp: 100
 				}
 				{
-					id: "491D6EC1C58EBA18"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "491D6EC1C58EBA18"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 			]
 			shape: "sw_rivet"
@@ -404,12 +412,13 @@
 					xp: 100
 				}
 				{
-					id: "77A0C46059E7F29F"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "77A0C46059E7F29F"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 			]
 			shape: "sw_rivet"
@@ -450,12 +459,13 @@
 					type: "random"
 				}
 				{
-					id: "00512E230BFC858F"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:cog"
 					}
-					type: "item"
+					id: "00512E230BFC858F"
+					tags: ["sw_coins_64"]
+					type: "custom"
 				}
 			]
 			shape: "sw_star"

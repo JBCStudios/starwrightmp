@@ -106,12 +106,13 @@
 			weight: 5f
 		}
 		{
-			count: 4
-			id: "1007229E34339874"
-			item: {
-				count: 1
+			icon: {
+				count: 4
 				id: "numismatics:bevel"
 			}
+			id: "1007229E34339874"
+			tags: ["sw_coins_32"]
+			type: "custom"
 			weight: 4f
 		}
 	]

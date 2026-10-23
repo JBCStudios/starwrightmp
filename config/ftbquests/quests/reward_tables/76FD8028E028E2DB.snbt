@@ -102,12 +102,13 @@
 			weight: 3f
 		}
 		{
-			count: 16
-			id: "3971F65DFDCF086C"
-			item: {
-				count: 1
+			icon: {
+				count: 16
 				id: "numismatics:spur"
 			}
+			id: "3971F65DFDCF086C"
+			tags: ["sw_coins_16"]
+			type: "custom"
 			weight: 4f
 		}
 	]

@@ -87,12 +87,13 @@
 					xp: 100
 				}
 				{
-					id: "694BC58814784E12"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "694BC58814784E12"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 				{
 					id: "7D5258DF41DFFC4E"
@@ -158,12 +159,13 @@
 					xp: 200
 				}
 				{
-					id: "3F7B4AE309DB9D51"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "3F7B4AE309DB9D51"
+					tags: ["sw_coins_16"]
+					type: "custom"
 				}
 				{
 					id: "3F3F95E510FB96B7"
@@ -199,12 +201,13 @@
 					xp: 200
 				}
 				{
-					id: "517143A6FFB7ED2F"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "517143A6FFB7ED2F"
+					tags: ["sw_coins_16"]
+					type: "custom"
 				}
 				{
 					id: "37416B3E8860DBEA"
@@ -241,12 +244,13 @@
 					xp: 100
 				}
 				{
-					id: "7089D20997279A06"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:bevel"
 					}
-					type: "item"
+					id: "7089D20997279A06"
+					tags: ["sw_coins_8"]
+					type: "custom"
 				}
 			]
 			tags: ["sw_horizon"]
@@ -274,12 +278,13 @@
 					xp: 200
 				}
 				{
-					id: "78A4357C914733E9"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "78A4357C914733E9"
+					tags: ["sw_coins_16"]
+					type: "custom"
 				}
 			]
 			tags: ["sw_horizon"]
@@ -307,13 +312,13 @@
 					xp: 400
 				}
 				{
-					count: 2
-					id: "0B96BEE4DE395484"
-					item: {
-						count: 1
+					icon: {
+						count: 2
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "0B96BEE4DE395484"
+					tags: ["sw_coins_32"]
+					type: "custom"
 				}
 				{
 					id: "7F27D9CE246C64BB"
@@ -350,12 +355,13 @@
 					xp: 200
 				}
 				{
-					id: "34EA3A556698275D"
-					item: {
+					icon: {
 						count: 1
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "34EA3A556698275D"
+					tags: ["sw_coins_16"]
+					type: "custom"
 				}
 			]
 			tags: ["sw_horizon"]
@@ -404,13 +410,13 @@
 					xp: 300
 				}
 				{
-					count: 2
-					id: "608D3A49BF3F3A16"
-					item: {
-						count: 1
+					icon: {
+						count: 2
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "608D3A49BF3F3A16"
+					tags: ["sw_coins_32"]
+					type: "custom"
 				}
 			]
 			tags: ["sw_horizon"]
@@ -438,13 +444,13 @@
 					xp: 300
 				}
 				{
-					count: 2
-					id: "02D95F586C94BCC8"
-					item: {
-						count: 1
+					icon: {
+						count: 2
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "02D95F586C94BCC8"
+					tags: ["sw_coins_32"]
+					type: "custom"
 				}
 			]
 			tags: ["sw_horizon"]
@@ -472,13 +478,13 @@
 					xp: 300
 				}
 				{
-					count: 2
-					id: "6D456CFC1F2E52F3"
-					item: {
-						count: 1
+					icon: {
+						count: 2
 						id: "numismatics:sprocket"
 					}
-					type: "item"
+					id: "6D456CFC1F2E52F3"
+					tags: ["sw_coins_32"]
+					type: "custom"
 				}
 			]
 			tags: ["sw_horizon"]
@@ -518,13 +524,13 @@
 					type: "random"
 				}
 				{
-					count: 4
-					id: "71116F41A1259E6F"
-					item: {
-						count: 1
+					icon: {
+						count: 4
 						id: "numismatics:cog"
 					}
-					type: "item"
+					id: "71116F41A1259E6F"
+					tags: ["sw_coins_256"]
+					type: "custom"
 				}
 			]
 			shape: "sw_star"

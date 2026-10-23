@@ -1,0 +1,12 @@
+name = "MinecraftCapes"
+filename = "MinecraftCapes NeoForge 1.21.1-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9gNVPfzw/versions/cgTu95f8/MinecraftCapes%20NeoForge%201.21.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "f549ea3363852dd2e8a257ba154edd5772f2bb30fd30be245ef45da527351ba33e07d25b4698b4c023dd5ca6382e46db60bbad3d957ab486b358395357dffb13"
+
+[update.modrinth]
+mod-id = "9gNVPfzw"
+version = "cgTu95f8"

@@ -1,0 +1,12 @@
+name = "Freecam (Fair Play)"
+filename = "legacyfreecam-neoforge-2.0.0+mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tWqI1yhH/versions/rorOQhfz/legacyfreecam-neoforge-2.0.0%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "10c224cc72ada3797fe7f363694f890cbe4a8e5aa9853c2d5ce11ef3645f1794e2592b67cc33175e518698f6e2455e6232749bdbe6e4c41c38888f96d30170c0"
+
+[update.modrinth]
+mod-id = "tWqI1yhH"
+version = "rorOQhfz"

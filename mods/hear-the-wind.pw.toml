@@ -1,0 +1,12 @@
+name = "Hear the Wind"
+filename = "hear_the_wind-0.2.0+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/VXq8DhOP/versions/Fng1UkuQ/hear_the_wind-0.2.0%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "6b64098fd539a38afb8020c7a8e900200aef8133f58483878af1675978cf7c3dc286aecbf198d0a39f57d5843fad3e1a871547a11c8416a9fba29de380d2f194"
+
+[update.modrinth]
+mod-id = "VXq8DhOP"
+version = "Fng1UkuQ"

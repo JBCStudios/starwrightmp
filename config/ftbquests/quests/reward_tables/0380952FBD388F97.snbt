@@ -106,12 +106,13 @@
 			weight: 4f
 		}
 		{
-			count: 4
-			id: "7F9EA5F551C7DA00"
-			item: {
-				count: 1
+			icon: {
+				count: 4
 				id: "numismatics:sprocket"
 			}
+			id: "7F9EA5F551C7DA00"
+			tags: ["sw_coins_64"]
+			type: "custom"
 			weight: 4f
 		}
 	]
