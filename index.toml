@@ -2535,11 +2535,6 @@ hash = "9498988b321febf23c8c3b250d0377031cf95bd46cf737d63f64c8a2fb2f1347"
 metafile = true
 
 [[files]]
-file = "mods/the-immersive-music-mod.pw.toml"
-hash = "3c89ea4bd30fb0aa1c83aede41e5d5e9e55b0d09ed7c0a9d0dc4803d8ffdd685"
-metafile = true
-
-[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "a521f5dd93f5f0c6672b2b2aca1c43c7b5102dbb39a3141e02c5946912c30b49"
 metafile = true
